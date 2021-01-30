@@ -7,6 +7,7 @@
 
 <head>
   <title>The Grand Sweden Hotel</title>
+
 </head>
 
 <body>
