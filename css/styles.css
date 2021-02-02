@@ -5,18 +5,25 @@
     src: url('Brotherhood.otf');
 }
 
+@font-face {
+    font-family: 'Aadam';
+    src: url('Aadam-regular.otf');
+}
+
 
 /* HTML */
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Aadam';
 }
 
 
 /* Navitagion Bar*/
 
 nav {
+    font-family: 'Aadam';
     position: fixed;
     top: 0;
     left: 0;
@@ -24,8 +31,8 @@ nav {
     height: 80px;
     padding: 10px 20px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+    background: rgba(0, 0, 0, 0.4);
     /* font-size: 15px; */
     /* letter-spacing: 2px; */
     /* border-bottom: 1px solid #fff; */
@@ -55,42 +62,100 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    padding: 12px 30px;
+    padding: 12px 20px;
     text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     /* font-weight: bold; */
     /* text-transform: uppercase; */
 }
 
 nav ul li a:hover {
     border: 1px solid #fff;
-    padding: 11px 29px !important;
-    border-radius: 6px;
+    padding: 11px 19px !important;
+    /* border-radius: 6px; */
 }
 
 nav ul li .btn {
     color: rgb(0, 0, 0);
-    padding: 12px 30px;
+    padding: 12px 20px;
     text-decoration: none;
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 6px;
+    text-shadow: none;
+    /* border-radius: 6px; */
     /* font-weight: bold; */
     /* text-transform: uppercase; */
 }
 
 nav ul li .btn:hover {
     border: 1px solid #fff;
-    padding: 11px 29px !important;
+    padding: 11px 19px !important;
     background: none !important;
     color: #fff !important;
-    border-radius: 6px;
+    /* border-radius: 6px; */
 }
 
-section {
+
+/* Footer */
+
+footer {
+    background: rgb(14, 14, 14);
+    color: #fff;
+    font-size: 20px;
+    padding: 50px 50px;
+}
+
+.grid {
+    display: grid;
+    /* align-items: center; */
+    /* text-align: center; */
+    grid-column-gap: 50px;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
+
+/* Divisions */
+
+.top {
     width: 100%;
     height: 100vh;
     background: url('../assets/2.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+
+.middleHAHA {
+    font-size: xx-large;
+}
+
+
+/* Texts */
+
+.title {
+    float: left;
+    color: #fff;
+}
+
+.title h1 {
+    font-family: 'Brotherhood' !important;
+    font-size: 380px;
+    font-weight: lighter;
+    line-height: 60%;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+    margin-left: 50px;
+    margin-top: 400px;
+    margin-bottom: 0px;
+}
+
+.title p {
+    font-size: 25px;
+    width: 60%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 73px 80px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: -4%;
 }
 
 
