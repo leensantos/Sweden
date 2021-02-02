@@ -6,6 +6,14 @@
 }
 
 
+/* HTML */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Navitagion Bar*/
 
 nav {
@@ -13,11 +21,13 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 10px;
-    padding: 10px 90px;
-    /* box-sizing: border-box; */
-    /* background: */
-    /* boarder-bottom: 1px solid #fff; */
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    /* border-bottom: 1px solid #fff; */
 }
 
 nav .logo {
@@ -43,20 +53,41 @@ nav ul li a {
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
 }
 
 nav ul li a:hover {
-    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #fff;
+    padding: 11px 29px !important;
+    border-radius: 6px;
+}
+
+nav ul li .btn {
+    line-height: 80px;
+    color: rgb(0, 0, 0);
+    height: 60px;
+    margin-top: 10px;
+    padding: 12px 30px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+    /* text-transform: uppercase; */
+}
+
+nav ul li .btn:hover {
+    border: 1px solid #fff;
+    padding: 11px 29px !important;
+    background: none !important;
+    color: #fff !important;
     border-radius: 6px;
 }
 
 section {
     width: 100%;
     height: 100vh;
-    background: url(assets/1.png);
+    background: url('../assets/2.jpg');
     background-size: cover;
     background-position: center;
 }

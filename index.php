@@ -1,12 +1,10 @@
 <?php
-
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link href="" rel="icon" sizes="16x16">
   <link rel="stylesheet" href="css/styles.css">
   <title>Home | The Grand Sweden Hotel</title>
 </head>
@@ -23,8 +21,10 @@
       <li><a href="Gallery.php">Gallery</a></li>
       <li><a href="Destination.php">Destination</a></li>
       <li><a href="ContactUs.php">Contact Us</a></li>
+      <li><a href="BookNow.php" class="btn">Book Now</a></li>
     </ul>
   </nav>
+  <section></section>
 </body>
 
 </html>
