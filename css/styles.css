@@ -101,15 +101,38 @@ footer {
     background: rgb(14, 14, 14);
     color: #fff;
     font-size: 20px;
-    padding: 50px 50px;
+    padding: 50px 150px;
+    font-family: 'Aadam';
+    padding-bottom: 20px;
 }
 
-.grid {
-    display: grid;
-    /* align-items: center; */
-    /* text-align: center; */
-    grid-column-gap: 50px;
-    grid-template-columns: 2fr 3fr 2fr;
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 28px;
+}
+
+footer h3 {
+    margin-top: 45px;
+    font-weight: normal !important;
+    font-size: 22px;
+}
+
+footer h4 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+footer .center {
+    font-size: 15px;
 }
 
 
@@ -126,6 +149,14 @@ footer {
 
 .middleHAHA {
     font-size: xx-large;
+}
+
+.grid-three {
+    display: grid;
+    /* align-items: center; */
+    /* text-align: center; */
+    grid-column-gap: 50px;
+    grid-template-columns: 2fr 2fr 1fr;
 }
 
 
@@ -159,4 +190,10 @@ footer {
 }
 
 
-/*  */
+/* align */
+
+.center {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
