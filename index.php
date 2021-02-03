@@ -10,7 +10,8 @@
 </head>
 
 <body>
-  <nav>
+  <!-- Navigation Bar -->
+  <nav class="nav">
     <div class="logo">Sweden Logo</div>
     <ul>
       <li><a href="index.php">Home</a></li>
@@ -24,7 +25,8 @@
       <li><a href="BookNow.php" class="btn">Book Now</a></li>
     </ul>
   </nav>
-  <section class="top">
+  <!-- Top -->
+  <section class="index-top">
     <div class="title">
       <h1>The Grand <br /> Sweden Hotel</h1>
       <div>
@@ -34,7 +36,7 @@
       </div>
     </div>
   </section>
-
+  <!-- Middle  -->
   <section class="middleHAHA">
     <div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, expedita fugiat perferendis ducimus
@@ -57,6 +59,7 @@
       </p>
     </div>
   </section>
+  <!-- Footer -->
   <footer>
     <div class="grid-three">
       <div>

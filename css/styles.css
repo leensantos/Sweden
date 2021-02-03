@@ -1,199 +1,277 @@
-/* fonts */
-
-@font-face {
-    font-family: 'Brotherhood';
-    src: url('Brotherhood.otf');
-}
-
-@font-face {
-    font-family: 'Aadam';
-    src: url('Aadam-regular.otf');
-}
-
-
-/* HTML */
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Aadam';
-}
-
-
-/* Navitagion Bar*/
-
-nav {
-    font-family: 'Aadam';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.4);
-    /* font-size: 15px; */
-    /* letter-spacing: 2px; */
-    /* border-bottom: 1px solid #fff; */
-}
-
-nav .logo {
-    padding: 18px 20px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    /* font-weight: bold; */
-    color: #fff;
-    text-transform: uppercase;
-}
-
-nav ul {
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    line-height: 60px;
-}
-
-nav ul li a {
-    color: #fff;
-    padding: 12px 20px;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
-}
-
-nav ul li a:hover {
-    border: 1px solid #fff;
-    padding: 11px 19px !important;
+    /* fonts */
+    
+    @font-face {
+        font-family: 'Brotherhood';
+        src: url('Brotherhood.otf');
+    }
+    
+    @font-face {
+        font-family: 'Aadam';
+        src: url('Aadam-regular.otf');
+    }
+    
+    @font-face {
+        font-family: 'Lora';
+        src: url('Lora-Regular.ttf');
+    }
+    /* HTML */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Aadam';
+    }
+    
+    .index-top {
+        width: 100%;
+        height: 100vh;
+        background: url('../assets/2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .sign-in {
+        width: 100%;
+        height: 100vh;
+        background: url('../assets/login.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    /* Navitagion Bar*/
+    
+    nav {
+        font-family: 'Aadam';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        font-size: 20px;
+        /* background: rgba(0, 0, 0, 0.4); */
+        background: none !important;
+        /* font-size: 15px; */
+        /* letter-spacing: 2px; */
+        /* border-bottom: 1px solid #fff; */
+    }
+    
+    nav .logo {
+        padding: 18px 20px;
+        height: 80px;
+        float: left;
+        font-size: 24px;
+        /* font-weight: bold; */
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+    }
+    
+    nav ul {
+        list-style: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav ul li {
+        line-height: 60px;
+    }
+    
+    nav ul li a {
+        /* color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
+        padding: 12px 20px;
+        text-decoration: none;
+        /* font-weight: bold; */
+        /* text-transform: uppercase; */
+        color: black !important;
+        text-shadow: none !important;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    
+    nav ul li a:hover,
+    nav ul li .btn:hover {
+        border: 3px solid black;
+        padding: 9px 17px !important;
+        /* background: rgba(59, 59, 59, 0.8); */
+        color: black !important;
+        /* border-radius: 6px; */
+        background: rgba(255, 255, 255, 0.8);
+    }
+    /* nav ul li .btn:hover { */
+    /* border: 1px solid #fff;
+    padding: 11px 19px !important; */
+    /* background: none !important;
+    color: #fff !important; */
     /* border-radius: 6px; */
-}
-
-nav ul li .btn {
-    color: rgb(0, 0, 0);
-    padding: 12px 20px;
-    text-decoration: none;
+    /* border: 2px solid black;
+    padding: 10px 18px !important;
+    color: black !important;} */
+    
+    nav ul li .btn {
+        /* color: rgb(0, 0, 0);
     background: rgba(255, 255, 255, 0.8);
-    text-shadow: none;
-    /* border-radius: 6px; */
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
-}
-
-nav ul li .btn:hover {
-    border: 1px solid #fff;
-    padding: 11px 19px !important;
-    background: none !important;
-    color: #fff !important;
-    /* border-radius: 6px; */
-}
-
-
-/* Footer */
-
-footer {
-    background: rgb(14, 14, 14);
-    color: #fff;
-    font-size: 20px;
-    padding: 50px 150px;
-    font-family: 'Aadam';
-    padding-bottom: 20px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-footer p {
-    font-size: 28px;
-}
-
-footer h3 {
-    margin-top: 45px;
-    font-weight: normal !important;
-    font-size: 22px;
-}
-
-footer h4 {
-    font-weight: normal;
-    font-size: 20px;
-}
-
-footer .center {
-    font-size: 15px;
-}
-
-
-/* Divisions */
-
-.top {
-    width: 100%;
-    height: 100vh;
-    background: url('../assets/2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.middleHAHA {
-    font-size: xx-large;
-}
-
-.grid-three {
-    display: grid;
-    /* align-items: center; */
-    /* text-align: center; */
-    grid-column-gap: 50px;
-    grid-template-columns: 2fr 2fr 1fr;
-}
-
-
-/* Texts */
-
-.title {
-    float: left;
-    color: #fff;
-}
-
-.title h1 {
-    font-family: 'Brotherhood' !important;
-    font-size: 380px;
-    font-weight: lighter;
-    line-height: 60%;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
-    margin-left: 50px;
-    margin-top: 400px;
-    margin-bottom: 0px;
-}
-
-.title p {
-    font-size: 25px;
-    width: 60%;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    padding: 73px 80px;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.5);
-    margin-top: -4%;
-}
-
-
-/* align */
-
-.center {
-    text-align: center;
-    align-items: center;
-    width: 100%;
-}
+    text-shadow: none; */
+        padding: 12px 20px;
+        text-decoration: none;
+        /* border-radius: 6px; */
+        /* font-weight: bold; */
+        /* text-transform: uppercase; */
+        color: #fff !important;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    /* Footer */
+    
+    footer {
+        background: rgb(14, 14, 14);
+        color: #fff;
+        font-size: 20px;
+        padding: 50px 150px;
+        font-family: 'Aadam';
+        padding-bottom: 20px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    
+    footer p {
+        font-size: 28px;
+    }
+    
+    footer h3 {
+        margin-top: 45px;
+        font-weight: normal !important;
+        font-size: 22px;
+    }
+    
+    footer h4 {
+        font-weight: normal;
+        font-size: 20px;
+    }
+    
+    footer .center {
+        font-size: 15px;
+    }
+    /* Divisions */
+    
+    .middleHAHA {
+        font-size: xx-large;
+    }
+    
+    .sign-in-form {
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-top: 20rem;
+        margin-bottom: 20rem;
+        margin-left: 5rem;
+        margin-right: 10rem;
+        text-align: center;
+    }
+    
+    .grid-three {
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-columns: 2fr 2fr 1fr;
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    
+    .grid-two {
+        display: grid;
+        grid-column-gap: 10px;
+        grid-template-columns: 2fr 2fr;
+        font-size: 20px;
+    }
+    
+    .row {
+        /* content: ""; */
+        display: table;
+        /* clear: both; */
+        width: 50%;
+    }
+    
+    .column-right {
+        float: right;
+        width: 100%;
+    }
+    /* Texts */
+    
+    .title {
+        float: left;
+        color: #fff;
+    }
+    
+    .title h1 {
+        font-family: 'Brotherhood' !important;
+        font-size: 380px;
+        font-weight: lighter;
+        line-height: 60%;
+        text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+        margin-left: 50px;
+        margin-top: 440px;
+        margin-bottom: 0px;
+    }
+    
+    .title p {
+        font-size: 25px;
+        width: 60%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding: 75px 80px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: -4%;
+    }
+    /* align */
+    
+    .center {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    /* Forms */
+    
+    input {
+        font-family: 'Lora';
+    }
+    
+    .sign-in-form center form input[type=text],
+    .sign-in-form center form input[type=password] {
+        display: block;
+        width: 80%;
+        font-size: 25px;
+        border: none;
+        border-bottom: 2px solid rgba(12, 12, 12, 0.8);
+        text-align: center;
+        padding: 10px 10px;
+        background-color: #f1f1f3 !important;
+    }
+    
+    .sign-in-form center form input[type=text]:focus,
+    .sign-in-form center form input[type=password]:focus {
+        outline: none;
+    }
+    
+    .sign-in-form center form input[type=submit] {
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 15px 15px 15px 15px !important;
+        font-size: 25px;
+        text-align: center;
+        padding: 15px 15px;
+        width: 80%;
+        background-color: #F09ABD !important;
+    }
+    /* Responsive layout */
