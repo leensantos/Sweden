@@ -45,7 +45,6 @@
   	 				<li><a href="#">PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</a></li>
   	 				<li><a href="#">+632 8247-5000</a></li>
   	 				<li><a href="#">Privacy Policy</a></li>
-  	 				<li><a href="#">dress</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
