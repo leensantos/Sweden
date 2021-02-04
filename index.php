@@ -7,24 +7,28 @@
 <head>
   <link rel="stylesheet" href="css/styles.css">
   <title>Home | The Grand Sweden Hotel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="nav">
-    <div class="logo">Sweden Logo</div>
-    <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="Accommodations.php">Accommodations</a></li>
-      <li><a href="Experiences.php">Experiences</a></li>
-      <li><a href="Amenities.php">Amenities</a></li>
-      <li><a href="Offers.php">Offers</a></li>
-      <li><a href="Gallery.php">Gallery</a></li>
-      <li><a href="Destination.php">Destination</a></li>
-      <li><a href="ContactUs.php">Contact Us</a></li>
-      <li><a href="BookNow.php" class="btn">Book Now</a></li>
-    </ul>
-  </nav>
+  <div class="container">
+    <nav class="nav">
+      <div class="logo">Sweden Logo</div>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="Accommodations.php">Accommodations</a></li>
+        <li><a href="Experiences.php">Experiences</a></li>
+        <li><a href="Amenities.php">Amenities</a></li>
+        <li><a href="Offers.php">Offers</a></li>
+        <li><a href="Gallery.php">Gallery</a></li>
+        <li><a href="Destination.php">Destination</a></li>
+        <li><a href="ContactUs.php">Contact Us</a></li>
+        <li><a href="BookNow.php" class="btn">Book Now</a></li>
+      </ul>
+    </nav>
+  </div>
   <!-- Top -->
   <section class="index-top">
     <div class="title">
@@ -86,8 +90,8 @@
       </div>
       <div>
         <h3>Find Us On</h3>
-        <img src="assets/logo/facebook.png" alt="facebook" width="50" height="50">&nbsp&nbsp
-        <img src="assets/logo/instagram.png" alt="instagram" width="50" height="50">&nbsp&nbsp
+        <i class="fab fa-facebook-f"></i>&nbsp&nbsp
+        <img src=" assets/logo/instagram.png" alt="instagram" width="50" height="50">&nbsp&nbsp
         <img src="assets/logo/twitter.png" alt="twitter" width="50" height="50">
       </div>
     </div><br /><br />
