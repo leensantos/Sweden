@@ -12,7 +12,7 @@
 <br><br><br>
 <div class="container">
 		<h1>GALLERY</h1>
-		<h2> Images that take you to the next level </h2>
+		<h2> Images that takes you to the next level </h2>
 		<hr></div>
 
 		
