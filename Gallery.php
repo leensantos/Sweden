@@ -12,11 +12,15 @@
 <br><br><br>
 <div class="container">
 		<h1>GALLERY</h1>
-		<h2> Images that takes you to the next level </h2>
+		<h2> Because every picture tells a story, let me help you tell yours </h2>
 		<hr></div>
 
 		
 		<div class="main">
+			<img src="assets/gallery/pool.jpg" alt="">
+			<img src="assets/gallery/bar.jpg" alt="">
+			<img src="assets/gallery/restau.jpg" alt="">
+			<img src="assets/gallery/gym.jpg" alt="">
 			<img src="assets/gallery/pool.jpg" alt="">
 			<img src="assets/gallery/bar.jpg" alt="">
 			<img src="assets/gallery/restau.jpg" alt="">
