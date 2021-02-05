@@ -30,7 +30,9 @@
     <div class="title">
       <h1>The Grand <br /> Sweden Hotel</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, expedita fugiat perferendis ducimus
-        odio quo, cumque quae at eveniet, sequi est in officia natus? Suscipit veritatis voluptate saepe earum quod!
+        odio quo, cumque quae at eveniet, sequi est in officia natus? Suscipit veritatis voluptate saepe earum
+        quod!<br /><br />
+        <a href="SignIn.php" class="btn">Sign In</a>
       </p>
     </div>
   </section>
