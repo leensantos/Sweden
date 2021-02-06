@@ -11,7 +11,7 @@
   <title>Sign In | The Grand Sweden Hotel</title>
 </head>
 
-<body>
+<body class="sign-in-page">
   <div class="cont">
     <form action="checklogin.php" method="POST" class="form sign-in">
       <h2>Sign In</h2>
