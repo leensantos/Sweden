@@ -40,7 +40,7 @@
       <div class="img">
         <div class="img-text m-up">
           <h2>New here?</h2>
-          <p>Sign up and enjoy the best hotel rewards & exclusive membership offers!</p>
+          <p>Sign up and receive updates about exclusive experiences, events, new destinations and more!</p>
         </div>
         <div class="img-text m-in">
           <h2>One of us?</h2>
@@ -70,6 +70,11 @@
           <input type="password">
         </label>
         <button type="button" class="submit">Sign Up Now</button>
+        <p style="font-size:10px">By clicking on “Sign up” , you agree to receive updates about exclusive experiences,
+          events and new
+          destination launches from Aman. You also consent to the use of pix tags to measure open, click through and
+          read rates and allow us to enhance the content based on your interests. You can change your mind at anytime as
+          detailed in our Privacy Notice.</p>
       </form>
     </div>
   </div>
