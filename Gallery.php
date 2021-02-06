@@ -2,27 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/footer.css"> 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1> hello world </h1>
-    <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi vel animi maxime nulla inventore nostrum culpa illum! Odio perferendis labore maxime quidem nesciunt eius temporibus exercitationem tempore, at mollitia. </h2>
-    <br>
-    <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi vel animi maxime nulla inventore nostrum culpa illum! Odio perferendis labore maxime quidem nesciunt eius temporibus exercitationem tempore, at mollitia. </h2>
-    <br>
-    <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi vel animi maxime nulla inventore nostrum culpa illum! Odio perferendis labore maxime quidem nesciunt eius temporibus exercitationem tempore, at mollitia. </h2>
-    <br>
-    <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi vel animi maxime nulla inventore nostrum culpa illum! Odio perferendis labore maxime quidem nesciunt eius temporibus exercitationem tempore, at mollitia. </h2>
-    <br>
-    <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi vel animi maxime nulla inventore nostrum culpa illum! Odio perferendis labore maxime quidem nesciunt eius temporibus exercitationem tempore, at mollitia. </h2>
-    <br>
-    <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quasi vel animi maxime nulla inventore nostrum culpa illum! Odio perferendis labore maxime quidem nesciunt eius temporibus exercitationem tempore, at mollitia. </h2>
-    <br>
-    <br><br><br><br><br><br><br>
-    <footer style="background-color:black;">
+<br><br><br>
+<div class="container">
+		<h1>GALLERY</h1>
+		<h2> Because every picture tells a story, let me help you tell yours </h2>
+		<hr></div>
+
+		
+		<div class="main">
+			<img src="assets/gallery/pool.jpg" alt="">
+			<img src="assets/gallery/bar.jpg" alt="">
+			<img src="assets/gallery/restau.jpg" alt="">
+			<img src="assets/gallery/gym.jpg" alt="">
+			<img src="assets/gallery/pool.jpg" alt="">
+			<img src="assets/gallery/bar.jpg" alt="">
+			<img src="assets/gallery/restau.jpg" alt="">
+			<img src="assets/gallery/gym.jpg" alt="">
+			<img src="assets/gallery/pool.jpg" alt="">
+			<img src="assets/gallery/bar.jpg" alt="">
+			<img src="assets/gallery/restau.jpg" alt="">
+			<img src="assets/gallery/gym.jpg" alt="">
+		</div>
+
+		<br><br><br>
+
+   <footer style="background-color:black;">
     <br><br><br>    
     <div class="container">
   	 	<div class="row">
@@ -63,6 +74,6 @@
             </center>
        </div>
        <br>   
-    </footer>
+    </footer> 
 </body>
 </html> 
