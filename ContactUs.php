@@ -29,7 +29,9 @@
       <div class="img">
         <div class="img-text m-up">
           <h2>Contact Us</h2>
-          <p>Sign up and enjoy the best hotel rewards & exclusive membership offers!</p>
+          <p>PO Box 222 333<br />
+            Sen. Gil J. Puyat Ave, Makati <br />
+            +632 8247-5000<br />
         </div>
         <div class="img-text m-in">
           <h2></h2>
