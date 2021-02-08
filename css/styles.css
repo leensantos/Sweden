@@ -64,7 +64,7 @@ body {
 }
 
 .sign-in {
-    padding-top: 65px;
+    padding: 120px 120px !important;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
@@ -342,9 +342,10 @@ label {
 
 label span {
     font-size: 14px;
-    font-weight: 600;
-    color: #505f75;
+    /* font-weight: 600; */
+    color: black;
     text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
 }
 
 input {
@@ -353,7 +354,7 @@ input {
     margin-top: 5px;
     font-size: 16px;
     padding-bottom: 5px;
-    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    border-bottom: 1px solid black;
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
@@ -370,11 +371,12 @@ button {
 }
 
 .submit {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    /* font-weight: 600; */
     background: black;
+    font-family: 'Garamond' !important;
     /* background: -webkit-linear-gradient(left, #7579ff, #b224ef); */
 }
 
