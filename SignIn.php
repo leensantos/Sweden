@@ -12,6 +12,20 @@
 </head>
 
 <body class="sign-in-page">
+  <nav class="navbar">
+    <div class="logo">Sweden Logo</div>
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="Accommodations.php">Accommodations</a></li>
+      <li><a href="Experiences.php">Experiences</a></li>
+      <li><a href="Amenities.php">Amenities</a></li>
+      <li><a href="Offers.php">Offers</a></li>
+      <li><a href="Gallery.php">Gallery</a></li>
+      <li><a href="Destination.php">Destination</a></li>
+      <li><a href="ContactUs.php">Contact Us</a></li>
+      <li><a href="BookNow.php" class="btn">Book Now</a></li>
+    </ul>
+  </nav>
   <div class="cont">
     <form action="checklogin.php" method="POST" class="form sign-in">
       <h2>Sign In</h2>
@@ -70,11 +84,9 @@
           <input type="password">
         </label>
         <button type="button" class="submit">Sign Up Now</button>
-        <p style="font-size:10px">By clicking on “Sign up” , you agree to receive updates about exclusive experiences,
-          events and new
-          destination launches from Aman. You also consent to the use of pix tags to measure open, click through and
-          read rates and allow us to enhance the content based on your interests. You can change your mind at anytime as
-          detailed in our Privacy Notice.</p>
+        <p style="sign-up-consent">By clicking on “Sign up” , you agree to receive updates about exclusive experiences,
+          events and new destination launches. You can change your mind at anytime as detailed in our Privacy Notice.
+        </p>
       </form>
     </div>
   </div>

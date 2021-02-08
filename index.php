@@ -12,7 +12,7 @@
 <body>
   <!-- Video Background -->
   <video autoplay muted loop id="myVideo" clas="fullscreen-bg">
-    <source src="assets/Sequence 01.mp4" type="video/mp4">
+    <source src="assets/Home.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
   <section class="index-top">
