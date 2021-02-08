@@ -37,7 +37,7 @@
         <span>Password</span>
         <input type="password" name="password" id="password" required>
       </label>
-      <button class="submit" type="button">Sign In</button>
+      <input class="submit" type="submit" value="Sign In" />
       <p class="forgot-pass">Forgot Password ?</p>
 
       <!-- <div class="social-media"> -->
@@ -83,8 +83,9 @@
           <span>Confirm Password</span>
           <input type="password" name="password" id="password" required>
         </label>
-        <button type="button" class="submit">Sign Up Now</button>
-        <p style="sign-up-consent">By clicking on “Sign up” , you agree to receive updates about exclusive experiences,
+        <input class="submit" type="submit" value="Sign Up" style="width: 45% !important" />
+        <p style=" sign-up-consent">By clicking on “Sign up” , you agree to receive updates about exclusive
+          experiences,
           events and new destination launches. You can change your mind at anytime as detailed in our Privacy Notice.
         </p>
       </form>
