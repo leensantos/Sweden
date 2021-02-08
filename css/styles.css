@@ -123,7 +123,7 @@ body {
     -webkit-transition-duration: 1.2s;
     transition-duration: 1.6s;
     -webkit-transform: translate3d(640px, 0, 0);
-    transform: translate3d(940px, 0, 0);
+    transform: translate3d(-940px, 0, 0);
 }
 
 .cont.s-signup .sign-up {
@@ -357,6 +357,10 @@ input {
     border-bottom: 1px solid black;
     text-align: center;
     font-family: 'Nunito', sans-serif;
+}
+
+input:active {
+    background: none !;
 }
 
 button {
