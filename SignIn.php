@@ -27,27 +27,27 @@
     </ul>
   </nav>
   <div class="cont">
-    <form action="checklogin.php" method="POST" class="form sign-in">
+    <form action="sign-in-script.php" method="POST" class="form sign-in">
       <h2>Sign In</h2>
       <label>
         <span>Email Address</span>
-        <input type="email" name="email">
+        <input type="email" name="email" id="email" required>
       </label>
       <label>
         <span>Password</span>
-        <input type="password" name="password">
+        <input type="password" name="password" id="password" required>
       </label>
       <button class="submit" type="button">Sign In</button>
       <p class="forgot-pass">Forgot Password ?</p>
 
-      <div class="social-media">
-        <!-- <ul>
+      <!-- <div class="social-media"> -->
+      <!-- <ul>
           <li><img src="images/facebook.png"></li>
           <li><img src="images/twitter.png"></li>
           <li><img src="images/linkedin.png"></li>
           <li><img src="images/instagram.png"></li>
         </ul> -->
-      </div>
+      <!-- </div> -->
     </form>
 
     <div class="sub-cont">
@@ -65,23 +65,23 @@
           <span class="m-in">Sign In</span>
         </div>
       </div>
-      <form action="checklogin.php" method="POST" class="form sign-up">
+      <form action="sign-up-script.php" method="POST" class="form sign-up">
         <h2>Sign Up</h2>
         <label>
           <span>Name</span>
-          <input type="text">
+          <input type="name" name="name" id="name" required>
         </label>
         <label>
           <span>Email</span>
-          <input type="email">
+          <input type="email" name="email" id="email" required>
         </label>
         <label>
           <span>Password</span>
-          <input type="password">
+          <input type="password" name="password" id="password" required>
         </label>
         <label>
           <span>Confirm Password</span>
-          <input type="password">
+          <input type="password" name="password" id="password" required>
         </label>
         <button type="button" class="submit">Sign Up Now</button>
         <p style="sign-up-consent">By clicking on “Sign up” , you agree to receive updates about exclusive experiences,
