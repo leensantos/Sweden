@@ -8,9 +8,23 @@
   <title>Contact Us | The Grand Sweden Hotel</title>
 </head>
 
-<body>
+<body class="contact-us-page">
+  <nav class="navbar">
+    <div class="logo">Sweden Logo</div>
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="Accommodations.php">Accommodations</a></li>
+      <li><a href="Experiences.php">Experiences</a></li>
+      <li><a href="Amenities.php">Amenities</a></li>
+      <li><a href="Offers.php">Offers</a></li>
+      <li><a href="Gallery.php">Gallery</a></li>
+      <li><a href="Destination.php">Destination</a></li>
+      <li><a href="ContactUs.php">Contact Us</a></li>
+      <li><a href="BookNow.php" class="btn">Book Now</a></li>
+    </ul>
+  </nav>
   <div class="cont">
-    <form action="checklogin.php" method="POST" class="form sign-in" id="contact-us">
+    <form action="contact-us-script.php" method="POST" class="form contact-us" id="contact-us">
       <h2>Got any Questions?</h2>
       <label>
         <span>Email Address</span>
@@ -18,10 +32,11 @@
       </label>
       <label>
         <span>Message</span>
-        <textarea rows="4" cols="35" name="comment" form="contact-us">
-</textarea>
       </label>
-      <button class="submit img-btn" type="button">Submit</button>
+      <center>
+        <textarea rows="6" cols="80" name="comment" form="contact-us"> </textarea>
+      </center>
+      <input class="contact-us-submit" type="submit" value="Submit" />
 
     </form>
 
