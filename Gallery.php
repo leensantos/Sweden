@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/footer.css"> 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -9,10 +10,30 @@
     <title>Document</title>
 </head>
 <body>
-<br><br><br>
+<nav>
+	<input id="nav-toggle" type="checkbox">
+	<div class="logo">GRAND SWEDEN HOTEL</div>
+	<ul class="links">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#about">Accomodation</a></li>
+		<li><a href="#Experiences">Experiences</a></li>
+		<li><a href="#Amenities">Amenities</a></li>
+		<li><a href="#Offers">Offers</a></li>
+		<li><a href="#Gallery">Gallery</a></li>
+		<li><a href="#Destination">Destination</a></li>
+		<li><a href="#Contact Us">Contact</a></li>
+		<li><a href="#Profile">Profile</a></li>
+	</ul>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
+<br><br><br><br><br><br>
 <div class="container">
 		<h1>GALLERY</h1>
-		<h2> Because every picture tells a story, let me help you tell yours </h2>
+		<h2> Because every picture tells a story, let me help you tell yours </h2><BR>
 		<hr></div>
 
 		
