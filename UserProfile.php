@@ -10,7 +10,7 @@
 
 <head>
   <link href="" rel="icon" sizes="16x16">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/user.css" rel="stylesheet" type="text/css">
   <title>User Profile | The Grand Sweden Hotel</title>
 </head>
 
