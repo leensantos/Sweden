@@ -17,7 +17,7 @@
                     <h2>Stockholm Archipelago</h2>
                 </div>
 
-                <img src = "assets/image/stockholm.jpg" alt = "image">
+                <img src = "assets/destination/stockholm.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -32,7 +32,7 @@
                     <h2> Abisko National Park</h2>
                 </div>
 
-                <img src = "assets/image/abisko.jpg" alt = "image">
+                <img src = "assets/destination/abisko.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -47,7 +47,7 @@
                     <h2>Drottningholm Palace</h2>
                 </div>
 
-                <img src = "assets/image/drottningholm.jpg" alt = "image">
+                <img src = "assets/destination/drottningholm.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -62,7 +62,7 @@
                     <h2>Ales Stenar</h2>
                 </div>
 
-                <img src = "assets/image/ales.jpg" alt = "image">
+                <img src = "assets/destination/ales.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -76,7 +76,7 @@
                     <h2>Visby</h2>
                 </div>
 
-                <img src = "assets/image/visby.jpg" alt = "image">
+                <img src = "assets/destination/visby.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -91,7 +91,7 @@
                     <h2>Jokkmokk Winter Market</h2>
                 </div>
 
-                <img src = "assets/image/jokkmokk.jpg" alt = "image">
+                <img src = "assets/destination/jokkmokk.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -105,7 +105,7 @@
                     <h2>Lund Domkyrka</h2>
                 </div>
 
-                <img src = "assets/image/lund.jpg" alt = "image">
+                <img src = "assets/destination/lund.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -120,7 +120,7 @@
                     <h2>Kalmar Castle</h2>
                 </div>
 
-                <img src = "assets/image/kalmar.jpg" alt = "image">
+                <img src = "assets/destination/kalmar.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -135,7 +135,7 @@
                     <h2>Gamla Stan</h2>
                 </div>
 
-                <img src = "assets/image/gamla.jpg" alt = "image">
+                <img src = "assets/destination/gamla.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -149,7 +149,7 @@
                     <h2>Gothenburg</h2>
                 </div>
 
-                <img src = "assets/image/gothenburg.jpg" alt = "image">
+                <img src = "assets/destination/gothenburg.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -164,7 +164,7 @@
                     <h2>Are Ski Resort</h2>
                 </div>
 
-                <img src = "assets/image/areski.jpg" alt = "image">
+                <img src = "assets/destination/areski.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -179,7 +179,7 @@
                     <h2>Oresund Bridge</h2>
                 </div>
 
-                <img src = "assets/image/oresund.jpg" alt = "image">
+                <img src = "assets/destination/oresund.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -193,7 +193,7 @@
                     <h2>Vasa Museum</h2>
                 </div>
 
-                <img src = "assets/image/vasa.jpg" alt = "image">
+                <img src = "assets/destination/vasa.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -208,7 +208,7 @@
                     <h2>Uppsala Domkyrka</h2>
                 </div>
 
-                <img src = "assets/image/uppsala.jpg" alt = "image">
+                <img src = "assets/destination/uppsala.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>
@@ -223,7 +223,7 @@
                     <h2>Sarek National Park </h2>
                 </div>
 
-                <img src = "assets/image/sarek.jpg" alt = "image">
+                <img src = "assets/destination/sarek.jpg" alt = "image">
 
                 <div class = "info">
                     <h2>Visit This Place</h2>

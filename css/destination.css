@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    width: 85vw;
+    margin: 40px auto;
+}
+
+.img-box{
+    position: relative;
+}
+
+.info{
+    background: #252525;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.info h2{
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.info p{
+    padding: 10px 0;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+/*** for js **/
+
+.hidePara{
+    display: none;
+}
+
+/**************/
+
+.info a{
+    display: block;
+    background: #fff;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #272727;
+    transition: all 1.5s ease;
+}
+
+.info a:hover{
+    background: lightgray;
+}
+
+.shape{
+    height: 0;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.shape h2{
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.img-box:hover .shape{
+    height: 40px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1170px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
