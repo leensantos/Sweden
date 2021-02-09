@@ -233,6 +233,6 @@
                 </div>
             </div>
         </div>
-        <script src = "destination.js"></script>
+        <script src = "js/destination.js"></script>
     </body>
 </html>

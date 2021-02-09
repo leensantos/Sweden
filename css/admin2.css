@@ -2,6 +2,20 @@
 
 * {font-family: 'Open Sans', sans-serif;}
 
+body {
+background: white;
+      
+}
+h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: black;
+}
+.container {
+  display: block;
+  text-align: center;
+}
+
 .rwd-table {
   margin: auto;
   min-width: 1000px;
@@ -11,18 +25,18 @@
 
 .rwd-table tr:first-child {
   border-top: none;
-  background: #428bca;
+  background: #221e1d;
   color: #fff;
 }
 
 .rwd-table tr {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #f5f9fc;
+  background-color: #d3d3d3;
 }
 
 .rwd-table tr:nth-child(odd):not(:first-child) {
-  background-color: #ebf3f9;
+  background-color: #b5b5b5;
 }
 
 .rwd-table th {
@@ -75,7 +89,7 @@
 }
 @media screen and (min-width: 600px) {
   .rwd-table tr:hover:not(:first-child) {
-    background-color: #d8e7f3;
+    background-color: #827e7d;
   }
   .rwd-table td:before {
     display: none;
@@ -97,22 +111,10 @@
   .rwd-table td {
     padding: 1em !important;
   }
-}
 
+a{
+color: black;}
 
-/* THE END OF THE IMPORTANT STUFF */
-
-/* Basic Styling */
-body {
-background: white;
-      
-}
-h1 {
-  text-align: center;
-  font-size: 2.4em;
-  color: black;
-}
-.container {
-  display: block;
-  text-align: center;
+a:hover{
+	color:	#f2f2f2;
 }
