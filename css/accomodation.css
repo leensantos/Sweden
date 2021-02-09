@@ -122,7 +122,7 @@ body{
     padding: 7px 0;
 }
 .room-text ul li i{
-    color: var-#413b3b;
+    color: var(--#413b3b);
     margin-right: 10px;
 
 }
