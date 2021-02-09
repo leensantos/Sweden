@@ -15,7 +15,7 @@
 	<input id="nav-toggle" type="checkbox">
 	<div class="logo">GRAND SWEDEN HOTEL</div>
 	<ul class="links">
-		<li><a href="#home">Home</a></li>
+		<li><a href="index.php">Home</a></li>
 		<li><a href="#about">Accomodation</a></li>
 		<li><a href="#Experiences">Experiences</a></li>
 		<li><a href="#Amenities">Amenities</a></li>
