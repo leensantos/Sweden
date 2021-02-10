@@ -12,6 +12,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.contact-us {
+    padding-top: 8rem;
+    padding-bottom: 20px;
+}
+
 .contact-wrap {
     width: 80%;
     height: auto;
@@ -22,6 +27,10 @@ body {
 
 .contact-in {
     padding: 30px 20px;
+}
+
+.contact-in p {
+    margin-left: 50px;
 }
 
 .contact-in:nth-child(1) {
