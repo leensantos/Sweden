@@ -15,6 +15,11 @@
     src: url('fonts/CormorantGaramond-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Whitney-Light';
+    src: url('fonts/whitneylight.otf');
+}
+
 
 /* HTML */
 
@@ -49,6 +54,7 @@ body {
 /* Divisions */
 
 .sign-in-page {
+    font-family: 'Whitney-Light';
     display: flex;
     background-color: #413b3b;
     ;
@@ -60,6 +66,7 @@ body {
 }
 
 .contact-us-page {
+    font-family: 'Whitney-Light';
     display: flex;
     background-color: #413b3b;
     width: 100%;
