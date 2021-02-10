@@ -251,7 +251,7 @@ nav .icon-burger .line {
 
 /* Responsive layout */
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1430px) {
     nav .logo {
         float: none;
         width: auto;
@@ -302,8 +302,6 @@ nav .icon-burger .line {
         width: 80%;
     }
 }
-
-@media screen and (max-width: 1280px) {}
 
 @media screen and (max-width: 992px) {
     .title h1 {
