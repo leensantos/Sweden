@@ -8,20 +8,24 @@
     src: url("fonts/Aadam-regular.otf");
 }
 
+
+/* 
 body {
     padding: 0;
     margin: 0;
-}
+} */
 
-.container {
+
+/* .container {
     position: relative;
     margin-top: 100px;
-}
+} */
 
-.container img {
+
+/* .container img {
     display: block;
     width: 100%;
-}
+} */
 
 nav {
     position: fixed;
