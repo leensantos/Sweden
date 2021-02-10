@@ -41,6 +41,12 @@ body {
     display: flex;
 }
 
+.two-grid {
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-column-gap: 10px;
+}
+
 
 /* Divisions */
 
