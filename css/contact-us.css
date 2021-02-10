@@ -136,6 +136,7 @@ body {
     font-size: 12px;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
+    resize: none;
 }
 
 .contact-in-textarea::placeholder {
