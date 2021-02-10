@@ -133,11 +133,11 @@ footer .container .copyright {
 
 @media (max-width: 767px) {
     .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
+        /* width: 50%; */
+        /* margin-bottom: 30px; */
     }
     footer .container .row {
-        display: block;
+        /* display: block; */
     }
 }
 
