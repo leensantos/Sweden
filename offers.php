@@ -19,7 +19,7 @@
                 <i class="icon fas fa-home"></i>
                 <div class="details">
                     <span class="title">Title of Section 1</span>
-
+                    <span>3rd Jan 2021</span>
                 </div>
                 <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint
                     eos vero sapiente voluptas debitis dicta dolore.</p>
@@ -33,6 +33,7 @@
                 <i class="icon fas fa-star"></i>
                 <div class="details">
                     <span class="title">Title of Section 2</span>
+                    <span>3rd Jan 2021</span>
                 </div>
                 <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint
                     eos vero sapiente voluptas debitis dicta dolore.</p>
