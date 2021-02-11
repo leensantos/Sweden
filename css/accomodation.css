@@ -127,7 +127,8 @@ body{
 
 }
 .room-text button{
-	color: #221e1d;
+	 background: #312d2c;
+    color: #fff;
 }
 .room-image{
     overflow: hidden;
