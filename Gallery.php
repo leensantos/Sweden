@@ -8,7 +8,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
-    <link rel="stylesheet" href="css/foot.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" href="css/gal.css">
 
 
@@ -61,31 +61,30 @@
     </div>
 
     <br><br><br>
-    <footer style="background-color: #413b3b ;">
-        <br><br><br>
+    <footer>
         <div class="container">
             <div class="row">
-                <div class="footer-col">
+                <div class="footer-col col-1">
                     <h4>Grand Sweden Hotel</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Accomodation</a></li>
-                        <li><a href="#">Experiences</a></li>
-                        <li><a href="#">Offers</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Destination</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="accomoations.php">Accomodation</a></li>
+                        <li><a href="experiences.php">Experiences</a></li>
+                        <li><a href="offers.php">Offers</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="destination.php">Destination</a></li>
+                        <li><a href="contactus.php">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col col-2">
                     <h4>Get in touch</h4>
                     <ul>
-                        <li><a href="#">PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</a></li>
-                        <li><a href="#">+632 8247-5000</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li>PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</li>
+                        <li>+632 8247-5000</li>
+                        <li>Privacy Policy</li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col col-3">
                     <h4>follow us</h4>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -95,12 +94,10 @@
                     </div>
                 </div>
             </div>
-            <center>
-                <br>
-                <a style="color: #bbbbbb;">© Copyright 2021. All Rights Reserved.</a>
-            </center>
+            <div class="copyright">
+                <a>© Copyright 2021. All Rights Reserved.</a>
+            </div>
         </div>
-        <br>
     </footer>
 </body>
 
