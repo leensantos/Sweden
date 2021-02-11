@@ -4,35 +4,42 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-body {
+footer {
 	line-height: 1.5;
 	font-family: "whitneylight";
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-.container {
-	max-width: 100%;
+
+footer .container {
+	max-width: 1170px;
 	margin: auto;
 }
-.row {
-	justify-content: center;
-	display: flex;
-	flex-wrap: wrap;
+
+footer .container .row {
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	grid-template-columns: 2fr 2.5fr 2fr;
+	display: grid;
+	grid-column-gap: 10px;
+	font-size: 20px;
 }
-ul {
+
+footer .container .row .footer-col ul {
 	list-style: none;
 }
-.footer {
+
+footer {
 	background-color: #413b3b !important;
-	padding: 70px 0;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	display: grid;
+	align-items: center;
 }
+
 .footer-col {
-	width: 30%;
 	padding: 0 15px;
+	width: 100%;
 }
+
 .footer-col h4 {
 	font-size: 18px;
 	color: #ffffff;
@@ -41,6 +48,7 @@ ul {
 	font-weight: 500;
 	position: relative;
 }
+
 .footer-col h4::before {
 	padding: 0 15px;
 	content: "";
@@ -52,9 +60,21 @@ ul {
 	box-sizing: border-box;
 	width: 50px;
 }
+
 .footer-col ul li:not(:last-child) {
 	margin-bottom: 10px;
 }
+
+.footer-col ul li {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+}
+
 .footer-col ul li a {
 	font-size: 16px;
 	text-transform: capitalize;
@@ -65,10 +85,12 @@ ul {
 	display: block;
 	transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover {
 	color: #ffffff;
 	padding-left: 8px;
 }
+
 .footer-col .social-links a {
 	display: inline-block;
 	height: 40px;
@@ -81,20 +103,39 @@ ul {
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
+
 .footer-col .social-links a:hover {
 	color: #24262b;
 	background-color: #ffffff;
 }
 
+footer .container .copyright a {
+	color: #bbbbbb !important;
+}
+
+footer .container .copyright {
+	color: #bbbbbb !important;
+	margin-top: 20px;
+	text-align: center;
+}
+
 /*responsive*/
+
 @media (max-width: 767px) {
 	.footer-col {
-		width: 50%;
-		margin-bottom: 30px;
+		/* width: 50%; */
+		/* margin-bottom: 30px; */
+	}
+	footer .container .row {
+		/* display: block; */
 	}
 }
+
 @media (max-width: 574px) {
 	.footer-col {
 		width: 100%;
+	}
+	footer .container .row {
+		display: block;
 	}
 }

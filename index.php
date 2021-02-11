@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index-styles.css">
   <title>Home | The Grand Sweden Hotel</title>
 </head>
 
@@ -17,9 +17,9 @@
   </video>
   <section class="index-top">
     <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="logo">Sweden Logo</div>
-      <ul>
+    <nav>
+      <div class="logo">GRAND SWEDEN HOTEL</div>
+      <ul class="links">
         <li><a href="index.php">Home</a></li>
         <li><a href="Accommodations.php">Accommodations</a></li>
         <li><a href="Experiences.php">Experiences</a></li>
@@ -30,6 +30,11 @@
         <li><a href="ContactUs.php">Contact Us</a></li>
         <li><a href="BookNow.php" class="btn">Book Now</a></li>
       </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
     </nav>
     <!-- Title -->
     <div class="title">
