@@ -1,18 +1,8 @@
 /* Fonts */
 
 @font-face {
-    font-family: 'Brotherhood';
-    src: url('fonts/Brotherhood.otf');
-}
-
-@font-face {
-    font-family: 'Aadam';
-    src: url('fonts/Aadam-regular.otf');
-}
-
-@font-face {
-    font-family: 'Garamond';
-    src: url('fonts/CormorantGaramond-Regular.ttf');
+    font-family: 'whitneylight';
+    src: url('fonts/whitneylight.otf');
 }
 
 
@@ -26,6 +16,14 @@
     box-sizing: border-box;
 }
 
+
+/* Selection */
+
+::selection {
+    color: #fff;
+    background: black;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -35,6 +33,8 @@ body {
     /* display: flex; */
     justify-content: center;
     align-items: center;
+    background-color: #f8f8f8;
+    font-family: 'whitneylight';
 }
 
 .sign-in-page {
@@ -45,6 +45,36 @@ body {
     grid-template-columns: 1fr 2fr;
     display: grid;
     grid-column-gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary {
+    font-family: 'whitneylight';
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+    overflow: hidden;
+    /* background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, #d43f8d); */
+    /* width: 50%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.booking {
+    font-family: 'whitneylight';
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+    overflow: hidden;
+    /* background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, #d43f8d); */
+    /* width: 50%; */
+    display: block;
+    margin-top: 30px;
 }
 
 
@@ -52,10 +82,15 @@ body {
 
 .index-top {
     width: 100%;
-    height: 50vh;
-    background: url('../assets/1.png');
+    height: 70%;
+    background: url('../assets/4.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.book-now {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -121,16 +156,6 @@ body {
     outline: none;
 }
 
-.booking {
-    font-family: 'Garamond', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* min-height: 100vh; */
-    overflow: hidden;
-    /* background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, #d43f8d); */
-}
-
 ::selection {
     color: #fff;
     background: black;
@@ -139,13 +164,74 @@ body {
 
 /* Divisions */
 
-.container {
-    width: 500px;
+.contact-wrap {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-in {
+    padding: 30px 20px;
+}
+
+.contact-in:nth-child(1) {
+    flex: 30%;
+    background: url(../images/1.jpg);
+    color: #312d2c;
+}
+
+.contact-in:nth-child(2) {
+    /* flex: 45%; */
+    /* background: #c31432; */
+}
+
+.contact-in:nth-child(3) {
+    flex: 25%;
+    padding: 0;
+}
+
+.booking .container {
+    /* width: 50%; */
+    width: 90%;
     background: #fff;
+    /* background-color: #f8f8f8; */
     text-align: center;
-    border-radius: 5px;
-    padding: 50px 35px 10px 35px;
+    /* border-radius: 5px; */
+    /* padding: 50px 35px 10px 35px; */
     /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22); */
+    /* max-width: 120rem; */
+    padding: 1.5rem 1.5rem;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    align-content: center;
+}
+
+.container-1 {
+    text-align: center;
+    background: #fff;
+    /* border-radius: 5px; */
+    padding: 1.5rem 1.5rem;
+    margin: 10px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    grid-gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-2 {
+    text-align: center;
+    background: #fff;
+    /* border-radius: 5px; */
+    padding: 1.5rem 1.5rem;
+    margin: 10px auto;
+    /* width: 90%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    grid-gap: 20px;
 }
 
 .container header {
@@ -167,6 +253,63 @@ body {
 
 /* Forms */
 
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.output-group {
+    position: relative;
+    padding: 10px 10px;
+}
+
+.output-group .details h3 {
+    font-size: 25px;
+}
+
+.output-group .details p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.input-label {
+    display: block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.input,
+.options,
+select {
+    outline: #000;
+    /* border: none; */
+    width: 100%;
+    min-height: 3rem;
+    font-size: 18px;
+    padding: 10px 10px;
+    /* font-weight: bold; */
+    color: #000;
+    letter-spacing: 2px;
+    font-family: 'whitneylight';
+    border: 1px solid #888888;
+    /* resize:none; */
+    text-align-last: center;
+    text-align: center;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    /* text-align: center; */
+}
+
+.select:focus,
+select:hover {
+    outline: none;
+    border: 1px solid #888888;
+}
+
 .form-outer form .page {
     width: 25%;
     transition: margin-left 0.3s ease-in-out;
@@ -174,8 +317,10 @@ body {
 
 .form-outer form .page .title {
     text-align: left;
+    width: 100%;
     font-size: 25px;
     font-weight: 500;
+    margin: 20px 20px;
 }
 
 .form-outer form .page .field {
@@ -184,6 +329,9 @@ body {
     margin: 45px 0;
     display: flex;
     position: relative;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form .page .field .label {
@@ -212,9 +360,9 @@ form .page .field button {
     width: 100%;
     height: calc(100% + 5px);
     border: none;
-    background: #d33f8d;
+    background: #221e1d;
     margin-top: -20px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     color: #fff;
     cursor: pointer;
     font-size: 18px;
@@ -225,7 +373,9 @@ form .page .field button {
 }
 
 form .page .field button:hover {
-    background: #000;
+    background: #8d8583;
+    color: #221e1d;
+    font-weight: 500;
 }
 
 form .page .btns button {
@@ -243,8 +393,9 @@ form .page .btns button.next {
 
 .container .progress-bar {
     display: flex;
-    margin: 40px 0;
+    margin: auto;
     user-select: none;
+    width: 800px;
 }
 
 .container .progress-bar .step {
@@ -255,7 +406,7 @@ form .page .btns button.next {
 
 .container .progress-bar .step p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     color: #000;
     margin-bottom: 8px;
 }
@@ -266,25 +417,26 @@ form .page .btns button.next {
 .progress-bar .step .bullet {
     height: 25px;
     width: 25px;
-    border: 2px solid #000;
+    border: 2px solid #8d8583;
     display: inline-block;
     border-radius: 50%;
     position: relative;
     transition: 0.2s;
     font-weight: 500;
     font-size: 17px;
-    line-height: 25px;
+    /* line-height: 25px; */
 }
 
 .progress-bar .step .bullet.active {
-    border-color: #d43f8d;
-    background: #d43f8d;
+    border-color: #221e1d;
+    background: #221e1d;
 }
 
 .progress-bar .step .bullet span {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-weight: 600;
 }
 
 .progress-bar .step .bullet.active span {
@@ -295,15 +447,15 @@ form .page .btns button.next {
 .progress-bar .step .bullet:after {
     position: absolute;
     content: '';
-    bottom: 11px;
-    right: -85px;
+    bottom: 8px;
+    right: -177px;
     height: 3px;
-    width: 83px;
-    background: #262626;
+    width: 175px;
+    background: #8d8583;
 }
 
 .progress-bar .step .bullet.active:after {
-    background: #d43f8d;
+    background: #221e1d;
     transform: scaleX(0);
     transform-origin: left;
     animation: animate 0.3s linear forwards;
@@ -321,7 +473,7 @@ form .page .btns button.next {
 }
 
 .progress-bar .step p.active {
-    color: #d43f8d;
+    color: #221e1d;
     transition: 0.2s linear;
 }
 
@@ -334,28 +486,53 @@ form .page .btns button.next {
     display: none;
 }
 
+.fa-check {
+    display: block;
+    color: #fff;
+}
+
 .progress-bar .step .check.active {
     display: block;
+    padding-top: 3%;
     color: #fff;
 }
 
 
 /* Responsive */
 
-@media only screen and (max-width:1000px) {
+@media screen and (max-width: 1200px) {
+    /* .two-grid {
+        display: block !important;
+    }
     .summary {
-        flex: 50%;
+        width: 100%;
+        display: block !important;
     }
     .booking {
-        flex: 50%;
+        width: 100%;
+        display: block !important;
+    } */
+}
+
+@media only screen and (max-width:1330px) {
+    .index-top {
+        height: 50%;
     }
 }
 
-@media (max-width: 767px) {
-    .summary {
-        flex: 100%;
+@media only screen and (max-width:1000px) {
+    .progress-bar .step .bullet:before,
+    .progress-bar .step .bullet:after {
+        right: -78px;
+        width: 77px;
     }
-    .booking {
-        flex: 100%;
+    .container .progress-bar {
+        width: 400px !important;
+    }
+    .container .progress-bar .step p {
+        font-size: 16px;
+    }
+    .index-top {
+        height: 50%;
     }
 }
