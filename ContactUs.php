@@ -4,14 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/navi.css">
+  <link rel="stylesheet" type="text/css" href="css/contact-us.css">
+  <link rel="stylesheet" type="text/css" href="css/footer2.css">
   <title>Contact Us | The Grand Sweden Hotel</title>
 </head>
 
-<body class="contact-us-page">
-  <nav class="navbar">
-    <div class="logo">Sweden Logo</div>
-    <ul>
+<body>
+  <nav>
+    <div class="logo">GRAND SWEDEN HOTEL</div>
+    <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
       <li><a href="Experiences.php">Experiences</a></li>
@@ -22,43 +24,87 @@
       <li><a href="ContactUs.php">Contact Us</a></li>
       <li><a href="BookNow.php" class="btn">Book Now</a></li>
     </ul>
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
   </nav>
-  <div class="cont">
-    <form action="contact-us-script.php" method="POST" class="form contact-us" id="contact-us">
-      <h2>Got any Questions?</h2>
-      <label>
-        <span>Email Address</span>
-        <input type="email" name="email">
-      </label>
-      <label>
-        <span>Message</span>
-      </label>
-      <center>
-        <textarea rows="6" cols="80" name="comment" form="contact-us"> </textarea>
-      </center>
-      <input class="contact-us-submit" type="submit" value="Submit" />
-
-    </form>
-
-    <div class="sub-cont">
-      <div class="img">
-        <div class="img-text m-up">
-          <h2>Contact Us</h2>
-          <p>PO Box 222 333<br />
-            Sen. Gil J. Puyat Ave, Makati <br />
-            +632 8247-5000<br />
-        </div>
-        <div class="img-text m-in">
-          <h2></h2>
-          <p></p>
+  <div class="contact-us">
+    <div class="contact-wrap">
+      <div class="contact-in">
+        <h1>Send a Message</h1>
+        <form>
+          <input type="text" placeholder="Full Name" class="contact-in-input">
+          <input type="text" placeholder="Email" class="contact-in-input">
+          <input type="text" placeholder="Subject" class="contact-in-input">
+          <textarea placeholder="Message" class="contact-in-textarea"></textarea>
+          <input type="submit" value="SUBMIT" class="contact-in-btn">
+        </form>
+      </div>
+      <div class="contact-in">
+        <h1>Contact Info</h1>
+        <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+        <p>123-456-789<br />123-456-789</p>
+        <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+        <p>info@democompany.com</p>
+        <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+        <p>Vasant Vihar, Delhi, India<br />Vasant Vihar, Delhi, India</p>
+        <!-- <ul>
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul> -->
+        <div class="contact-in">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1601968196548!5m2!1sen!2sin"
+            width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
         </div>
       </div>
-      <p class="form sign-up">
-        Message Sent!
-      </p>
     </div>
   </div>
-  <script type="text/javascript" src="js/sign-in-script.js"></script>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-1">
+          <h4>Grand Sweden Hotel</h4>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="accomoations.php">Accomodation</a></li>
+            <li><a href="experiences.php">Experiences</a></li>
+            <li><a href="amenities.php">Amenities</a></li>
+            <li><a href="offers.php">Offers</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="destination.php">Destination</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col col-2">
+          <h4>Get in touch</h4>
+          <ul>
+            <li>PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</li>
+            <li>+632 8247-5000</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="footer-col col-3">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <a>© Copyright 2021. All Rights Reserved.</a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

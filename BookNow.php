@@ -27,81 +27,86 @@
   </section>
   <!-- Forms -->
   <br />
-  <div class="booking">
-    <div class="container">
-      <div class="progress-bar">
-        <div class="step">
-          <p>Rooms</p>
-          <div class="bullet">
-            <span>1</span>
-          </div>
-          <div class="check fas fa-check">
-          </div>
-        </div>
-        <div class="step">
-          <p>Add-ons</p>
-          <div class="bullet">
-            <span>2</span>
-          </div>
-          <div class="check fas fa-check">
-          </div>
-        </div>
-        <div class="step">
-          <p>Guest Details</p>
-          <div class="bullet">
-            <span>3</span>
-          </div>
-          <div class="check fas fa-check">
-          </div>
-        </div>
-        <div class="step">
-          <p>Confirmation</p>
-          <div class="bullet">
-            <span>4</span>
-          </div>
-          <div class="check fas fa-check">
-          </div>
-        </div>
-      </div>
-      <div class="form-outer">
-        <form action="#">
-          <div class="page slide-page">
-            <div class="title">Select a Room</div>
-            <br /> <br />
-            <div class="field">
-              <button class="firstNext next">Next</button>
+  <div class="two-grid">
+    <div>
+      JATOT
+    </div>
+    <div class="booking">
+      <div class="container">
+        <div class="progress-bar">
+          <div class="step">
+            <p>Rooms</p>
+            <div class="bullet">
+              <span>1</span>
+            </div>
+            <div class="check fas fa-check">
             </div>
           </div>
-          <div class="page">
-            <div class="title">Experiences:</div>
-            <br /> <br />
-            <div class="field btns">
-              <button class="prev-1 prev">Previous</button>
-              <button class="next-1 next">Next</button>
+          <div class="step">
+            <p>Add-ons</p>
+            <div class="bullet">
+              <span>2</span>
+            </div>
+            <div class="check fas fa-check">
             </div>
           </div>
-          <div class="page">
-            <div class="title">Payment Method:</div>
-            <br /> <br />
-            <div class="field btns">
-              <button class="prev-2 prev">Previous</button>
-              <button class="next-2 next">Next</button>
+          <div class="step">
+            <p>Guest Details</p>
+            <div class="bullet">
+              <span>3</span>
+            </div>
+            <div class="check fas fa-check">
             </div>
           </div>
-          <div class="page">
-            <div class="title">Confirmation:</div>
-            <br /> <br />
-            <div class="field btns">
-              <button class="prev-3 prev">Previous</button>
-              <button class="submit">Submit</button>
+          <div class="step">
+            <p>Confirmation</p>
+            <div class="bullet">
+              <span>4</span>
+            </div>
+            <div class="check fas fa-check">
             </div>
           </div>
-        </form>
+        </div>
+        <div class="form-outer">
+          <form action="#">
+            <div class="page slide-page">
+              <div class="title">Select a Room</div>
+              <br /> <br />
+              <div class="field">
+                <button class="firstNext next">Next</button>
+              </div>
+            </div>
+            <div class="page">
+              <div class="title">Experiences:</div>
+              <br /> <br />
+              <div class="field btns">
+                <button class="prev-1 prev">Previous</button>
+                <button class="next-1 next">Next</button>
+              </div>
+            </div>
+            <div class="page">
+              <div class="title">Payment Method:</div>
+              <br /> <br />
+              <div class="field btns">
+                <button class="prev-2 prev">Previous</button>
+                <button class="next-2 next">Next</button>
+              </div>
+            </div>
+            <div class="page">
+              <div class="title">Confirmation:</div>
+              <br /> <br />
+              <div class="field btns">
+                <button class="prev-3 prev">Previous</button>
+                <button class="submit">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
+    <div>
 
-  <script src="js/book-now-script.js"></script>
+      <script src="js/book-now-script.js"></script>
 
 </body>
 

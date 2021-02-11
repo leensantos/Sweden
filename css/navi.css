@@ -1,26 +1,42 @@
+@font-face {
+	font-family: "whitneylight";
+	src: url("fonts/whitneylight.otf");
+}
+
+@font-face {
+	font-family: "Aadam";
+	src: url("fonts/Aadam-regular.otf");
+}
+
+/* 
 body {
-	padding: 0;
-	margin: 0;
-}
-.container {
-	position: relative;
-	margin-top: 100px;
-}
-.container img {
-	display: block;
-	width: 100%;
-}
+    padding: 0;
+    margin: 0;
+} */
+
+/* .container {
+    position: relative;
+    margin-top: 100px;
+} */
+
+/* .container img {
+    display: block;
+    width: 100%;
+} */
+
 nav {
 	position: fixed;
 	z-index: 10;
 	left: 0;
 	right: 0;
 	top: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "whitneylight";
+	text-transform: uppercase;
 	padding: 0 4%;
 	height: 90px;
-	background-color: black;
+	background-color: #312d2c;
 }
+
 nav .logo {
 	float: left;
 	width: 40%;
@@ -30,8 +46,9 @@ nav .logo {
 	font-size: 24px;
 	color: #fff;
 }
+
 nav .links {
-	float: center;
+	float: right;
 	padding: 0;
 	margin: 0;
 	width: 800px;
@@ -40,20 +57,40 @@ nav .links {
 	justify-content: space-around;
 	align-items: center;
 }
+
 nav .links li {
 	list-style: none;
 }
+
 nav .links a {
 	display: block;
-	padding: 1em;
-	font-size: 16px;
+	padding: 10px;
+	font-size: 15px;
 	color: #fff;
 	text-decoration: none;
+	white-space: pre;
 }
+
+nav .links a::after {
+	content: "";
+	display: block;
+	align-items: center;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width 0.3s ease;
+}
+
+nav .links a:hover::after {
+	width: 100%;
+	transition: width 0.3s ease;
+}
+
 #nav-toggle {
 	position: absolute;
 	top: -90px;
 }
+
 nav .icon-burger {
 	display: none;
 	position: absolute;
@@ -61,13 +98,15 @@ nav .icon-burger {
 	top: 50%;
 	transform: translateY(-50%);
 }
+
 nav .icon-burger .line {
 	width: 30px;
 	height: 5px;
 	background-color: #fff;
 	margin: 5px;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
+
 @media screen and (max-width: 768px) {
 	nav .logo {
 		float: none;
@@ -86,10 +125,10 @@ nav .icon-burger .line {
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: rgba(0,0,0,.8);
+		background-color: rgba(0, 0, 0, 0.8);
 		overflow: hidden;
 		box-sizing: border-box;
-		transition: all .5s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 	nav .links a {
 		font-size: 20px;
@@ -109,14 +148,4 @@ nav .icon-burger .line {
 	nav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
 	}
-	
-}
-
-.youtube-link {
-	position: fixed;
-	left: 20px;
-	bottom: 20px;
-	color: #000;
-	text-decoration: none;
-	font-size: 12px;
 }
