@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/navi.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/contact-us.css">
-  <link rel="stylesheet" type="text/css" href="css/footer2.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <title>Contact Us | The Grand Sweden Hotel</title>
 </head>
 
