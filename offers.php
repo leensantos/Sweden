@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
 
 <head>
@@ -34,6 +33,9 @@
         </label>
     </nav><br><br><br><br><br><br>
 
+    <section>
+
+    </section>
     <section>
         <div class="wrapper">
             <div class="center-line">
