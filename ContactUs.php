@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- Nagigation bar -->
   <nav>
     <div class="logo">GRAND SWEDEN HOTEL</div>
     <ul class="links">
@@ -30,6 +31,7 @@
       <div class="line"></div>
     </label>
   </nav>
+  <!-- Contact US -->
   <div class="contact-us">
     <div class="contact-wrap">
       <div class="contact-in">
@@ -65,7 +67,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
