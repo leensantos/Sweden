@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="css/navi.css">
     <link rel="stylesheet" href="css/foot.css">
-    <link rel="stylesheet" href="css/experiences2.css">
+    <link rel="stylesheet" href="css/navi.css">
+    <link rel="stylesheet" href="css/offers.css">
+    <link rel="stylesheet" href="css/offers2.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
@@ -34,7 +35,70 @@
     </nav><br><br><br><br><br><br>
 
     <section>
-
+        <div class="wrapper">
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Stylish, luxury and extremely comfortable; no other hotels in Pattaya can match the Royal Wing Suites
+                    & Spa. Beyond 5 stars, The Royal Wing Suites & Spa is the Ferrari of hotels. </p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Bill Gates</div>
+                        <div class="job">Billionaire | Good Boy</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="assets/bill.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>I am impressed with Royal Wing Suites & Spa. They are actually newer than some new hotels as they are
+                    continuously improving their product and adding new facilities. </p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Elon Musk</div>
+                        <div class="job">Billionaire | Good Boy</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="assets/elon.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left  quote"></i>
+                <p>Thank you for a truly amazing stay. Your hospitality is quite outstanding. The sports centre is also
+                    very good with excellent quality tennis courts. Hope to be back soon.</p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Steve Job</div>
+                        <div class="job">Billionaire | Good Boy </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="assets/steve.jpg" alt="">
+                    </div>
+                </div>
+            </div>
     </section>
     <section>
         <div class="wrapper">
