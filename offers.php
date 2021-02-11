@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
 
 <head>
@@ -7,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="css/navi.css">
     <link rel="stylesheet" href="css/foot.css">
-    <link rel="stylesheet" href="css/experiences2.css">
+    <link rel="stylesheet" href="css/navi.css">
+    <link rel="stylesheet" href="css/offers.css">
+    <link rel="stylesheet" href="css/offers2.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
@@ -32,8 +32,81 @@
             <div class="line"></div>
             <div class="line"></div>
         </label>
-    </nav><br><br><br><br><br><br>
+    </nav><br><br><br><br><br><br><br><br><br>
 
+    <section>
+        <div class="container">
+            <h1>You are the center of our universe</h1>
+            <h2> Hurry up! When it’s gone, it’s gone </h2><BR>
+            <center>
+                <hr>
+            </center>
+        </div>
+        <div class="wrapper">
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>Stylish, luxury and extremely comfortable; no other hotels in Pattaya can match the Royal Wing Suites
+                    & Spa. Beyond 5 stars, The Royal Wing Suites & Spa is the Ferrari of hotels. </p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Bill Gates</div>
+                        <div class="job">Billionaire | Good Boy</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="assets/bill.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>I am impressed with Royal Wing Suites & Spa. They are actually newer than some new hotels as they are
+                    continuously improving their product and adding new facilities. </p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Elon Musk</div>
+                        <div class="job">Billionaire | Good Boy</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="assets/elon.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left  quote"></i>
+                <p>Thank you for a truly amazing stay. Your hospitality is quite outstanding. The sports centre is also
+                    very good with excellent quality tennis courts. Hope to be back soon.</p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Steve Job</div>
+                        <div class="job">Billionaire | Good Boy </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="assets/steve.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
     <section>
         <div class="wrapper">
             <div class="center-line">
@@ -44,7 +117,9 @@
                     <i class="icon fas fa-home"></i>
                     <div class="details">
                         <span class="title">New Year Promo</span>
-                        <span>3rd Jan 2021</span>
+                        <span>
+                            Extended<i> Jan 3, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -58,8 +133,10 @@
                 <section>
                     <i class="icon fas fa-star"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>3rd Jan 2021</span>
+                        <span class="title">Valentine's Promo</span>
+                        <span>
+                            Extended<i> Feb 14, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -73,15 +150,16 @@
                 <section>
                     <i class="icon fas fa-heart"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>3rd Jan 2021</span>
+                        <span class="title">Summer Promo</span>
+                        <span>
+                            Extended<i> March 30, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
@@ -89,15 +167,16 @@
                 <section>
                     <i class="icon fas fa-globe"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>4th Jan 2021</span>
+                        <span class="title">Winter Promo</span>
+                        <span>
+                            Extended<i>Oct 24, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
@@ -105,15 +184,16 @@
                 <section>
                     <i class="icon fas fa-paper-plane"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>5th Jan 2021</span>
+                        <span class="title">Christmas Promo</span>
+                        <span>
+                            Extended<i> Dec 24, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
@@ -122,14 +202,15 @@
                     <i class="icon fas fa-map-marker-alt"></i>
                     <div class="details">
                         <span class="title">New Year Promo</span>
-                        <span>6th Jan 2021</span>
+                        <span>
+                            Extended<i> Dec 30, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
