@@ -14,9 +14,9 @@
   </head>
   <body>
   
-<div class="container">
+<div class="container" >
 <h1>Admin Dashboard</h1>
-  <table class="rwd-table">
+  <table class="rwd-table" style="overflow-x:auto;">
     <tbody>
       <tr>
         <th></th>

@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Book Now | The Grand Sweden Hotel</title>
-  <link rel="stylesheet" href="css/book-now-style.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
+  <link rel="stylesheet" type="text/css" href="css/book-now.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
-  <nav class="nav">
-    <div class="logo">Sweden Logo</div>
-    <ul>
+  <nav>
+    <div class="logo">GRAND SWEDEN HOTEL</div>
+    <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
       <li><a href="Experiences.php">Experiences</a></li>
@@ -21,6 +23,11 @@
       <li><a href="ContactUs.php">Contact Us</a></li>
       <li><a href="BookNow.php" class="btn">Book Now</a></li>
     </ul>
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
   </nav>
   <!-- Top -->
   <section class="index-top">
@@ -28,7 +35,7 @@
   <!-- Forms -->
   <br />
   <div class="two-grid">
-    <div>
+    <div class="summary">
       JATOT
     </div>
     <div class="booking">

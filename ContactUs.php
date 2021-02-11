@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/navi.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/contact-us.css">
-  <link rel="stylesheet" type="text/css" href="css/footer2.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <title>Contact Us | The Grand Sweden Hotel</title>
 </head>
 
 <body>
+  <!-- Nagigation bar -->
   <nav>
     <div class="logo">GRAND SWEDEN HOTEL</div>
     <ul class="links">
@@ -30,6 +33,7 @@
       <div class="line"></div>
     </label>
   </nav>
+  <!-- Contact US -->
   <div class="contact-us">
     <div class="contact-wrap">
       <div class="contact-in">
@@ -65,7 +69,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
