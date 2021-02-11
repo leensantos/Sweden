@@ -32,7 +32,7 @@
         </a>
         </td>
         <td data-th="View">
-		 <a href="AdminBooking.php">
+		 <a href="AdminBookings.php">
            <span class="glyphicon glyphicon-eye-open"></span>
         </a>
         </td>
@@ -46,7 +46,7 @@
         </a>
         </td>
         <td data-th="View">
-		 <a href="Accomodations.php">
+		 <a href="Accommodations.php">
            <span class="glyphicon glyphicon-eye-open"></span>
         </a>
         </td>

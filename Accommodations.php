@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/accomodation.css" rel="stylesheet" type="text/css">
   <title>Accomodations | The Grand Sweden Hotel</title>
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
 </head>
 <body>
    
@@ -23,7 +23,7 @@
         
            <article class = "room">
                <div class = "room-image">
-                   <img src = "image/room1.jpg" alt = "room image">
+                   <img src = "assets/accomodation/room1.jpg" alt = "room image">
                </div>
                <div class = "room-text"> <br>
                    <h3>Luxury Rooms</h3>
@@ -51,7 +51,7 @@
         
            <article class = "room">
                <div class = "room-image">
-                   <img src = "image/room2.jpg" alt = "room image">
+                   <img src = "assets/accomodation/room2.jpg" alt = "room image">
                </div>
                <div class = "room-text"><br>
                    <h3>Luxury Rooms</h3>
@@ -79,7 +79,7 @@
         
            <article class = "room">
                <div class = "room-image">
-                   <img src = "image/room3.jpg" alt = "room image">
+                   <img src = "assets/accomodation/room3.jpg" alt = "room image">
                </div>
                <div class = "room-text"><br>
                    <h3>Luxury Rooms</h3>
