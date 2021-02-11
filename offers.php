@@ -44,7 +44,9 @@
                     <i class="icon fas fa-home"></i>
                     <div class="details">
                         <span class="title">New Year Promo</span>
-                        <span>3rd Jan 2021</span>
+                        <span>
+                            Extended<i> Jan 3, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -58,8 +60,10 @@
                 <section>
                     <i class="icon fas fa-star"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>3rd Jan 2021</span>
+                        <span class="title">Valentine's Promo</span>
+                        <span>
+                            Extended<i> Feb 14, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -73,8 +77,10 @@
                 <section>
                     <i class="icon fas fa-heart"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>3rd Jan 2021</span>
+                        <span class="title">Summer Promo</span>
+                        <span>
+                            Extended<i> March 30, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -89,8 +95,10 @@
                 <section>
                     <i class="icon fas fa-globe"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>4th Jan 2021</span>
+                        <span class="title">Winter Promo</span>
+                        <span>
+                            Extended<i>Oct 24, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -105,8 +113,10 @@
                 <section>
                     <i class="icon fas fa-paper-plane"></i>
                     <div class="details">
-                        <span class="title">New Year Promo</span>
-                        <span>5th Jan 2021</span>
+                        <span class="title">Christmas Promo</span>
+                        <span>
+                            Extended<i> Dec 24, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
@@ -122,7 +132,9 @@
                     <i class="icon fas fa-map-marker-alt"></i>
                     <div class="details">
                         <span class="title">New Year Promo</span>
-                        <span>6th Jan 2021</span>
+                        <span>
+                            Extended<i> Dec 30, 2021 </i>
+                        </span>
                     </div>
                     <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
                         sint
