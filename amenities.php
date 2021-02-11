@@ -36,29 +36,7 @@
         </label>
     </nav>
     <br><br><br><br><br><br>
-    <div class="container">
-        <h1>Gallery</h1>
-        <h2> Because every picture tells a story, let me help you tell yours </h2><BR>
-        <center>
-            <hr>
-        </center>
-    </div>
 
-
-    <div class="main">
-        <img src="assets/gallery/pool.jpg" alt="">
-        <img src="assets/gallery/bar.jpg" alt="">
-        <img src="assets/gallery/restau.jpg" alt="">
-        <img src="assets/gallery/gym.jpg" alt="">
-        <img src="assets/gallery/pool.jpg" alt="">
-        <img src="assets/gallery/bar.jpg" alt="">
-        <img src="assets/gallery/restau.jpg" alt="">
-        <img src="assets/gallery/gym.jpg" alt="">
-        <img src="assets/gallery/pool.jpg" alt="">
-        <img src="assets/gallery/bar.jpg" alt="">
-        <img src="assets/gallery/restau.jpg" alt="">
-        <img src="assets/gallery/gym.jpg" alt="">
-    </div>
 
     <br><br><br>
     <footer>
