@@ -39,7 +39,9 @@
     <div class="container">
         <h1>Gallery</h1>
         <h2> Because every picture tells a story, let me help you tell yours </h2><BR>
-        <hr>
+        <center>
+            <hr>
+        </center>
     </div>
 
 

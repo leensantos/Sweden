@@ -32,9 +32,16 @@
             <div class="line"></div>
             <div class="line"></div>
         </label>
-    </nav><br><br><br><br><br><br>
+    </nav><br><br><br><br><br><br><br><br><br>
 
     <section>
+        <div class="container">
+            <h1>You are the center of our universe</h1>
+            <h2> Hurry up! When it’s gone, it’s gone </h2><BR>
+            <center>
+                <hr>
+            </center>
+        </div>
         <div class="wrapper">
             <div class="box">
                 <i class="fas fa-quote-left quote"></i>
