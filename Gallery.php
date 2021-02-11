@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/navi.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
     <link rel="stylesheet" href="css/foot.css">
     <link rel="stylesheet" href="css/gal.css">
 
@@ -17,17 +17,17 @@
 
 <body>
     <nav>
-        <input id="nav-toggle" type="checkbox">
         <div class="logo">GRAND SWEDEN HOTEL</div>
         <ul class="links">
             <li><a href="index.php">Home</a></li>
-            <li><a href="#about">Accomodation</a></li>
-            <li><a href="#Experiences">Experiences</a></li>
-            <li><a href="#Offers">Offers</a></li>
-            <li><a href="#Gallery">Gallery</a></li>
-            <li><a href="#Destination">Destination</a></li>
-            <li><a href="#Contact Us">Contact</a></li>
-            <li><a href="#Profile">Profile</a></li>
+            <li><a href="Accommodations.php">Accommodations</a></li>
+            <li><a href="Experiences.php">Experiences</a></li>
+            <li><a href="Amenities.php">Amenities</a></li>
+            <li><a href="Offers.php">Offers</a></li>
+            <li><a href="Gallery.php">Gallery</a></li>
+            <li><a href="Destination.php">Destination</a></li>
+            <li><a href="ContactUs.php">Contact Us</a></li>
+            <li><a href="BookNow.php" class="btn">Book Now</a></li>
         </ul>
         <label for="nav-toggle" class="icon-burger">
             <div class="line"></div>
