@@ -7,9 +7,11 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/footer2.css">
     <link rel="stylesheet" href="css/navi.css">
+    <link rel="stylesheet" href="css/foot.css">
     <link rel="stylesheet" href="css/gal.css">
+
+
     <title>Document</title>
 </head>
 
@@ -21,7 +23,6 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#about">Accomodation</a></li>
             <li><a href="#Experiences">Experiences</a></li>
-            <li><a href="#Amenities">Amenities</a></li>
             <li><a href="#Offers">Offers</a></li>
             <li><a href="#Gallery">Gallery</a></li>
             <li><a href="#Destination">Destination</a></li>
@@ -68,7 +69,6 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Accomodation</a></li>
                         <li><a href="#">Experiences</a></li>
-                        <li><a href="#">Amenities</a></li>
                         <li><a href="#">Offers</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Destination</a></li>
