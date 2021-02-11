@@ -87,7 +87,6 @@
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
@@ -105,7 +104,6 @@
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
@@ -123,7 +121,6 @@
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
@@ -141,7 +138,6 @@
                         eos vero sapiente voluptas debitis dicta dolore.</p>
                     <div class="bottom">
                         <a href="#">Read more</a>
-                        <i>- Someone famous</i>
                     </div>
                 </section>
             </div>
