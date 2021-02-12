@@ -38,8 +38,8 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <section class="booking">
-      <form action="" class="">
+    <form action="" class="">
+      <section class="booking">
         <div class="container-1">
           <div class="input-group">
             <label for="check-in" class="input-label"> Check in</label>
@@ -82,178 +82,178 @@
             </select>
           </div>
         </div>
-      </form>
-    </section>
+      </section>
 
-    <div class="booking">
-      <div class="container">
-        <!-- Progress Bar -->
-        <div class="progress-bar">
-          <div class="step">
-            <p>Rooms</p>
-            <div class="bullet">
-              <span>1</span>
+      <div class="booking">
+        <div class="container">
+          <!-- Progress Bar -->
+          <div class="progress-bar">
+            <div class="step">
+              <p>Rooms</p>
+              <div class="bullet">
+                <span>1</span>
+              </div>
+              <div class="check fas fa-check">
+              </div>
             </div>
-            <div class="check fas fa-check">
+            <div class="step">
+              <p>Add-ons</p>
+              <div class="bullet">
+                <span>2</span>
+              </div>
+              <div class="check fas fa-check">
+              </div>
+            </div>
+            <div class="step">
+              <p>Guest Details</p>
+              <div class="bullet">
+                <span>3</span>
+              </div>
+              <div class="check fas fa-check">
+              </div>
+            </div>
+            <div class="step">
+              <p>Confirmation</p>
+              <div class="bullet">
+                <span>4</span>
+              </div>
+              <div class="check fas fa-check">
+              </div>
             </div>
           </div>
-          <div class="step">
-            <p>Add-ons</p>
-            <div class="bullet">
-              <span>2</span>
-            </div>
-            <div class="check fas fa-check">
+          <!-- Content -->
+          <div class="form-outer">
+            <!-- Step 1: Select a Room -->
+            <div class="form-form">
+              <div class="page slide-page">
+                <div class="title">Select a Room</div>
+                <div class="container-2">
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <button class="firstNext next">Next</button>
+                </div>
+              </div>
+              <!-- Step 2 Select add-ons -->
+              <div class="page">
+                <div class="title">Experiences:</div>
+                <div class="container-2">
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                  <!-- group -->
+                  <div class="output-group">
+                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="details">
+                      <h3>Room 1</h3>
+                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <p>Max guests 4</p>
+                      <p>Ocean view</p>
+                      <p>1 Bedroom</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="field btns">
+                  <button class="prev-1 prev">Previous</button>
+                  <button class="next-1 next">Next</button>
+                </div>
+              </div>
+              <!-- Step 3: Select Payment Method, Discount -->
+              <div class="page">
+                <div class="title">Payment Method:</div>
+                <br /> <br />
+                <div class="field btns">
+                  <button class="prev-2 prev">Previous</button>
+                  <button class="next-2 next">Next</button>
+                </div>
+              </div>
+              <!-- Step 4: Summary -->
+              <div class="page">
+                <div class="title">Confirmation:</div>
+                <br /> <br />
+                <div class="field btns">
+                  <button class="prev-3 prev">Previous</button>
+                  <button class="submit">Submit</button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="step">
-            <p>Guest Details</p>
-            <div class="bullet">
-              <span>3</span>
-            </div>
-            <div class="check fas fa-check">
-            </div>
-          </div>
-          <div class="step">
-            <p>Confirmation</p>
-            <div class="bullet">
-              <span>4</span>
-            </div>
-            <div class="check fas fa-check">
-            </div>
-          </div>
-        </div>
-        <!-- Content -->
-        <div class="form-outer">
-          <!-- Step 1: Select a Room -->
-          <form action="#">
-            <div class="page slide-page">
-              <div class="title">Select a Room</div>
-              <div class="container-2">
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-              </div>
-              <div class="field">
-                <button class="firstNext next">Next</button>
-              </div>
-            </div>
-            <!-- Step 2 Select add-ons -->
-            <div class="page">
-              <div class="title">Experiences:</div>
-              <div class="container-2">
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-                <!-- group -->
-                <div class="output-group">
-                  <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                  <div class="details">
-                    <h3>Room 1</h3>
-                    <p>1,356 sq. ft. / 126 sq. m.</p>
-                    <p>Max guests 4</p>
-                    <p>Ocean view</p>
-                    <p>1 Bedroom</p>
-                  </div>
-                </div>
-              </div>
-              <div class="field btns">
-                <button class="prev-1 prev">Previous</button>
-                <button class="next-1 next">Next</button>
-              </div>
-            </div>
-            <!-- Step 3: Select Payment Method, Discount -->
-            <div class="page">
-              <div class="title">Payment Method:</div>
-              <br /> <br />
-              <div class="field btns">
-                <button class="prev-2 prev">Previous</button>
-                <button class="next-2 next">Next</button>
-              </div>
-            </div>
-            <!-- Step 4: Summary -->
-            <div class="page">
-              <div class="title">Confirmation:</div>
-              <br /> <br />
-              <div class="field btns">
-                <button class="prev-3 prev">Previous</button>
-                <button class="submit">Submit</button>
-              </div>
-            </div>
-          </form>
         </div>
       </div>
-    </div>
+    </form>
   </section>
   <!-- Footer -->
   <footer>

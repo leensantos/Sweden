@@ -244,7 +244,7 @@ body {
     overflow: hidden;
 }
 
-.container .form-outer form {
+.container .form-outer .form-form {
     display: flex;
     width: 400%;
 }
@@ -309,12 +309,12 @@ select:hover {
     border: 1px solid #888888;
 }
 
-.form-outer form .page {
+.form-outer .form-form .page {
     width: 25%;
     transition: margin-left 0.3s ease-in-out;
 }
 
-.form-outer form .page .title {
+.form-outer .form-form .page .title {
     text-align: left;
     width: 100%;
     font-size: 25px;
@@ -322,7 +322,7 @@ select:hover {
     margin: 20px 20px;
 }
 
-.form-outer form .page .field {
+.form-outer .form-form .page .field {
     width: 330px;
     height: 45px;
     margin: 45px 0;
@@ -333,13 +333,13 @@ select:hover {
     margin-right: auto;
 }
 
-form .page .field .label {
+.form-form .page .field .label {
     position: absolute;
     top: -30px;
     font-weight: 500;
 }
 
-form .page .field input {
+.form-form .page .field input {
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -348,14 +348,14 @@ form .page .field input {
     font-size: 18px;
 }
 
-form .page .field select {
+.form-form .page .field select {
     width: 100%;
     padding-left: 10px;
     font-size: 17px;
     font-weight: 500;
 }
 
-form .page .field button {
+.form-form .page .field button {
     width: 100%;
     height: calc(100% + 5px);
     border: none;
@@ -371,22 +371,22 @@ form .page .field button {
     transition: 0.5s ease;
 }
 
-form .page .field button:hover {
+.form-form .page .field button:hover {
     background: #8d8583;
     color: #221e1d;
     font-weight: 500;
 }
 
-form .page .btns button {
+.form-form .page .btns button {
     margin-top: -20px!important;
 }
 
-form .page .btns button.prev {
+.form-form .page .btns button.prev {
     margin-right: 3px;
     font-size: 17px;
 }
 
-form .page .btns button.next {
+.form-form .page .btns button.next {
     margin-left: 3px;
 }
 
