@@ -306,6 +306,8 @@
                     <div class="input-group">
                       <input type="text" class="input" id="cardholder" name="cardholder" placeholder="Cardholder Name">
                     </div>
+                  </div>
+                  <div class="container-3">
                     <div class="input-group half">
                       <input type="text" class="input" id="cardnumber" name="cardnumber" placeholder="Card Number"
                         pattern="[0-9]{16}" required>
