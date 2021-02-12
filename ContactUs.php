@@ -106,6 +106,7 @@
                 </div>
             </div>
             <div class="copyright">
+                <a href="signin.php">Administrator Login</a><br>
                 <a>© Copyright 2021. All Rights Reserved.</a>
             </div>
         </div>
