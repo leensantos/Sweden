@@ -20,7 +20,7 @@
         <ul class="links">
             <li><a href="index.php">Home</a></li>
             <li><a href="Accommodations.php">Accommodations</a></li>
-            <li><a href="amenities.php">Amenities</a></li>
+            <li><a href="Amenities.php">Amenities</a></li>
             <li><a href="Offers.php">Offers</a></li>
             <li><a href="Gallery.php">Gallery</a></li>
             <li><a href="Destination.php">Destination</a></li>
@@ -32,7 +32,6 @@
             <div class="line"></div>
             <div class="line"></div>
         </label>
-    </nav>
     </nav><br><br><br><br><br><br><br><br><br>
 
     <section>
@@ -250,6 +249,7 @@
                 </div>
             </div>
             <div class="copyright">
+                <a href="signin.php">Administrator Login</a><br>
                 <a>© Copyright 2021. All Rights Reserved.</a>
             </div>
         </div>
