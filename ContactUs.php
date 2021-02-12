@@ -15,11 +15,12 @@
 <body>
     <!-- Nagigation bar -->
     <nav>
+        <input id="nav-toggle" type="checkbox">
         <div class="logo">GRAND SWEDEN HOTEL</div>
         <ul class="links">
             <li><a href="index.php">Home</a></li>
             <li><a href="Accommodations.php">Accommodations</a></li>
-            <li><a href="Experiences.php">Experiences</a></li>
+            <li><a href="amenities.php">Amenities</a></li>
             <li><a href="Offers.php">Offers</a></li>
             <li><a href="Gallery.php">Gallery</a></li>
             <li><a href="Destination.php">Destination</a></li>
@@ -32,6 +33,8 @@
             <div class="line"></div>
         </label>
     </nav>
+
+
     <!-- Contact US -->
     <div class="contact-us">
         <div class="contact-wrap">
