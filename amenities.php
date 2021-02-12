@@ -3,26 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" href="css/gal.css">
-
-
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
+    <link rel="stylesheet" href="css/offers.css">
+    <link rel="stylesheet" href="css/offers2.css">
+    <link rel="stylesheet" href="css/amenities.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
     <nav>
+        <input id="nav-toggle" type="checkbox">
         <div class="logo">GRAND SWEDEN HOTEL</div>
         <ul class="links">
             <li><a href="index.php">Home</a></li>
             <li><a href="Accommodations.php">Accommodations</a></li>
-            <li><a href="Experiences.php">Experiences</a></li>
-            <li><a href="Amenities.php">Amenities</a></li>
+            <li><a href="amenities.php">Amenities</a></li>
             <li><a href="Offers.php">Offers</a></li>
             <li><a href="Gallery.php">Gallery</a></li>
             <li><a href="Destination.php">Destination</a></li>
@@ -34,11 +33,97 @@
             <div class="line"></div>
             <div class="line"></div>
         </label>
-    </nav>
-    <br><br><br><br><br><br>
+        </label>
+    </nav><br><br><br><br><br><br><br><br><br>
 
+    <section>
+        <div class="container">
+            <h1>Express Your Individuality at GSW</h1>
+            <h2> Luxury is Built-In. Not Tacked On </h2><BR>
+            <center>
+                <hr>
+            </center>
+        </div>
+        <div class="wrapper">
+            <div class="box">
+                <div class="info">
+                    <div class="name">SLEEP</div>
+                </div><BR>
+                <p>Handmade mattresses, organic bedding and linens, dedicated Sleep programs and plenty of ZZZZs.</p>
+                <BR><BR>
+                <center>
+                    <div class="read">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </center>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="name">EAT</div>
+                </div><BR>
+                <p>Natural ingredients, local and sustainable, less is more: food that's good for you and the world
+                    around you. </p><BR><BR>
+                <center>
+                    <div class="read">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </center>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="name">SPA</div>
+                </div><BR>
+                <p>Signature therapies, locally-inspired treatments, Alchemy Bars, in-house experts and Visiting
+                </p><BR><BR>
+                <center>
+                    <div class="read">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
 
-    <br><br><br>
+    <section>
+        <div class="wrapper">
+            <div class="box">
+                <div class="info">
+                    <div class="name">POOL</div>
+                </div><BR>
+                <p>Group and private wellness classes, functional fitness, running trails and jungle gyms. </p><BR><BR>
+                <center>
+                    <div class="read">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </center>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="name">YOGA</div>
+                </div><BR>
+                <p>Less stress, clearer thoughts and more brain power with mindfulness, positive intentions and
+                    appreciation techniques. </p><BR><BR>
+                <center>
+                    <div class="read">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </center>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="name">GROW</div>
+                </div><BR>
+                <p>Activities for children based on the dimensions of wellness: social, environmental, physical,
+                    spiritual..</p><BR><BR>
+                <center>
+                    <div class="read">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </center>
+            </div>
+    </section>
+
+    <br><br><br><br>
     <footer>
         <div class="container">
             <div class="row">
@@ -77,6 +162,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

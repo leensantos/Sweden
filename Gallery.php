@@ -59,7 +59,6 @@
         <img src="assets/gallery/restau.jpg" alt="">
         <img src="assets/gallery/gym.jpg" alt="">
     </div>
-
     <br><br><br>
     <footer>
         <div class="container">
