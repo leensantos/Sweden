@@ -111,12 +111,14 @@ footer {
 
 footer .container .copyright a {
 	color: #bbbbbb !important;
+	text-decoration: none;
 }
 
 footer .container .copyright {
 	color: #bbbbbb !important;
 	margin-top: 20px;
 	text-align: center;
+	text-decoration: none;
 }
 
 /*responsive*/

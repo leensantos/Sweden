@@ -249,8 +249,8 @@
                 </div>
             </div>
             <div class="copyright">
-                <a>© Copyright 2021. All Rights Reserved.</a> <br>
-                <a href="">ADMINISTRATOR </a>
+                <a href="signin.php">Administrator Login</a><br>
+                <a>© Copyright 2021. All Rights Reserved.</a>
             </div>
         </div>
     </footer>
