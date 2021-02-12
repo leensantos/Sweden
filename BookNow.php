@@ -39,19 +39,21 @@
   <!-- Forms -->
   <section class="book-now">
     <form action="" class="">
+      <!-- Form Top -->
       <section class="booking">
+        <!-- Check in Check Out Adult Children -->
         <div class="container-1">
           <div class="input-group">
-            <label for="check-in" class="input-label"> Check in</label>
-            <input type="date" class="input" id="check-in">
+            <label for="check-in" class="input-label">Check in</label>
+            <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
           <div class="input-group">
-            <label for="check-out" class="input-label"> Check out</label>
-            <input type="date" " class=" input" id="check-out">
+            <label for="check-out" class="input-label">Check out</label>
+            <input type="date" " class=" input" id="check-out" name="check-out" required>
           </div>
           <div class="input-group">
-            <label for="adults" class="input-label"> Adults</label>
-            <select name="adults" id="adults" class="options">
+            <label for="adults" class="input-label">Adults</label>
+            <select class="options" id="adults" name="adults" required>
               <option disabled selected>0</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -66,8 +68,8 @@
             </select>
           </div>
           <div class="input-group">
-            <label for="children" class="input-label"> Children</label>
-            <select name="children" id="children" class="options">
+            <label for="children" class="input-label">Children</label>
+            <select class="options" id="children" name="children" required>
               <option disabled selected>0</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -83,11 +85,12 @@
           </div>
         </div>
       </section>
-
+      <!-- Form Bottom-->
       <div class="booking">
         <div class="container">
           <!-- Progress Bar -->
           <div class="progress-bar">
+            <!-- Step 1 -->
             <div class="step">
               <p>Rooms</p>
               <div class="bullet">
@@ -96,6 +99,7 @@
               <div class="check fas fa-check">
               </div>
             </div>
+            <!-- Step 2 -->
             <div class="step">
               <p>Add-ons</p>
               <div class="bullet">
@@ -104,6 +108,7 @@
               <div class="check fas fa-check">
               </div>
             </div>
+            <!-- Step 3 -->
             <div class="step">
               <p>Guest Details</p>
               <div class="bullet">
@@ -112,6 +117,7 @@
               <div class="check fas fa-check">
               </div>
             </div>
+            <!-- Step 4 -->
             <div class="step">
               <p>Confirmation</p>
               <div class="bullet">
@@ -126,7 +132,9 @@
             <!-- Step 1: Select a Room -->
             <div class="form-form">
               <div class="page slide-page">
-                <div class="title">Select a Room</div>
+                <div class="title">
+                  <h3>Select a Room</h3>
+                </div>
                 <div class="container-2">
                   <!-- group -->
                   <div class="output-group">
@@ -173,13 +181,16 @@
                     </div>
                   </div>
                 </div>
+                <!-- Prev Next Button -->
                 <div class="field">
                   <button class="firstNext next">Next</button>
                 </div>
               </div>
               <!-- Step 2 Select add-ons -->
               <div class="page">
-                <div class="title">Experiences:</div>
+                <div class="title">
+                  <h3>Enhance Your Stay</h3>
+                </div>
                 <div class="container-2">
                   <!-- group -->
                   <div class="output-group">
@@ -226,15 +237,86 @@
                     </div>
                   </div>
                 </div>
+                <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-1 prev">Previous</button>
                   <button class="next-1 next">Next</button>
                 </div>
               </div>
-              <!-- Step 3: Select Payment Method, Discount -->
+              <!-- Step 3: Contact Info, Select Payment Method, Discount -->
               <div class="page">
-                <div class="title">Payment Method:</div>
-                <br /> <br />
+                <!-- Guest Details -->
+                <div class="title">
+                  <h3>Contact Information</h3>
+                </div>
+                <div>
+                  <div class="container-3">
+                    <div class="input-group half">
+                      <select class="options" id="prefix" name="prefix" required>
+                        <option disabled selected>Prefix</option>
+                        <option value="Dr.">Dr.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="MrRev.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Pr.">Pr.</option>
+                        <option value="Rev.">Rev.</option>
+                      </select>
+                      <input type="text" class="input" id="firstname" name="firstname" placeholder="First Name"
+                        required>
+                    </div>
+                    <div class="input-group">
+                      <input type="text" class="input" id="lastname" name="lastname" placeholder="Last Name" required>
+                    </div>
+                  </div>
+                  <!-- 2 -->
+                  <div class="container-3">
+                    <div class="input-group">
+                      <!-- <label for="phonenumber" class="input-label-form">Phone Number</label> -->
+                      <input type="tel" class="input" id="phonenumber" name="phonenumber"
+                        placeholder="Phone Number (09XXXXXXXXX)" pattern="[0-9]{11}" required>
+                    </div>
+                    <div class="input-group">
+                      <!-- <label for="email" class="input-label-form">Email Address</label> -->
+                      <input type="email" class="input" id="email" name="email"
+                        placeholder="Email Address (name@mail.com)" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                      <small>This is the email we will send your confirmation to.</small>
+                    </div>
+                  </div>
+                  <!-- 3 -->
+                  <div class="container-3">
+                    <div class="input-group">
+                      <!-- <label for="address" class="input-label-form">Address</label> -->
+                      <input type="text" class="input" id="address" name="address" placeholder="Street Address"
+                        required>
+                    </div>
+                    <div class="input-group half">
+                      <input type="text" class="input" id="city" name="city" placeholder="City" required>
+                      <input type="text" class="input" id="state" name="state" placeholder="State/Province" required>
+                      <input type="text" class="input" id="zipcode" name="zipcode" placeholder="Zip/Postal Code"
+                        pattern="[0-9]*" minlength="2" maxlength="4" required>
+                    </div>
+                  </div>
+                </div>
+                <!-- Payment Information -->
+                <div class="title">
+                  <h3>Payment Information</h3>
+                </div>
+                <div>
+                  <div class="container-3">
+                    <div class="input-group">
+                      <input type="text" class="input" id="cardholder" name="cardholder" placeholder="Cardholder Name">
+                    </div>
+                    <div class="input-group half">
+                      <input type="text" class="input" id="cardnumber" name="cardnumber" placeholder="Card Number"
+                        pattern="[0-9]{16}" required>
+                      <input type="text" class="input" id="expiration" name="expiration"
+                        placeholder="Expiration Date (MM/YYYY)" pattern="[0-9]{2}/[0-9]{4}" required>
+                      <input type="text" class="input" id="cvv" name="cvv" placeholder="CVV" pattern="[0-9]{3}"
+                        required>
+                    </div>
+                  </div>
+                </div>
+                <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-2 prev">Previous</button>
                   <button class="next-2 next">Next</button>
@@ -242,17 +324,57 @@
               </div>
               <!-- Step 4: Summary -->
               <div class="page">
-                <div class="title">Confirmation:</div>
-                <br /> <br />
+                <div class="title">
+                  <h3>Confirmation</h3>
+                </div>
+                <!-- Policies-->
+                <div class="title">
+                  <h3>Policies</h3>
+                </div>
+                <div>
+                  <div class="text-group">
+                    <h4>Guarantee Policy</h4>
+                    <p>Valid credit card details required to guarantee reservation. Full prepayment required 15 days
+                      prior to arrival.</p>
+                  </div>
+                  <div class="text-group">
+                    <h4>Cancel Policy</h4>
+                    <p>Cancel by 12 noon, 15 days prior to arrival to avoid 50% of total value of the stay penalty
+                      plus tax. Same day cancellation, no-show or early departure, 100% penalty plus tax will be
+                      applied. </p>
+                  </div>
+                </div>
+                <!-- Acknowledgement-->
+                <div class="title">
+                  <h3>Acknowledgement</h3>
+                </div>
+                <div class="text-group">
+                  <label for="news" class="checkbox-text">
+                    I would like to receive newsletters and special offers by email.
+                    <input type="checkbox" class="check" id="news" name="news" value="news">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label for="terms" class="checkbox-text">
+                    I agree with the Privacy Terms.
+                    <input type="checkbox" class="check" id="terms" name="terms" value="terms" required>
+                    <span class="checkmark"></span>
+                  </label>
+                  <label for="conditions" class="checkbox-text">
+                    I agree with the Booking Conditions.
+                    <input type="checkbox" class="check" id="conditions" name="conditions" value="conditions" required>
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
                   <button class="submit">Submit</button>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              </div><!-- END OF PAGE -->
+            </div><!-- END OF FORMFORM -->
+          </div><!-- END OF OUTER FORM -->
+        </div><!-- END OF CONTAINER -->
+      </div><!-- END OF BOOKING -->
     </form>
   </section>
   <!-- Footer -->

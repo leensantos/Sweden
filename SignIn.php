@@ -30,10 +30,10 @@
         <form action="" class="login-form">
           <h3>Log In</h3>
           <div class="form-group">
-            <input type="text" placeholder="Email Address" class="form-control" require>
+            <input type="text" placeholder="Email Address" class="form-control" required>
           </div>
           <div class="form-group">
-            <input type="password" placeholder="Password" class="form-control" require>
+            <input type="password" placeholder="Password" class="form-control" required>
           </div>
           <input type="submit" class="submit-btn" />
           <p><a href="#" class="lost-pass-btn">Lost Your Password ?</a>
@@ -45,16 +45,16 @@
         <form action="" class="register-form form-hidden">
           <h3>Register</h3>
           <forms class="form-group">
-            <input type="text" placeholder="First Name" class="form-control" require>
+            <input type="text" placeholder="First Name" class="form-control" required>
           </forms>
           <div class="form-group">
-            <input type="text" placeholder="Last Name" class="form-control" require>
+            <input type="text" placeholder="Last Name" class="form-control" required>
           </div>
           <div class="form-group">
-            <input type="text" placeholder="Email Address" class="form-control" require>
+            <input type="text" placeholder="Email Address" class="form-control" required>
           </div>
           <div class="form-group">
-            <input type="password" placeholder="Password" class="form-control" require>
+            <input type="password" placeholder="Password" class="form-control" required>
           </div>
 
           <input type="submit" class="submit-btn" />
@@ -67,7 +67,7 @@
           <h3>Lost Your Password?</h3>
           <h5>You will receive a link to create a new password via email.</h5>
           <div class="form-group">
-            <input type="text" placeholder="Email Address" class="form-control" require>
+            <input type="text" placeholder="Email Address" class="form-control" required>
           </div>
           <input type="submit" class="submit-btn" value="Reset Password" />
           <p><a href="#" class="login-btn">Login </a> | <a href="#" class="register-btn"> Register</a></p>
