@@ -336,6 +336,14 @@ body {
     border: 1px solid #888888;
 }
 
+.outline h4 {
+    font-size: 20px;
+}
+
+.outline span {
+    font-size: 20px;
+}
+
 .input-label-form {
     display: block;
     font-size: 1.3rem;
