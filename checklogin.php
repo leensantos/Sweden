@@ -29,13 +29,13 @@ header("location: UserProfile.php"); // redirects the user to the authenticated 
 }
 else
 {
-Print '<script>alert("Incorrect Password!");</script>'; //Prompts the user
+Print '<script>alert("Incorrect Credential, Please try again!");</script>'; //Prompts the user
 Print '<script>window.location.assign("signin.php");</script>'; // redirects to login.php
 }
 }
 else
 {
-Print '<script>alert("Incorrect Username!");</script>'; //Prompts the user
+Print '<script>alert("Incorrect Credential, Please try again!");</script>'; //Prompts the user
 Print '<script>window.location.assign("signin.php");</script>'; // redirects to login.php
 }
 ?>

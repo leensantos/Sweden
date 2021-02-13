@@ -3,37 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>signin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/sign-in-style.css">
+    <title>Sign In | The Grand Sweden Hotel</title>
 </head>
 
+
+
 <body>
-    <div class="circle"></div>
-    <div class="content">
-        <div class="textBox">
-            <h2> SIGNIN</h2>
-            <form action="checklogin.php" method="POST">
-                <!-- for the login -->
-                <table>
-                    <tr>
-                        <td><input type="text" class="field" name="username" required="required"
-                                placeholder="Enter Username" />
-                    </tr>
-                    <tr>
-                        <td><input type="password" class="field" name="password" required="required"
-                                placeholder="Enter Password" />
-                    </tr>
-                </table><br>
-                <input type="submit" value="Login" class="register" /> <br><br> <!-- end of register button-->
-                <button type="button" class="submit" onclick="window.location.href='register.php'">Don't Have an
-                    Account? Register Here</button> <!-- login button -->
-            </form>
+    <div class="login-page">
+        <div class="box">
+            <div class="box-form-sign-up left">
+
+            </div>
+            <div class="box-form box-hidden middle"></div>
+            <div class="box-form-sign-in box-hidden right">
+
+            </div>
+            <div class="form">
+                <!-- Login form Start -->
+                <form class="login-form" form action="checklogin.php" method="POST">
+                    <h3>ADMIN LOGIN</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Username" class="form-control" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control" name="password" required>
+                    </div>
+                    <input type="submit" class="submit-btn" value="Login" />
+                    <!-- <p><a href="#" class="lost-pass-btn">Lost Your Password ?</a> -->
+                    </p>
+                </form>
+            </div>
         </div>
     </div>
-
-    </div>
-
+    <script type="text/javascript" src="js/sign-in-script.js"></script>
 </body>
 
 </html>
