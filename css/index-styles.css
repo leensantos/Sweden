@@ -131,7 +131,8 @@ nav {
 
 nav .logo {
     float: left;
-    width: 40%;
+    /* width: 40%; */
+    width: auto;
     height: 100%;
     display: flex;
     align-items: center;
@@ -360,7 +361,7 @@ input[type=submit] {
 
 /* Responsive layout */
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1190px) {
     nav .logo {
         float: none;
         width: auto;

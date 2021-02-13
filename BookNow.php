@@ -13,19 +13,19 @@
 </head>
 
 <body>
+  <!-- Nagigation bar -->
   <nav>
     <input id="nav-toggle" type="checkbox">
-    <div class="logo">GRAND SWEDEN HOTEL</div>
+    <div class="logo">The GRAND SWEDEN HOTEL</div>
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
-      <li><a href="Experiences.php">Experiences</a></li>
       <li><a href="Amenities.php">Amenities</a></li>
       <li><a href="Offers.php">Offers</a></li>
       <li><a href="Gallery.php">Gallery</a></li>
       <li><a href="Destination.php">Destination</a></li>
       <li><a href="ContactUs.php">Contact Us</a></li>
-      <li><a href="BookNow.php" class="btn">Book Now</a></li>
+      <li><a href="BookNow.php">Book Now</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>
@@ -33,7 +33,8 @@
       <div class="line"></div>
     </label>
   </nav>
-  <!-- Top -->
+
+  <!-- Page Content -->
   <section class="index-top">
   </section>
   <!-- Forms -->
@@ -401,10 +402,10 @@
   </section>
   <!-- Footer -->
   <footer>
-    <div class="container">
+    <div class="footer-container">
       <div class="row">
         <div class="footer-col col-1">
-          <h4>Grand Sweden Hotel</h4>
+          <h4>The Grand Sweden Hotel</h4>
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="accomoations.php">Accomodation</a></li>
@@ -413,6 +414,7 @@
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="destination.php">Destination</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
+            <li><a href="signin.php">Administrator</a></li>
           </ul>
         </div>
         <div class="footer-col col-2">
@@ -438,7 +440,7 @@
       </div>
     </div>
   </footer>
-
+  <!-- script -->
   <script src="js/book-now-script.js"></script>
 
 </body>
