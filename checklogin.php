@@ -2,7 +2,7 @@
 session_start();
 $username = ($_POST['username']);
 $password = ($_POST['password']);
-$db_name = "deliverydb";
+$db_name = "swedendb";
 $db_username = "root";
 $db_pass = "";
 $db_host = "localhost";
@@ -24,18 +24,18 @@ if(($username == $table_users) && ($password == $table_password)) // checks if t
 if($password == $table_password)
 {
 $_SESSION['user'] = $username; //set the username in a session. This serves as a global variable
-header("location: home.php"); // redirects the user to the authenticated home page
+header("location: UserProfile.php"); // redirects the user to the authenticated home page
 }
 }
 else
 {
 Print '<script>alert("Incorrect Password!");</script>'; //Prompts the user
-Print '<script>window.location.assign("login.php");</script>'; // redirects to login.php
+Print '<script>window.location.assign("signin.php");</script>'; // redirects to login.php
 }
 }
 else
 {
 Print '<script>alert("Incorrect Username!");</script>'; //Prompts the user
-Print '<script>window.location.assign("login.php");</script>'; // redirects to login.php
+Print '<script>window.location.assign("signin.php");</script>'; // redirects to login.php
 }
 ?>
