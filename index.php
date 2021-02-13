@@ -16,10 +16,9 @@
     Your browser does not support HTML5 video.
   </video>
   <section class="index-top">
-    <!-- Navigation Bar -->
+    <!-- Nagigation bar -->
     <nav>
-      <input id="nav-toggle" type="checkbox">
-      <div class="logo">GRAND SWEDEN HOTEL</div>
+      <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
       <ul class="links">
         <li><a href="index.php">Home</a></li>
         <li><a href="Accommodations.php">Accommodations</a></li>
@@ -28,7 +27,7 @@
         <li><a href="Gallery.php">Gallery</a></li>
         <li><a href="Destination.php">Destination</a></li>
         <li><a href="ContactUs.php">Contact Us</a></li>
-        <li><a href="BookNow.php" class="btn">Book Now</a></li>
+        <li><a href="BookNow.php">Book Now</a></li>
       </ul>
       <label for="nav-toggle" class="icon-burger">
         <div class="line"></div>
