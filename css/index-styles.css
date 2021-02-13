@@ -140,6 +140,19 @@ nav .logo {
     color: #fff;
 }
 
+nav .logo a {
+    font-family: "whitneylight" !important;
+    float: left;
+    /* width: 40%; */
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
 nav .links {
     float: right;
     padding: 0;
