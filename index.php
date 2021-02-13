@@ -38,7 +38,7 @@
     </nav>
     <!-- Title -->
     <div class="title">
-      <h1>happiness is what we sell.. subject to change</h1>
+      <h1>the lion sleeps tonight.. subject to change</h1>
       <div class="container">
         <forms action="">
           <div class="container-1">
