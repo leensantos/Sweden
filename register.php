@@ -7,43 +7,49 @@ $user = $_SESSION['user']; //assigns user value
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/sign-in-style.css">
-    <title>Register | The Grand Sweden Hotel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/sign-in-style.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
+  <title>Register | The Grand Sweden Hotel</title>
 </head>
 
-
 <body>
-    <div class="login-page">
-        <div class="box">
-            <div class="box-form-sign-up left">
+  <!-- Nagigation bar -->
+  <nav>
+    <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+  </nav>
 
-            </div>
-            <div class="box-form box-hidden middle"></div>
-            <div class="box-form-sign-in box-hidden right">
-            </div>
-            <div class="form">
-                <!-- Login form Start -->
-                <form class="login-form" action="register.php" method="POST">
-                    <h3>NEW ADMIN</h3>
-                    <div class="form-group">
-                        <input type="text" placeholder="Username" name="username" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Password" name="password" class="form-control" required>
-                    </div>
+  <!-- Page Content -->
+  <div class="login-page">
+    <div class="box">
+      <div class="form">
+        <!-- Register form Start -->
+        <form class="login-form" action="register.php" method="POST">
+          <h3>Register</h3>
+          <!-- <forms class="form-group">
+            <input type="text" placeholder="First Name" class="form-control" required>
+          </forms>
+          <div class="form-group">
+            <input type="text" placeholder="Last Name" class="form-control" required>
+          </div> -->
+          <div class="form-group">
+            <input type="text" name="username" id="username" placeholder="Username" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" id="password" placeholder="Password" class="form-control" required>
+          </div>
 
-                    <input type="submit" value="Register" class="submit-btn" />
-                    <p><a href="logout.php" class="lost-pass-btn">Logout to <?php print "$user" ?> account</a></p>
-                </form>
-            </div>
-        </div>
+          <input type="submit" value="Submit" class="submit-btn" />
+          <p><a href="logout.php" class="lost-pass-btn">Logout <?php print "$user" ?> account</a></p>
+        </form>
+        <!-- Register form End -->
+      </div>
     </div>
-    <script type="text/javascript" src="js/sign-in-script.js"></script>
+  </div>
 </body>
 
 </html>
