@@ -38,10 +38,11 @@
     <div class="contact-wrap">
       <div class="contact-in">
         <h1>Send a Message</h1>
-        <form>
-          <input type="text" placeholder="Full Name" class="contact-in-input">
-          <input type="text" placeholder="Email" class="contact-in-input">
-          <input type="text" placeholder="Subject" class="contact-in-input">
+        <form action="">
+          <input type="text" class="contact-in-input" id="fullname" name="fullname" placeholder="Full Name">
+          <input type="email" class="contact-in-input" placeholder="Email Address (name@mail.com)"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <input type="text" class="contact-in-input" id="subject" name="subject" placeholder="Subject">
           <textarea placeholder="Message" class="contact-in-textarea"></textarea>
           <input type="submit" value="SUBMIT" class="contact-in-btn">
         </form>
