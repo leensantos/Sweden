@@ -18,8 +18,7 @@
 <body>
   <!-- Nagigation bar -->
   <nav>
-    <input id="nav-toggle" type="checkbox">
-    <div class="logo">The GRAND SWEDEN HOTEL</div>
+    <div class="logo"><a href="index.php">The GRAND SWEDEN HOTEL</a></div>
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>

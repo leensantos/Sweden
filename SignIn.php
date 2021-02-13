@@ -1,43 +1,63 @@
+<?php
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/sign-in-style.css">
-    <title>Sign In | The Grand Sweden Hotel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/sign-in-style.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
+  <title>Sign In | The Grand Sweden Hotel</title>
 </head>
 
-
-
 <body>
-    <div class="login-page">
-        <div class="box">
-            <div class="box-form-sign-up left">
+  <!-- Nagigation bar -->
+  <nav>
+    <div class="logo"><a href="index.php">The GRAND SWEDEN HOTEL</a></div>
+  </nav>
 
-            </div>
-            <div class="box-form box-hidden middle"></div>
-            <div class="box-form-sign-in box-hidden right">
+  <!-- Page Content -->
+  <div class="login-page">
+    <div class="box">
+      <div class="form">
+        <!-- Login form Start -->
+        <form action="" class="login-form">
+          <h3>Admin Login</h3>
+          <div class="form-group">
+            <input type="text" placeholder="Email Address" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control" required>
+          </div>
+          <input type="submit" class="submit-btn" />
+        </form>
+        <!-- Login form End -->
 
-            </div>
-            <div class="form">
-                <!-- Login form Start -->
-                <form class="login-form" form action="checklogin.php" method="POST">
-                    <h3>ADMIN LOGIN</h3>
-                    <div class="form-group">
-                        <input type="text" placeholder="Username" class="form-control" name="username" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Password" class="form-control" name="password" required>
-                    </div>
-                    <input type="submit" class="submit-btn" value="Login" />
-                    <!-- <p><a href="#" class="lost-pass-btn">Lost Your Password ?</a> -->
-                    </p>
-                </form>
-            </div>
-        </div>
+        <!-- Register form Start -->
+        <form action="" class="register-form form-hidden">
+          <h3>Register</h3>
+          <forms class="form-group">
+            <input type="text" placeholder="First Name" class="form-control" required>
+          </forms>
+          <div class="form-group">
+            <input type="text" placeholder="Last Name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Email Address" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control" required>
+          </div>
+
+          <input type="submit" class="submit-btn" />
+        </form>
+        <!-- Register form End -->
+
+      </div>
     </div>
-    <script type="text/javascript" src="js/sign-in-script.js"></script>
+  </div>
 </body>
 
 </html>
