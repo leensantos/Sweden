@@ -330,23 +330,45 @@
                   <h3>Confirmation</h3><!-- display guest info for confirmation -->
                 </div>
                 <div>
-                  <div class="text-group">
-                    <h4>Name</h4>
-                    <span id="disp_name"></span>
-                    <h4>Phone number</h4>
-                    <span id="disp_phone"></span>
-                    <h4>Address</h4>
-                    <span id="disp_address"></span>
-                    <h4>Room</h4>
-                    <h4>Add-ons</h4>
-                    <h4>Check in date</h4>
-                    <span id="disp_check_in"></span>
-                    <h4>Check out date</h4>
-                    <span id="disp_check_out"></span>
-                    <h4>Adults</h4>
-                    <span id="disp_adults"></span>
-                    <h4>Children</h4>
-                    <span id="disp_children"></span>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Name</h4>
+                      <span id="disp_name"></span>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Phone number</h4>
+                      <span id="disp_phone"></span>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Address</h4>
+                      <span id="disp_address"></span>
+                    </div>
+                  </div>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Check in date</h4>
+                      <span id="disp_check_in"></span>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Check out date</h4>
+                      <span id="disp_check_out"></span>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Adults</h4>
+                      <span id="disp_adults"></span>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Children</h4>
+                      <span id="disp_children"></span>
+                    </div>
+                  </div>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Room</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Add-ons</h4>
+                    </div>
                   </div>
                 </div>
                 <!-- Policies-->
