@@ -42,7 +42,7 @@
   <div class="page-content">
     <section class="rooms sec-width" id="rooms">
       <div class="title">
-        <h2>Rooms</h2>
+        <h1>Rooms</h1>
       </div>
       <div class="rooms-container">
 
@@ -162,7 +162,7 @@
 
     <section class="services sec-width" id="services">
       <div class="title">
-        <h2>Services</h2>
+        <h1>Services</h1>
       </div>
       <div class="services-container">
 

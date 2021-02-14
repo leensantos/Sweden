@@ -37,6 +37,12 @@
 
   <!-- Page Content -->
   <div class="page-content">
+    <div class="container-title">
+      <div class="title">
+        <h1>Venture beyond the ordinary</h1>
+        <h2>Discover multiple destinations in a single trip</h2>
+      </div>
+    </div>
     <div class="container">
       <div class="img-box">
         <div class="shape">

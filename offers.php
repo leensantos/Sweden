@@ -38,15 +38,13 @@
 
   <!-- Page Content -->
   <div class="page-content">
-    <br /><br />
 
     <section>
       <div class="container">
-        <h1>You are the center of our universe</h1>
-        <h2> Hurry up! When it’s gone, it’s gone </h2><BR>
-        <center>
-          <hr>
-        </center>
+        <div class="title">
+          <h1>You are the center of our universe</h1>
+          <h2> Hurry up! When it’s gone, it’s gone </h2>
+        </div>
       </div>
       <div class="wrapper">
         <div class="box">
