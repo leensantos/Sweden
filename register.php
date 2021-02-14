@@ -11,6 +11,7 @@ $user = $_SESSION['user']; //assigns user value
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="assets/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/sign-in-style.css">
     <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
@@ -46,7 +47,7 @@ $user = $_SESSION['user']; //assigns user value
                     </div>
 
                     <input type="submit" value="Submit" class="submit-btn" />
-                    <p><a href="logout.php" class="lost-pass-btn">Logout <?php print "$user" ?> account</a></p>
+                    <p><a href="scripts/logout.php" class="lost-pass-btn">Logout <?php print "$user" ?> account</a></p>
                 </form>
                 <!-- Register form End -->
             </div>

@@ -6,7 +6,7 @@
 <html>
 
 <head>
-  <link href="" rel="icon" sizes="16x16">
+<link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link href="css/destination.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">

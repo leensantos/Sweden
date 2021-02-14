@@ -7,6 +7,7 @@
 
 <head>
   <!-- <link href="" rel="icon" sizes="16x16"> -->
+  <link rel="icon" href="assets/icon.png">
   <link href="css/admin1.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <title>Admin Bookings | The Grand Sweden Hotel</title>
@@ -25,7 +26,12 @@
       <li><a href="userprofile.php">Profile</a></li>
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
+<<<<<<< HEAD
       <li><a href="logout.php">Logout</a></li>
+=======
+      <li><a href="userprofile.php">Profile</a></li>
+      <li><a href="../logout.php">Logout</a></li>
+>>>>>>> 73fa269093d535309718442e237e170e861265de
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>

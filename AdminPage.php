@@ -7,6 +7,7 @@
 
 <head>
   <!-- <link href="" rel="icon" sizes="16x16"> -->
+  <link rel="icon" href="assets/icon.png">
   <link href="css/admin1.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -26,7 +27,12 @@
       <li><a href="userprofile.php">Profile</a></li>
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
+<<<<<<< HEAD
       <li><a href="logout.php">Logout</a></li>
+=======
+      <li><a href="userprofile.php">Profile</a></li>
+      <li><a href="../logout.php">Logout</a></li>
+>>>>>>> 73fa269093d535309718442e237e170e861265de
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>
@@ -63,7 +69,7 @@
           Print '<td data-title="Date and Time">'.$row['date'] ." - ".$row['time']. "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Message">'.$row['content'] . "</th>";
-          Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Remove</a></th>';
+          Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Resolve</a></th>';
           Print"</tr>";  
   }
         
