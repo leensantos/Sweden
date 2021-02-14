@@ -21,6 +21,7 @@
   <!-- Nagigation bar -->
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
