@@ -20,12 +20,12 @@
 <body>
   <!-- Nagigation bar -->
   <nav>
-    <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <div class="logo"><a href="userprofile.php">The Grand Sweden Hotel</a></div>
     <input id="nav-toggle" type="checkbox">
     <ul class="links">
+      <li><a href="userprofile.php">Profile</a></li>
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
-      <li><a href="userprofile.php">Profile?</a></li>
       <li><a href="logout.php">Logout</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
@@ -52,7 +52,7 @@
           </tr>
         </thead>
         <tbody>
-<?php
+          <?php
   $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
 	$query = mysqli_query($con, "Select * from messages"); // SQL Query
 	while($row = mysqli_fetch_array($query))
@@ -82,16 +82,14 @@
     </div>
   </footer> -->
 
-<script>
-function myFunction(id)
-{
-var r=confirm("Are you sure you want to delete this message?");
-if (r==true)
-{
-window.location.assign("RemoveMessage.php?id=" + id);
-}
-}
- </script>
+  <script>
+  function myFunction(id) {
+    var r = confirm("Are you sure you want to delete this message?");
+    if (r == true) {
+      window.location.assign("RemoveMessage.php?id=" + id);
+    }
+  }
+  </script>
 </body>
 
 </html>

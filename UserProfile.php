@@ -20,7 +20,7 @@ $user = $_SESSION['user']; //assigns user value
 <body>
   <!-- Nagigation bar -->
   <nav>
-    <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <div class="logo"><a href="userprofile.php">The Grand Sweden Hotel</a></div>
     <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="userprofile.php">Profile</a></li>
