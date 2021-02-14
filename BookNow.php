@@ -40,7 +40,7 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <form action="" class="">
+    <form action="book.php" method="GET" id="booking">
       <!-- Form Top -->
       <section class="booking">
         <!-- Check in Check Out Adult Children -->
@@ -372,14 +372,15 @@
                       <h4>Add-ons</h4>
                     </div>
                   </div>
-                  <div class="container-4 outline-total">
-                    <div class="output-group ">
-                      <h4>TOTAL</h4>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Total price</h4>
                     </div>
-                    <div class="output-group ">
-                      <span id="">
-                        <!-- 3,000 Coursera fee -->
-                      </span>
+                    <div class="output-group outline">
+                      <h4>Discount/s applied</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Total amount due</h4>
                     </div>
                   </div>
                 </div>
@@ -424,13 +425,14 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <input type="submit" class="submit" value="Submit">
+                  <!-- <button type="submit">Submit</button> -->
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
+      <input type="submit" value="Submit"/> <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
     </form>
   </section>
   <!-- Footer -->
