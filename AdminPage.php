@@ -52,7 +52,7 @@
         <tbody>
 <?php
   $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
-	$query = mysqli_query($con, "Select * from list"); // SQL Query
+	$query = mysqli_query($con, "Select * from messages"); // SQL Query
 	while($row = mysqli_fetch_array($query))
   {
           Print"<tr>";
