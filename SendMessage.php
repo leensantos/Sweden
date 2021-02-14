@@ -6,6 +6,7 @@ if($_SERVER['REQUEST_METHOD'] = "POST") //Added an if to keep the page secured
     date_default_timezone_set('Asia/Manila');
     $fullname = ($_POST['fullname']);
     $time = strftime("%r");//time
+    $period = strftime("%p");//time
     $date = strftime("%B %d, %Y");//date
     $emailAdd = ($_POST['emailAdd']);
     $subject = ($_POST['subject']);
