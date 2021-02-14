@@ -42,7 +42,6 @@
       <table class="table">
         <thead class="thead-light">
           <tr>
-            <th scope="col">ID</th>
             <th scope="col">Full Name</th>
             <th scope="col">Email Address</th>
             <th scope="col">Subject</th>
@@ -57,7 +56,6 @@
 	while($row = mysqli_fetch_array($query))
   {
           Print"<tr>";
-          Print '<th data-title="ID" scope="row">'.$row['id'] . "</th>";
           Print '<td data-title="Full Name">'.$row['fName'] . "</th>";
           Print '<td data-title="Email Address">'.$row['emailAdd'] . "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
@@ -81,7 +79,7 @@
     </div>
   </footer> -->
 
-  <script>
+<script>
 function myFunction(id)
 {
 var r=confirm("Are you sure you want to delete this message?");
