@@ -22,7 +22,7 @@
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
     <ul class="links">
-      <li><a href="adminpage.php">Contact Us?</a></li>
+      <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
       <li><a href="userprofile.php">Profile?</a></li>
       <li><a href="logout.php">Logout</a></li>
