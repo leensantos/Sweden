@@ -38,7 +38,7 @@
   <div class="page-content">
 
     <div class="container">
-      <h1>Contact Us</h1>
+      <h1>Messages</h1>
       <table class="table">
         <thead class="thead-light">
           <tr>
