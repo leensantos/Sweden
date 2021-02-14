@@ -422,7 +422,7 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <button class="submit">Submit</button>
+                  <input type="submit" class="submit" value="Submit">
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
