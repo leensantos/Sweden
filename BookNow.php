@@ -6,6 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Book Now | The Grand Sweden Hotel</title>
+  <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/book-now.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">

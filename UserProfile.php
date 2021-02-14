@@ -11,8 +11,9 @@ $user = $_SESSION['user']; //assigns user value
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="assets/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Administrator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="css/user.css">
 </head>
@@ -31,7 +32,7 @@ $user = $_SESSION['user']; //assigns user value
                 <a href="github.com" class="fab fa-github"></a>
                 <a href="youtube.com" class="fab fa-youtube"></a>
             </div>
-            <a href="logout.php" class="contact-btn">logout</a>
+            <a href="scripts/logout.php" class="contact-btn">logout</a>
         </div>
         <div class="card-footer">
             <div class="numbers">

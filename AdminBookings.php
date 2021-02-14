@@ -7,6 +7,7 @@
 
 <head>
   <!-- <link href="" rel="icon" sizes="16x16"> -->
+  <link rel="icon" href="assets/icon.png">
   <link href="css/admin1.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -25,8 +26,8 @@
     <ul class="links">
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
-      <li><a href="userprofile.php">Profile?</a></li>
-      <li><a href="logout.php">Logout</a></li>
+      <li><a href="userprofile.php">Profile</a></li>
+      <li><a href="../logout.php">Logout</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>

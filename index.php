@@ -5,6 +5,7 @@
 <html lang="en">
 
 <head>
+<link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="css/index-styles.css">
   <title>Home | The Grand Sweden Hotel</title>
 </head>

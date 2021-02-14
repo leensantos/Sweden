@@ -6,7 +6,7 @@
 <html>
 
 <head>
-  <link href="" rel="icon" sizes="16x16">
+<link rel="icon" href="assets/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
