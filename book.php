@@ -32,15 +32,19 @@
     // $date = strftime("%B %d, %Y");//date
     // $decision ="no";
 
-    $name = ($_POST['firstname']) . " " . ($_POST['lastname']);//name
-    $contactNum = ($_POST['phonenumber']);//contact number
-    $address = ($_POST['address']) . ", " . ($_POST['city']) . ", " . ($_POST['state']) . ", " . ($_POST['zipcode']);//address
-    $checkIn = ($_POST['check-in']);//check in date
-    $checkOut = ($_POST['check-out']);//check out date
-    $adultNum = ($_POST['adults']);
-    $childNum = ($_POST['children']);
+    $name = 'aa';//($_GET['firstname']) . " " . ($_GET['lastname']);//name
+    $contactNum = '123';//($_GET['phonenumber']);//contact number
+    $address = 'aa';//($_GET['address']) . ", " . ($_GET['city']) . ", " . ($_GET['state']) . ", " . ($_GET['zipcode']);//address
+    $checkIn = //($_GET['check-in']);//check in date
+    $checkOut = //($_GET['check-out']);//check out date
+    $adultNum = 1;//($_GET['adults']);
+    $childNum = 1;//($_GET['children']);
     $roomNum=1;
-    $roomPrice;
+    $cardName = 'dw';//($_GET['cardholder']);
+    $cardNum = 11;//($_GET['cardnumber']);
+    $cardcvv =11;// ($_GET['cvv']);
+    $cardExp = '2';//($_GET['expiration']);
+    $roomPrice = 10;
     $discount;
     $totalAmtDue;
 
@@ -54,10 +58,11 @@
     //}
     //mysqli_query($con, "DECLARE @newID INT");
     mysqli_query($con, "INSERT INTO guest (guest_name, guest_phone, guest_address, guest_card_name, guest_card_num, 
-        guest_card_exp, guest_card_cvv, adults, children) VALUES('$name', '$contactNum', '$address', '$cardName', $cardNum', 
-        '$cardcvv', '$cardExp', '$adultNum', '$childNum')");//sql query to populate guest table
+        guest_card_exp, guest_card_cvv, adults, children) VALUES('$name','$contactNum','$address','$cardName','$cardNum', 
+        '$cardcvv','$cardExp','$adultNum','$childNum')");//sql query to populate guest table
 
     $last_id = mysqli_insert_id($con);//get guest id
-    mysqli_query($con, "INSERT INTO booking (guest_ID, room_ID, checkIn, checkout) VALUES('$last_id', '$roomNum', '$checkIn', '$checkOut')"); //SQL query
-    header("location: index.php");
+    mysqli_query($con, "INSERT INTO booking (guest_ID, room_ID, checkIn, checkout) VALUES('$last_id','$roomNum','$checkIn','$checkOut')"); //SQL query
+    //header("location: index.php");
+    //Print '<script>window.location.assign("index.php");</script>';
 ?>

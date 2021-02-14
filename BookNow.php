@@ -38,7 +38,7 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <form action="book.php" method="POST" id="booking">
+    <form action="book.php" method="GET" id="booking">
       <!-- Form Top -->
       <section class="booking">
         <!-- Check in Check Out Adult Children -->
@@ -412,7 +412,7 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <button class="submit">Submit</button>
+                  <button type="submit">Submit</button>
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
