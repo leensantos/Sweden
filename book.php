@@ -32,25 +32,25 @@
     // $date = strftime("%B %d, %Y");//date
     // $decision ="no";
 
-    $name = 'aa';//($_GET['firstname']) . " " . ($_GET['lastname']);//name
-    $contactNum = '123';//($_GET['phonenumber']);//contact number
-    $address = 'aa';//($_GET['address']) . ", " . ($_GET['city']) . ", " . ($_GET['state']) . ", " . ($_GET['zipcode']);//address
-    $checkIn = //($_GET['check-in']);//check in date
-    $checkOut = //($_GET['check-out']);//check out date
-    $adultNum = 1;//($_GET['adults']);
-    $childNum = 1;//($_GET['children']);
+    $name = ($_GET['firstname']) . " " . ($_GET['lastname']);//name
+    $contactNum = ($_GET['phonenumber']);//contact number
+    $address = ($_GET['address']) . ", " . ($_GET['city']) . ", " . ($_GET['state']) . ", " . ($_GET['zipcode']);//address
+    $checkIn = ($_GET['check-in']);//check in date
+    $checkOut = ($_GET['check-out']);//check out date
+    $adultNum = ($_GET['adults']);
+    $childNum = ($_GET['children']);
     $roomNum=1;
-    $cardName = 'dw';//($_GET['cardholder']);
-    $cardNum = 11;//($_GET['cardnumber']);
-    $cardcvv =11;// ($_GET['cvv']);
-    $cardExp = '2';//($_GET['expiration']);
+    $cardName = ($_GET['cardholder']);
+    $cardNum = ($_GET['cardnumber']);
+    $cardcvv = ($_GET['cvv']);
+    $cardExp = ($_GET['expiration']);
     $roomPrice = 10;
     $discount;
     $totalAmtDue;
 
 
 
-    $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
+    $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
     // foreach($_POST['c'] as $each_check){ //gets the data from the checkbox
     //    if($each_check !=null ){ //checks if the checkbox is checked
     //    $decision = "yes"; //sets the value

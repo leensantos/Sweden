@@ -370,6 +370,17 @@
                       <h4>Add-ons</h4>
                     </div>
                   </div>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Total price</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Discount/s applied</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Total amount due</h4>
+                    </div>
+                  </div>
                 </div>
                 <!-- Policies-->
                 <div class="title">
@@ -412,13 +423,14 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <button type="submit">Submit</button>
+                  <!-- <button type="submit">Submit</button> -->
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
+      <input type="submit" value="Submit"/> <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
     </form>
   </section>
   <!-- Footer -->

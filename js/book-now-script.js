@@ -62,10 +62,10 @@ submitBtn.addEventListener("click", function() {
     // current += 1;
     document.getElementById("booking").submit();
     window.location.assign("index.php");
-    // setTimeout(function() {
-    //     alert("You've successfully booked???");
-    //     location.reload();
-    // }, 800);
+    setTimeout(function() {
+        alert("You've successfully booked???");
+        location.reload();
+    }, 800);
 });
 
 prevBtnSec.addEventListener("click", function(event) {
