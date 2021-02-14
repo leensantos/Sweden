@@ -47,6 +47,7 @@
             <th scope="col">Email Address</th>
             <th scope="col">Subject</th>
             <th scope="col">Message</th>
+            <th scope="col">Action</th>
           </tr>
         </thead>
         <tbody>
@@ -61,6 +62,7 @@
           Print '<td data-title="Email Address">'.$row['emailAdd'] . "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Message">'.$row['content'] . "</th>";
+          Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Remove</a></th>';
           Print"</tr>";  
   }
         
@@ -78,6 +80,17 @@
       </div>
     </div>
   </footer> -->
+
+  <script>
+function myFunction(id)
+{
+var r=confirm("Are you sure you want to delete this message?");
+if (r==true)
+{
+window.location.assign("deleteMessage.php?id=" + id);
+}
+}
+ </script>
 </body>
 
 </html>
