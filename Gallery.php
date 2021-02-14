@@ -11,8 +11,6 @@
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" href="css/gal.css">
-
-
   <title>Gallery | The Grand Sweden Hotel</title>
 </head>
 
@@ -41,13 +39,11 @@
   <!-- Page Content -->
   <div class="page-content">
     <div class="container">
-      <h1>Gallery</h1>
-      <h2> Because every picture tells a story, let me help you tell yours </h2><BR>
-      <center>
-        <hr>
-      </center>
+      <div class="title">
+        <h1>Gallery</h1>
+        <h2> Because every picture tells a story, let me help you tell yours </h2>
+      </div>
     </div>
-
 
     <div class="main">
       <img src="assets/gallery/pool.jpg" alt="">

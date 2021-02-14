@@ -41,7 +41,7 @@
     <div class="title">
       <h1>Come, stay and enjoy your day..</h1>
       <div class="container">
-        <forms action="">
+        <form action="BookNow.php" method="get">
           <div class="container-1">
             <div class="input-group">
               <label for="check-in" class="input-label">Check in</label>
@@ -87,7 +87,7 @@
               <input type="submit" value="Book Now" class="register" />
             </div>
           </div>
-        </forms>
+        </form>
       </div>
     </div>
   </section>

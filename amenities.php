@@ -40,14 +40,12 @@
 
   <!-- Page Content -->
   <div class="page-content">
-    <br /><br />
     <section>
       <div class="container">
-        <h1>Express Your Individuality at GSW</h1>
-        <h2> Luxury is Built-In. Not Tacked On </h2><BR>
-        <center>
-          <hr>
-        </center>
+        <div class="title">
+          <h1>Express Your Individuality at GSW</h1>
+          <h2> Luxury is Built-In. Not Tacked On </h2>
+        </div>
       </div>
       <div class="wrapper">
         <div class="box">

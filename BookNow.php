@@ -40,18 +40,27 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <form action="" class="">
+    <form action="book.php" method="GET" id="booking">
       <!-- Form Top -->
       <section class="booking">
         <!-- Check in Check Out Adult Children -->
         <div class="container-1">
           <div class="input-group">
             <label for="check-in" class="input-label">Check in</label>
+            <!-- <?php  //checks if check-in from index.php has value (DI KO PA NA-SOLVE)
+              if(($_GET['check-in'])){
+                $check_in_home = ($_GET['check-in']);
+                //$check_out_home = ($_GET['check-out']);
+                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder={$check_in_home} required>';
+              }
+              else
+                echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
+            ?> -->
             <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
           <div class="input-group">
             <label for="check-out" class="input-label">Check out</label>
-            <input type="date" " class=" input" id="check-out" name="check-out" required>
+            <input type="date" class=" input" id="check-out" name="check-out" required>
           </div>
           <div class="input-group">
             <label for="adults" class="input-label">Adults</label>
@@ -372,14 +381,15 @@
                       <h4>Add-ons</h4>
                     </div>
                   </div>
-                  <div class="container-4 outline-total">
-                    <div class="output-group ">
-                      <h4>TOTAL</h4>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Total price</h4>
                     </div>
-                    <div class="output-group ">
-                      <span id="">
-                        <!-- 3,000 Coursera fee -->
-                      </span>
+                    <div class="output-group outline">
+                      <h4>Discount/s applied</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Total amount due</h4>
                     </div>
                   </div>
                 </div>
@@ -424,13 +434,14 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <input type="submit" class="submit" value="Submit">
+                  <!-- <button type="submit">Submit</button> -->
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
+      <input type="submit" value="Submit"/> <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
     </form>
   </section>
   <!-- Footer -->

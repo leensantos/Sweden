@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* FONT */
+
+@font-face {
+    font-family: 'whitneylight';
+    src: url('fonts/whitneylight.otf');
+}
+
+
+/* HTML */
+
 :root {
     --transition: all 0.7s ease;
     --yellow: #f9d342;
@@ -9,7 +18,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Helvetica;
+    font-family: 'whitneylight';
 }
 
 html {
@@ -31,7 +40,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     border: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 10px;
     width: 140px;
     display: block;
@@ -48,12 +57,13 @@ body {
 /** title */
 
 .title {
+    color: #312d2c;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    font-weight: 500;
+    border-bottom: 5px solid #413b3b;
+    /* letter-spacing: 3px; */
     font-size: 30px;
-    color: #413b3b;
-    border-bottom: 5px solid var(--dark);
-    width: 235px;
+    width: 50%;
     margin: 15px 0;
 }
 
@@ -96,24 +106,6 @@ body {
     color: #fff;
 }
 
-@media(min-width: 992px) {
-    .services-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 30px;
-    }
-    .title h2 {
-        /* font-size: 10px!important; */
-        font-size: 24px;
-    }
-}
-
-@media(max-width: 500px) {
-    .title h2 {
-        font-size: 24px;
-    }
-}
-
 
 /* room */
 
@@ -140,7 +132,7 @@ body {
 .room-text ul {
     list-style-type: none;
     margin: 15px 0;
-    font-family: Helvetica;
+    font-family: 'whitneylight';
 }
 
 .room-text ul li {
@@ -167,6 +159,25 @@ body {
 
 .room-image:hover img {
     transform: scale(1.1);
+}
+
+@media(min-width: 992px) {
+    .services-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+    .title h2 {
+        /* font-size: 10px!important; */
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .title {
+        font-size: 24px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 900px) {
