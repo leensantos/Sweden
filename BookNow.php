@@ -38,7 +38,7 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <form action="" class="">
+    <form action="book.php" method="POST" id="booking">
       <!-- Form Top -->
       <section class="booking">
         <!-- Check in Check Out Adult Children -->

@@ -56,14 +56,16 @@ nextBtnThird.addEventListener("click", function(event) {
     disp_children.innerHTML = children;
 });
 submitBtn.addEventListener("click", function() {
-    bullet[current - 1].classList.add("active");
-    progressCheck[current - 1].classList.add("active");
-    progressText[current - 1].classList.add("active");
-    current += 1;
-    setTimeout(function() {
-        alert("You've successfully booked???");
-        location.reload();
-    }, 800);
+    // bullet[current - 1].classList.add("active");
+    // progressCheck[current - 1].classList.add("active");
+    // progressText[current - 1].classList.add("active");
+    // current += 1;
+    document.getElementById("booking").submit();
+    window.location.assign("index.php");
+    // setTimeout(function() {
+    //     alert("You've successfully booked???");
+    //     location.reload();
+    // }, 800);
 });
 
 prevBtnSec.addEventListener("click", function(event) {
