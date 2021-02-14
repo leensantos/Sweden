@@ -87,7 +87,7 @@ function myFunction(id)
 var r=confirm("Are you sure you want to delete this message?");
 if (r==true)
 {
-window.location.assign("deleteMessage.php?id=" + id);
+window.location.assign("RemoveMessage.php?id=" + id);
 }
 }
  </script>
