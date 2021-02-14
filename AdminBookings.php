@@ -26,12 +26,7 @@
       <li><a href="userprofile.php">Profile</a></li>
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
-<<<<<<< HEAD
-      <li><a href="logout.php">Logout</a></li>
-=======
-      <li><a href="userprofile.php">Profile</a></li>
-      <li><a href="../logout.php">Logout</a></li>
->>>>>>> 73fa269093d535309718442e237e170e861265de
+      <li><a href="scripts/logout.php">Logout</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>
