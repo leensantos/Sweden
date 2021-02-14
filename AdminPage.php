@@ -50,27 +50,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th data-title="ID" scope="row">1</th>
-            <td data-title="Full Name">weeeeee</td>
-            <td data-title="Email Address">weeeeee</td>
-            <td data-title="Subject">weeeeee</td>
-            <td data-title="Message">weeeeee</td>
-          </tr>
-          <tr>
-            <th data-title="ID" scope="row">2</th>
-            <td data-title="Full Name">weeeeee</td>
-            <td data-title="Email Address">weeeeee</td>
-            <td data-title="Subject">weeeeee</td>
-            <td data-title="Message">weeeeee</td>
-          </tr>
-          <tr>
-            <th data-title="ID" scope="row">3</th>
-            <td data-title="Full Name">weeeeee</td>
-            <td data-title="Email Address">weeeeee</td>
-            <td data-title="Subject">weeeeee</td>
-            <td data-title="Message">weeeeee</td>
-          </tr>
+<?php
+  $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
+	$query = mysqli_query($con, "Select * from list"); // SQL Query
+	while($row = mysqli_fetch_array($query))
+  {
+          Print"<tr>";
+          Print '<th data-title="ID" scope="row">'.$row['id'] . "</th>";
+          Print '<td data-title="Full Name">'.$row['fName'] . "</th>";
+          Print '<td data-title="Email Address">'.$row['emailAdd'] . "</th>";
+          Print '<td data-title="Subject">'.$row['subject'] . "</th>";
+          Print '<td data-title="Message">'.$row['content'] . "</th>";
+          Print"</tr>";  
+  }
+        
+?>
         </tbody>
       </table>
     </div>
