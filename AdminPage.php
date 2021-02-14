@@ -50,6 +50,7 @@
             <th scope="col">Subject</th>
             <th scope="col">Message</th>
             <th scope="col">Action</th>
+            <th scope="col">Action</th>
           </tr>
         </thead>
         <tbody>
@@ -64,6 +65,7 @@
           Print '<td data-title="Date and Time">'.$row['date'] ." - ".$row['time']. "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Message">'.$row['content'] . "</th>";
+          Print '<td data-title="Action"><a style="color:green" href="viewmessage.php?id=' . $row['id'] . '">View</a></th>';
           Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Resolve</a></th>';
           Print"</tr>";  
   }
