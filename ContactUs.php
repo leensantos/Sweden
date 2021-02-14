@@ -38,7 +38,7 @@
     <div class="contact-wrap">
       <div class="contact-in">
         <h1>Send a Message</h1>
-        <form action="">
+        <form action="SendMessage.php">
           <input type="text" class="contact-in-input" id="fullname" name="fullname" placeholder="Full Name">
           <input type="email" class="contact-in-input" placeholder="Email Address (name@mail.com)"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
