@@ -336,6 +336,11 @@ body {
     border: 1px solid #888888;
 }
 
+.outline-total {
+    border: 1px solid #888888;
+    margin: 0 1.5rem;
+}
+
 .outline h4 {
     font-size: 20px;
 }

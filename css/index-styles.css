@@ -228,10 +228,10 @@ nav .icon-burger .line {
     font-family: 'Brotherhood' !important;
     font-size: 200px;
     font-weight: lighter;
-    line-height: 60%;
+    line-height: 75%;
     text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
     padding-left: 50px;
-    padding-top: 325.5px;
+    padding-top: 310px;
     margin-bottom: 0px;
 }
 
@@ -374,7 +374,7 @@ input[type=submit] {
 
 /* Responsive layout */
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1240px) {
     nav .logo {
         float: none;
         width: auto;
@@ -428,7 +428,8 @@ input[type=submit] {
 
 @media screen and (max-width: 1200px) {
     .title h1 {
-        font-size: 200px;
+        font-size: 170px;
+        line-height: 35%;
         bottom: 0;
         margin-bottom: 140px;
         position: absolute;
@@ -446,12 +447,38 @@ input[type=submit] {
     }
 }
 
+@media screen and (max-width: 1120px) {
+    .title h1 {
+        font-size: 150px;
+        line-height: 170%;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .title h1 {
+        font-size: 100px;
+        line-height: 250%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .title h1 {
+        font-size: 90px;
+        line-height: 500%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .title h1 {
-        font-size: 160px;
-        bottom: 0;
-        margin-bottom: 150px;
-        position: absolute;
+        font-size: 70px;
+        line-height: 640%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title h1 {
+        font-size: 70px;
+        line-height: 1210%;
     }
     .title p {
         font-size: 17px;

@@ -372,6 +372,16 @@
                       <h4>Add-ons</h4>
                     </div>
                   </div>
+                  <div class="container-4 outline-total">
+                    <div class="output-group ">
+                      <h4>TOTAL</h4>
+                    </div>
+                    <div class="output-group ">
+                      <span id="">
+                        <!-- 3,000 Coursera fee -->
+                      </span>
+                    </div>
+                  </div>
                 </div>
                 <!-- Policies-->
                 <div class="title">
@@ -414,7 +424,7 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <button class="submit">Submit</button>
+                  <input type="submit" class="submit" value="Submit">
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
