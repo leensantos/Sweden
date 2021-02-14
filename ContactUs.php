@@ -43,7 +43,7 @@
           <input type="email" class="contact-in-input" id="emailAdd" name="emailAdd" placeholder="Email Address (name@mail.com)"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
           <input type="text" class="contact-in-input" id="subject" name="subject" placeholder="Subject" required>
-          <textarea placeholder="Message" id ="content" name="subject" class="contact-in-textarea" required></textarea>
+          <textarea placeholder="Message" id ="content" name="content" class="contact-in-textarea" required></textarea>
           <input type="submit" value="SUBMIT" class="contact-in-btn">
         </form>
       </div>
