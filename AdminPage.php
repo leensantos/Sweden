@@ -44,6 +44,7 @@
           <tr>
             <th scope="col">Full Name</th>
             <th scope="col">Email Address</th>
+            <th scope="col">Date and Time</th>
             <th scope="col">Subject</th>
             <th scope="col">Message</th>
             <th scope="col">Action</th>
@@ -58,6 +59,7 @@
           Print"<tr>";
           Print '<td data-title="Full Name">'.$row['fName'] . "</th>";
           Print '<td data-title="Email Address">'.$row['emailAdd'] . "</th>";
+          Print '<td data-title="Date and Time">'.$row['date'] ." - ".$row['time']. "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Message">'.$row['content'] . "</th>";
           Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Remove</a></th>';
