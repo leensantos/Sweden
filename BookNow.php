@@ -47,11 +47,20 @@
         <div class="container-1">
           <div class="input-group">
             <label for="check-in" class="input-label">Check in</label>
+            <!-- <?php  //checks if check-in from index.php has value (DI KO PA NA-SOLVE)
+              if(($_GET['check-in'])){
+                $check_in_home = ($_GET['check-in']);
+                //$check_out_home = ($_GET['check-out']);
+                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder={$check_in_home} required>';
+              }
+              else
+                echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
+            ?> -->
             <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
           <div class="input-group">
             <label for="check-out" class="input-label">Check out</label>
-            <input type="date" " class=" input" id="check-out" name="check-out" required>
+            <input type="date" class=" input" id="check-out" name="check-out" required>
           </div>
           <div class="input-group">
             <label for="adults" class="input-label">Adults</label>
