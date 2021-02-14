@@ -65,8 +65,7 @@
           Print '<td data-title="Date and Time">'.$row['date'] ." - ".$row['time']. "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Message">'.$row['content'] . "</th>";
-          //print '<td align="center"><a href="edit.php?id=' . $row['id'] . '"> edit </a> </td>';
-          Print '<td data-title="Action"><a style="color:green" href="edit.php?id=' . $row['id'] . '">View</a></th>';
+          Print '<td data-title="Action"><a style="color:green" href="viewmessage.php?id=' . $row['id'] . '">View</a></th>';
           Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Resolve</a></th>';
           Print"</tr>";  
   }
