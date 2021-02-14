@@ -370,6 +370,16 @@
                       <h4>Add-ons</h4>
                     </div>
                   </div>
+                  <div class="container-4 outline-total">
+                    <div class="output-group ">
+                      <h4>TOTAL</h4>
+                    </div>
+                    <div class="output-group ">
+                      <span id="">
+                        <!-- 3,000 Coursera fee -->
+                      </span>
+                    </div>
+                  </div>
                 </div>
                 <!-- Policies-->
                 <div class="title">
