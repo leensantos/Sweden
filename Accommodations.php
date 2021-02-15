@@ -186,21 +186,6 @@
         <article class="service">
           <div class="service-icon">
             <span>
-              <i class="fas fa-swimming-pool"></i>
-            </span>
-          </div>
-          <div class="service-content">
-            <h2>Refreshment</h2>
-            <p>VIP Salon Beauty Tip of The Week: Sunday scaries hitting you hard? Eliminate dark circles and puffiness
-              by applying a chilled spoon under your eyes </p>
-            <a href="ContactUs.php" style="text-decoration: none;">
-              <button type="button" class="btn">Know More</button> </a>
-          </div>
-        </article>
-
-        <article class="service">
-          <div class="service-icon">
-            <span>
               <i class="fas fa-broom"></i>
             </span>
           </div>
@@ -223,6 +208,21 @@
             <h2>Room Security</h2>
             <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we
               provide incomparable choice with a Price Guarantee. </p>
+            <a href="ContactUs.php" style="text-decoration: none;">
+              <button type="button" class="btn">Know More</button> </a>
+          </div>
+        </article>
+
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-swimming-pool"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Other facilities</h2>
+            <p>VIP Salon Beauty Tip of The Week: Sunday scaries hitting you hard? Eliminate dark circles and puffiness
+              by applying a chilled spoon under your eyes </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>

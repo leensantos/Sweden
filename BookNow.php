@@ -205,6 +205,27 @@
                     </div>
                   </div>
                 </div>
+
+                <!-- Step 2 Select add-ons -->
+                <div>
+                  <div class="title">
+                    <h3>Special Rates</h3>
+                  </div>
+                  <div class="container-2">
+                    <!-- group -->
+                    <div class="input-group">
+                      <select class="options" id="promo" name="promo">
+                        <option disabled selected>Promo</option>
+                        <option value="none">None</option>
+                        <option value="newyearpromo">New Year Promo</option>
+                        <option value="valentinespromo">Valentine's Promo</option>
+                        <option value="Summer Promo">Summer Promo</option>
+                        <option value="winterpromo">Winter Promo</option>
+                        <option value="christmaspromo">Christmas Promo</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
                 <!-- Step 3: Contact Info, Select Payment Method, Discount -->
                 <div>
                   <!-- Guest Details -->
