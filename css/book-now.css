@@ -267,6 +267,31 @@ body {
     grid-gap: 20px;
 }
 
+.container-5 {
+    /* text-align: center; */
+    background: #fff;
+    /* border-radius: 5px; */
+    padding: 0 1.5rem !important;
+    /* margin: 10px auto; */
+    /* width: 90%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    grid-gap: 20px;
+}
+
+.container-6 {
+    font-weight: bold;
+    /* text-align: center; */
+    background: #fff;
+    /* border-radius: 5px; */
+    padding: 0 1.5rem !important;
+    /* margin: 10px auto; */
+    /* width: 90%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    grid-gap: 20px;
+}
+
 .container header {
     font-size: 35px;
     font-weight: 600;
@@ -337,15 +362,17 @@ body {
 }
 
 .outline-total {
-    border: 1px solid #888888;
+    border: 1px solid #221e1d;
     margin: 0 1.5rem;
 }
 
-.outline h4 {
+.outline h4,
+.outline-total h4 {
     font-size: 20px;
 }
 
-.outline span {
+.outline span,
+.outline-total span {
     font-size: 20px;
 }
 
@@ -497,7 +524,7 @@ select:hover {
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding-left: 15px;
     font-size: 18px;
 }
@@ -509,13 +536,14 @@ select:hover {
     font-weight: 500;
 }
 
-.form-form .page .field button {
+.form-form .page .field button,
+input[type="submit"] {
     width: 100%;
     height: calc(100% + 5px);
     border: none;
     background: #221e1d;
     margin-top: -20px;
-    /* border-radius: 5px; */
+    border-radius: 0%;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
