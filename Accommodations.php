@@ -195,7 +195,8 @@
               <button type="button" class="btn">Know More</button> </a>
           </div>
         </article>
-        <article class="service">
+
+         <article class="service">
           <div class="service-icon">
             <span>
               <i class="fas fa-broom"></i>
@@ -203,7 +204,7 @@
           </div>
           <div class="service-content">
             <h2>Housekeeping</h2>
-            <p>e’re passionate about travel. Every day we inspire and reach millions of travellers across 90 local websites in 41 languages. So when it comes to booking the perfect hotel, holiday rental, resort, apartment, guest house or treehouse - we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee.</p>
+            <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee. </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
@@ -217,7 +218,7 @@
           </div>
           <div class="service-content">
             <h2>Room Security</h2>
-            <p>e’re passionate about travel. Every day we inspire and reach millions of travellers across 90 local websites in 41 languages. So when it comes to booking the perfect hotel, holiday rental, resort, apartment, guest house or treehouse - we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee.</p>
+            <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee. </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
