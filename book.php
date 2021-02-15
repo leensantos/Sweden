@@ -44,7 +44,7 @@
   $cardNum = ($_GET['cardnumber']);
   $cardcvv = ($_GET['cvv']);
   $cardExp = ($_GET['expiration']);
-  $email = ($_GET['email']);
+  //$email = ($_GET['email']);
 
   // $roomPrice = 10;
   // $discount;
@@ -61,7 +61,7 @@
   //mysqli_query($con, "DECLARE @newID INT");
   mysqli_query($con, "INSERT INTO guest (guest_name, guest_phone, guest_address, guest_card_name, guest_card_num, 
       guest_card_exp, guest_card_cvv, adults, children, email) VALUES('$name','$contactNum','$address','$cardName','$cardNum', 
-      '$cardExp','$cardcvv','$adultNum','$childNum','$email')");//sql query to populate guest table
+      '$cardExp','$cardcvv','$adultNum','$childNum')");//sql query to populate guest table
 
   $last_id = mysqli_insert_id($con);//get guest id
   mysqli_query($con, "INSERT INTO booking (guest_ID, room_ID, checkIn, checkout) VALUES('$last_id','$roomNum','$checkIn','$checkOut')"); //SQL query
