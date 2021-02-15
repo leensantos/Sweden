@@ -2,22 +2,12 @@
 
 @font-face {
     font-family: 'Brotherhood';
-    src: url('fonts/Brotherhood.otf');
-}
-
-@font-face {
-    font-family: 'Aadam';
-    src: url('fonts/Aadam-regular.otf');
-}
-
-@font-face {
-    font-family: 'Garamond';
-    src: url('fonts/CormorantGaramond-Regular.ttf');
+    src: url('fonts/Brotherhood.ttf');
 }
 
 @font-face {
     font-family: 'whitneylight';
-    src: url('fonts/whitneylight.otf');
+    src: url('fonts/whitneylight.ttf');
 }
 
 

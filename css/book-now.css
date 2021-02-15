@@ -1,8 +1,8 @@
-/* Fonts */
+/* FONT */
 
 @font-face {
     font-family: 'whitneylight';
-    src: url('fonts/whitneylight.otf');
+    src: url('fonts/whitneylight.ttf');
 }
 
 

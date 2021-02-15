@@ -1,15 +1,15 @@
 /* FONT */
 
 @font-face {
-    font-family: 'Whitney-Light';
-    src: url('fonts/whitneylight.otf');
+    font-family: 'whitneylight';
+    src: url('fonts/whitneylight.ttf');
 }
 
 
 /* HTML */
 
 body {
-    font-family: 'Whitney-Light';
+    font-family: 'whitneylight';
     margin: 0;
     line-height: 1.5;
 }
@@ -17,7 +17,7 @@ body {
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Whitney-Light';
+    font-family: 'whitneylight';
 }
 
 .login-page {
