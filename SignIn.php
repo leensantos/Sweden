@@ -24,7 +24,7 @@
     <div class="box">
       <div class="form">
         <!-- Login form Start -->
-        <form form action="scripts/checklogin.php" method="POST" class="login-form">
+        <form form action="checklogin.php" method="POST" class="login-form">
           <h3>Admin Login</h3>
           <div class="form-group">
             <input type="text" name="username" id="username" placeholder="Username" class="form-control" required>

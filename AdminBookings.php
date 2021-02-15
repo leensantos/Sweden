@@ -26,7 +26,7 @@
       <li><a href="userprofile.php">Profile</a></li>
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
-      <li><a href="scripts/logout.php">Logout</a></li>
+      <li><a href="logout.php">Logout</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>

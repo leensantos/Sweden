@@ -63,12 +63,12 @@ $user = $_SESSION['user']; //assigns user value
             $username = ($_POST['username']);
             $password = ($_POST['password']);
             $bool = true;
-            //$db_name = "swedendb";
-            //$db_username = "root";
-            //$db_pass = "";
-            //$db_host = "localhost";
-            require 'connection.php';
-                //$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or die(mysqli_error()); //Connect to server
+            $db_name = "swedendb";
+            $db_username = "root";
+            $db_pass = "";
+            $db_host = "localhost";
+                $con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or
+                  die(mysqli_error()); //Connect to server
                      $query = "SELECT * from users";
                      $results = mysqli_query($con, $query); //Query the users table
                      while($row = mysqli_fetch_array($results)) //display all rows from query
@@ -77,62 +77,21 @@ $user = $_SESSION['user']; //assigns user value
                      if($username == $table_users) // checks if there are any matching fields
                 {
                          $bool = false; // sets bool to false
-                         Print '<script>alert("The username already exist!");</script>'; //Prompts the user
+                         Print '<script>alert("Username has been taken!");</script>'; //Prompts the user
                         Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
                 }
 
-                if(strlen($username) < 4) { //username is set to minimum of 5 characters
-                  $bool = false; // sets bool to false
-                  Print '<script>alert("The username must be 5 characters and above");</script>'; //Prompts the user
-                 Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                }// username is set to minimum of 7 characters
-
-                if ( preg_match('/\s/', $username) ){ // whitespace will not be accepted in username
-                  $bool = false; // sets bool to false
-                  Print '<script>alert("The username must not have whitespace");</script>'; //Prompts the user
-                 Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                }
-
-                //password validation 
-                      if(strlen($password) < 7) {//password is set to mimimum of 5 characters
-                        $bool = false; // sets bool to false
-                        Print '<script>alert("The password must be 8 characters and above");</script>'; //Prompts the user
-                       Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                      }// password is set to minimum of 7 characters
-                  
-                    if (!ctype_upper($password) && !ctype_lower($password)){//password must have lower and uppercase on it
-                       $bool = true; // sets bool to true
-                     } else{
-                      $bool = false; // sets bool to false
-                      Print '<script>alert("The password must have a lower and uppercase");</script>'; //Prompts the user
-                     Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                     }
-
-
-                     if (preg_match('~[0-9]+~', $password)) {// check if there is/are numbers in string
-                      $bool = true; // sets bool to true
-                  } else{
-                      $bool = false; // sets bool to false
-                    Print '<script>alert("The password must have 1 or more numbers");</script>'; //Prompts the user
-                   Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                  }
-
-                     if (preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $password)){ // one or more of the 'special characters' found in $string
-                      $bool = true; // sets bool to true
-                    } else{
-                       $bool = false; // sets bool to false
-                      Print '<script>alert("The password must have 1 or more special characters");</script>'; //Prompts the user
-                     Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                    }
-                     
-
-                      if($bool) // checks if bool is true
+                if($bool) // checks if bool is true
                 {
                      mysqli_query($con, "INSERT INTO users (username, password) VALUES
                       ('$username','$password')"); //Inserts the value to table users
                          Print '<script>alert("Successfully Registered!");</script>'; // Prompts the user
                       Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
                 }
+
+
+
+                }
+                    
         }
-      }
 ?>
