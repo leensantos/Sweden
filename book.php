@@ -31,7 +31,8 @@
   // $time = strftime("%X");//time
   // $date = strftime("%B %d, %Y");//date
   // $decision ="no";
-
+  if($_SERVER['REQUEST_METHOD'] = "POST") //Added an if to keep the page secured
+  
   $name = ($_GET['firstname']) . " " . ($_GET['lastname']);//name
   $contactNum = ($_GET['phonenumber']);//contact number
   $address = ($_GET['address']) . ", " . ($_GET['city']) . ", " . ($_GET['state']) . ", " . ($_GET['zipcode']);//address
@@ -44,6 +45,7 @@
   $cardNum = ($_GET['cardnumber']);
   $cardcvv = ($_GET['cvv']);
   $cardExp = ($_GET['expiration']);
+  
   //$email = ($_GET['email']);
 
   // $roomPrice = 10;
@@ -51,8 +53,8 @@
   // $totalAmtDue;
 
 
-  //require 'connection.php';
-  $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
+  require 'connection.php';
+  //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
   // foreach($_POST['c'] as $each_check){ //gets the data from the checkbox
   //    if($each_check !=null ){ //checks if the checkbox is checked
   //    $decision = "yes"; //sets the value
