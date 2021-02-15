@@ -405,16 +405,13 @@
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
-<<<<<<< HEAD
       <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
-=======
 
       <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
 
 
-      <input type="submit" value="Submit" id="submit" style="visibility: hidden;"/>
+      <input type="submit" value="Submit" id="submit" style="visibility: hidden;" />
 
->>>>>>> 383a94df4e4f1f20e7a67e2c4f8b6deca2e74332
     </form>
   </section>
   <!-- Footer -->
