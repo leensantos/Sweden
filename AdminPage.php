@@ -73,7 +73,7 @@
           Print '<td data-title="Date and Time">'.$row['date'] ." - ".$row['time']. "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Action"><a style="color:green" href="viewmessage.php?id='.$row['id'].'">View</a></th>';
-          Print '<td data-title="Action"><a style="color:red" href="#" onclick="remove('.$row['id'].')">Resolve</a></th>';
+          Print '<td data-title="Action"><a style="color:red" href="#" onclick="remove('.$row['id'].')">Mark as Resolved</a></th>';
           Print"</tr>";  
   }
         
@@ -94,7 +94,7 @@
 
   <script>
   function remove(id) {
-    var r = confirm("Are you sure you want to delete this message?");
+    var r = confirm("This will delete the selected message. Are you sure?");
     if (r == true) {
       window.location.assign("RemoveMessage.php?id=" + id);
     }
