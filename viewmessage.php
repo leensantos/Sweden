@@ -61,11 +61,11 @@
             $id = $_GET['id'];
             $count="SELECT *  FROM messages where id=?";
             $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
-            if($stmt = $con->prepare($count)){
+            if($stmt = $con->prepare($count))   {
               $stmt->bind_param('i',$id);
               $stmt->execute();
               $result = $stmt->get_result();
-              echo "No of records : ".$result->num_rows."<br>";
+              echo "Message No. : ".$id."<br>";
               $row=$result->fetch_object();
                         
             //Print content
