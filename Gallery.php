@@ -49,15 +49,16 @@
       <img src="assets/gallery/pool.jpg" alt="">
       <img src="assets/gallery/bar.jpg" alt="">
       <img src="assets/gallery/restau.jpg" alt="">
+      <img src="assets/gallery/spa.jpg" alt="">
+      <img src="assets/accomodation/room1.jpg" alt="">
+      <img src="assets/accomodation/room2.jpg" alt="">
+      <img src="assets/accomodation/room3.jpg" alt="">
       <img src="assets/gallery/gym.jpg" alt="">
-      <img src="assets/gallery/pool.jpg" alt="">
-      <img src="assets/gallery/bar.jpg" alt="">
-      <img src="assets/gallery/restau.jpg" alt="">
-      <img src="assets/gallery/gym.jpg" alt="">
-      <img src="assets/gallery/pool.jpg" alt="">
-      <img src="assets/gallery/bar.jpg" alt="">
-      <img src="assets/gallery/restau.jpg" alt="">
-      <img src="assets/gallery/gym.jpg" alt="">
+      <img src="assets/gallery/outside1.jpg" alt="">
+      <img src="assets/gallery/outside2.jpg" alt="">
+      <img src="assets/gallery/outside3.jpg" alt="">
+      <img src="assets/gallery/outside4.jpg" alt="">
+
     </div>
   </div>
   <!-- Footer -->
