@@ -52,11 +52,11 @@
       <div class="contact-in">
         <h1>Contact Info</h1>
         <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
-        <p>123-456-789<br />123-456-789</p>
+        <p>+46 8 679 35 00</p>
         <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
         <p>contact@thegrandswedenhotel.com</p>
         <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
-        <p>Vasant Vihar, Delhi, India<br />Vasant Vihar, Delhi, India</p>
+        <p>Södra Blasieholmshamnen 8, 103 27 <br />Stockholm, Sweden</p>
         <!-- <ul>
           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

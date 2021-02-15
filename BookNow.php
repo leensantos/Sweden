@@ -50,13 +50,13 @@
           <div class="input-group">
             <label for="check-in" class="input-label">Check in</label>
             <!-- <?php  //checks if check-in from index.php has value (DI KO PA NA-SOLVE)
-              // if(($_GET['check-in'])){
-              //   $check_in_home = ($_GET['check-in']);
-              //   //$check_out_home = ($_GET['check-out']);
-              //   echo '<input type="date" class="input" id="check-in" name="check-in" placeholder="'.$check_in_home.'" required>';
-              // }
-              // else
-              //   echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
+              if(($_GET['check-in'])){
+                $check_in_home = ($_GET['check-in']);
+                //$check_out_home = ($_GET['check-out']);
+                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder="'.$check_in_home.'" required>';
+              }
+              else
+                echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
             ?> -->
             <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
@@ -113,7 +113,7 @@
                 <div class="container-2">
                   <!-- group -->
                   <div class="output-group room">
-                    <img src="assets/accomodation/room1.jpg" alt="image" width="250" height="200">
+                    <img src="assets/accomodation/room1.jpg" alt="image" width="400" height="300">
                     <div class="details">
                       <input type="radio" id="room1" name="room" value="room1">
                       <label for="room1">
@@ -127,13 +127,12 @@
                   </div>
                   <!-- group -->
                   <div class="output-group">
-                    <img src="assets/accomodation/room2.jpg" alt="image" width="250" height="200">
+                    <img src="assets/accomodation/room2.jpg" alt="image" width="400" height="300">
                     <div class="details">
                       <input type="radio" id="room2" name="room" value="room2">
                       <label for="room2">
                         <h3>Deluxe Room</h3>
                       </label>
-
                       <p><b>Size:</b> from 35m2 (376ft2)</p>
                       <p><b>Max guests:</b> 5</p>
                       <p><b>Bed:</b> Queen</p>
@@ -142,13 +141,12 @@
                   </div>
                   <!-- group -->
                   <div class="output-group">
-                    <img src="assets/accomodation/room3.jpg" alt="image" width="250" height="200">
+                    <img src="assets/accomodation/room3.jpg" alt="image" width="400" height="300">
                     <div class="details">
                       <input type="radio" id="room3" name="room" value="room3">
                       <label for="room3">
                         <h3>Suite Room</h3>
                       </label>
-
                       <p><b>Size:</b> from 55m2 (592ft2)</p>
                       <p><b>Max guests:</b> 6</p>
                       <p><b>Bed:</b> King</p>
@@ -164,48 +162,45 @@
                   <span class="left">Click the button to select</span>
                   <div class="container-2">
                     <!-- group -->
-                    <div class="output-group">
-                      <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="output-group room">
+                      <img src="assets/images/1.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="room1" name="room" value="room1">
-                        <p>1,356 sq. ft. / 126 sq. m.</p>
-                        <p>Max guests 4</p>
-                        <p>Ocean view</p>
-                        <p>1 Bedroom</p>
+                        <input type="radio" id="addon1" name="addon" value="addon1">
+                        <label for="addon1">
+                          <h3>Private Dinner Setup</h3>
+                        </label>
+                        <p>Choose to dine on the beach with a candlelit table set for two and a bonfire flickering in
+                          the background. A personal waiter will see to your every need and your choice of menu (not
+                          included in the setup price) will be prepared by a private chef.</p>
+                        <p><b>SEK 4,480</b></p>
                       </div>
                     </div>
                     <!-- group -->
-                    <div class="output-group">
-                      <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="output-group room">
+                      <img src="assets/images/2.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <h3><label for="room2">Room 2</label></h3>
-                        <p>1,356 sq. ft. / 126 sq. m.</p>
-                        <p>Max guests 4</p>
-                        <p>Ocean view</p>
-                        <p>1 Bedroom</p>
+                        <input type="radio" id="addon2" name="addon" value="addon2">
+                        <label for="addon2">
+                          <h3>Holistic Massage</h3>
+                        </label>
+                        <p>This 60-minute aromatherapy-based oil massage is personalised to the individual. After a
+                          comprehensive consultation, your expert therapist will tailor the massage to meet your
+                          physical and emotional needs by employing a range of techniques including deep-tissue, Swedish
+                          and sports massage.</p>
+                        <p><b>SEK 1,800</b></p>
                       </div>
                     </div>
                     <!-- group -->
-                    <div class="output-group">
-                      <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <div class="output-group room">
+                      <img src="assets/images/3.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="Room 3" name="room" value="room3">
-                        <h3>Room 3</h3>
-                        <p>1,356 sq. ft. / 126 sq. m.</p>
-                        <p>Max guests 4</p>
-                        <p>Ocean view</p>
-                        <p>1 Bedroom</p>
-                      </div>
-                    </div>
-                    <!-- group -->
-                    <div class="output-group">
-                      <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                      <div class="details">
-                        <h3>Room 1</h3>
-                        <p>1,356 sq. ft. / 126 sq. m.</p>
-                        <p>Max guests 4</p>
-                        <p>Ocean view</p>
-                        <p>1 Bedroom</p>
+                        <input type="radio" id="addon3" name="addon" value="addon3">
+                        <label for="addon3">
+                          <h3>Private water-sports lessons</h3>
+                        </label>
+                        <p>On land, the miles of running and hiking trails are complemented by a host of opportunities
+                          for coastal outings. This is available for all ages.</p>
+                        <p><b>SEK 6,800</b></p>
                       </div>
                     </div>
                   </div>
@@ -410,12 +405,16 @@
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
+<<<<<<< HEAD
+      <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
+=======
 
       <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
 
 
       <input type="submit" value="Submit" id="submit" style="visibility: hidden;"/>
 
+>>>>>>> 383a94df4e4f1f20e7a67e2c4f8b6deca2e74332
     </form>
   </section>
   <!-- Footer -->
