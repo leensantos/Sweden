@@ -254,10 +254,10 @@
         <div class="footer-col col-3">
           <h4>follow us</h4>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
       </div>
