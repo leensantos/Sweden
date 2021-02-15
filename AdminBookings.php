@@ -1,5 +1,12 @@
 <?php
+  session_start(); //starts the session
+  if($_SESSION['user']){} //checks if user is logged in
+  else{
+    header("location:index.php "); // redirects if user is not logged in
+  }
 
+  $user = $_SESSION['user']; //assigns user value
+  $id_exists = false;
 ?>
 
 <!DOCTYPE html>
@@ -55,7 +62,7 @@
         </thead>
         <tbody>
           <?php
-            $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
+            require 'connection.php';
             $query = mysqli_query($con, "SELECT booking.id,booking.guest_ID,booking.room_ID,booking.checkIn,booking.checkOut,
                           guest.adults,guest.children FROM booking LEFT JOIN guest ON guest.id = booking.guest_ID"); // SQL Query
             while($row = mysqli_fetch_array($query)){
@@ -67,54 +74,18 @@
                 Print '<td>'. $row['children'] . "</td>";
                 Print '<td>'. $row['room_ID'] . "</td>";
                 Print '<td><a href="edit.php?id='. $row['id'] .'">edit</a> </td>';
-                Print '<td><a href="#" onclick="myFunction('.$row['id'].')">delete</a> </td>';
+                Print '<td><a href="#" onclick="myFunction('.$row['guest_ID'].')">delete</a> </td>';
                 Print "</tr>";
             }
             ?>
-          <!-- <tr>
-            <th data-title="ID" scope="row">1</th>
-            <td>weeeeee</td>
-            <td data-title="Check out">weeeeee</td>
-            <td data-title="Adult">weeeeee</td>
-            <td data-title="Children">weeeeee</td>
-            <td data-title="Room">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="Price">weeeeee</td>
-          </tr>
-          <tr>
-            <th data-title="ID" scope="row">2</th>
-            <td data-title="Check in">weeeeee</td>
-            <td data-title="Check out">weeeeee</td>
-            <td data-title="Adult">weeeeee</td>
-            <td data-title="Children">weeeeee</td>
-            <td data-title="Room">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="Price">weeeeee</td>
-          </tr>
-          <tr>
-            <th data-title="ID" scope="row">3</th>
-            <td data-title="Check in">weeeeee</td>
-            <td data-title="Check out">weeeeee</td>
-            <td data-title="Adult">weeeeee</td>
-            <td data-title="Children">weeeeee</td>
-            <td data-title="Room">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="More">weeeeee</td>
-            <td data-title="Price">weeeeee</td>
-          </tr> -->
         </tbody>
       </table>
     </div>
     <script>
-      function myFunction(id){
+      function myFunction(guest_ID){
         var r=confirm("Are you sure you want to delete this record?");
         if (r==true){
-            window.location.assign("delete.php?id=" + id);
+            window.location.assign("deleteRecord.php?id=" + guest_ID);
         }
       }
     </script>

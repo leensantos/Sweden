@@ -18,9 +18,7 @@
   <link rel="icon" href="assets/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
-  <link rel="stylesheet" type="text/css" href="css/contact-us.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/view-message.css">
   <title>Contact Us | The Grand Sweden Hotel</title>
 </head>
 
@@ -43,21 +41,12 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="contact-us">
-    <div class="contact-wrap">
-      <div class="contact-in">
-        <h1>The Message</h1>
-        <table class="table table-hover">
-      <thead class="le3-table-head text-center">
-        <tr>
-            <th>Full Name</th>
-            <th>Email Address</th>
-            <th>Date and Time</th>
-            <th>Subject</th>
-            <th>Message</th>
-        </tr>
-      </thead>
-        <?php
+  <div class="login-page">
+    <div class="box">
+      <div class="form">
+        <form form action="checklogin.php" method="POST" class="login-form">
+          <h3>View Message</h3>
+          <?php
             $id = $_GET['id'];
             $count="SELECT *  FROM messages where id=?";
             require 'connection.php';
@@ -71,30 +60,68 @@
                         
             //Print content
                 
-                Print "<tr>";
-                Print '<td align="center">'. $row->fName . "</td>";
-                Print '<td align="center">'. $row->emailAdd. "</td>";
-                Print '<td align="center">'.$row->date." - ".$row->time."</td>";
-                Print '<td align="center">'.$row->subject .  "</td>";
-                Print '<td align="center">'.$row->content. "</td>";
-                Print "</tr></table><br/>";
-          }
+                Print '<div class="form-group"> ';
+                Print '<div class="output-group">';
+                Print "<h4>Date: </h4>";
+                Print '<span>'.$row->date." - ".$row->time."</span>";
+                Print "</div>";
+                Print '<div class="output-group">';
+                Print "<h4>Name: </h4>";
+                Print '<span>'. $row->fName . "</span>";
+                Print "</div>";
+                Print '<div class="output-group">';
+                Print "<h4>Email Address: </h4>";
+                Print '<span>'. $row->emailAdd.  "</span>";
+                Print "</div>";
+                Print '<div class="output-group">';
+                Print "<h4>Subject: </h4>";
+                Print '<span>'.$row->subject . "</span>";
+                Print "</div>";
+                Print "</div>";
+                Print '<div class="message-group">';
+                Print "<h4>Message: </h4>";
+                Print '<span>'.$row->content."</span>";
+                Print "</div>";
           ?>
-     
-
-
+        </form>
       </div>
-    
-        <!-- <ul>
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        </ul> -->
-
-
     </div>
   </div>
 
-
 </html>
+
+
+<!-- 
+<div class="form-group">
+  <div class="output-group">
+    <h4>Date: </h4>
+    <span>wazzap</span>
+  </div>
+  <div class="output-group">
+    <h4>Name: </h4>
+    <span>wazzap</span>
+  </div>
+  <div class="output-group">
+    <h4>Email Address: </h4>
+    <span>wazzap</span>
+  </div>
+  <div class="output-group">
+    <h4>Subject: </h4>
+    <span>wazzap</span>
+  </div>
+</div>
+<div class="message-group">
+  <h4>Message: </h4>
+  <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat omnis voluptate voluptatum incidunt
+    quod non! Recusandae, reiciendis minima, ab velit id, molestiae quo expedita illo placeat tenetur a.
+    Suscipit, officia.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit atque dolorem placeat vero incidunt
+    temporibus eaque illum minus corporis! Fugiat explicabo ducimus placeat minus qui impedit ipsum sed ut
+    officiis!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat omnis voluptate voluptatum
+    incidunt
+    quod non! Recusandae, reiciendis minima, ab velit id, molestiae quo expedita illo placeat tenetur a.
+    Suscipit, officia.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit atque dolorem placeat vero incidunt
+    temporibus eaque illum minus corporis! Fugiat explicabo ducimus placeat minus qui impedit ipsum sed ut
+    officiis!</span>
+</div> -->
