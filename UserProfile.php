@@ -22,6 +22,9 @@ a{
   color: white;
   text-decoration: none;
 }
+a:hover{
+  color:black;
+}
 </style>
 <body>
   <!-- Nagigation bar -->
