@@ -62,7 +62,8 @@
         </thead>
         <tbody>
           <?php
-  $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
+   require 'connection.php';
+  //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
 	$query = mysqli_query($con, "Select * from messages"); // SQL Query
 	while($row = mysqli_fetch_array($query))
   {
