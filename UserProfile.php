@@ -17,7 +17,12 @@ $user = $_SESSION['user']; //assigns user value
   <link rel="stylesheet" href="css/user.css">
   <title>Administrator | The Grand Sweden Hotel</title>
 </head>
-
+<style>
+a{
+  color: white;
+  text-decoration: none;
+}
+</style>
 <body>
   <!-- Nagigation bar -->
   <nav>
@@ -41,13 +46,13 @@ $user = $_SESSION['user']; //assigns user value
     <div class="box">
       <div class="form">
         <!-- Login form Start -->
-        <form form action="register.php" method="POST" class="login-form">
+        <form class="login-form">
           <h3>Administrator</h3>
           <div class="pic">
             <img src="assets/admin.png" alt="">
           </div>
           <p>Hello, <?php print "$user" ?>!</p>
-          <button class="submit-btn"> Add New Admin</button>
+          <button class="submit-btn"><a href="register.php"> Add New Admin<a/></button>
         </form>
         <!-- Login form End -->
       </div>

@@ -72,7 +72,7 @@ $user = $_SESSION['user']; //assigns user value
                      $query = "SELECT * from users";
                      $results = mysqli_query($con, $query); //Query the users table
                      while($row = mysqli_fetch_array($results)) //display all rows from query
-                {
+            {
                      $table_users = $row['username']; // the first username row is passed on to $table_users, and so on until the query is finished
                      if($username == $table_users) // checks if there are any matching fields
                 {
@@ -80,45 +80,44 @@ $user = $_SESSION['user']; //assigns user value
                          Print '<script>alert("The username already exist!");</script>'; //Prompts the user
                         Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
                 }
-            
-
-    
-                Print '<script>alert("By clicking Sign Up, you agree to our Terms, Data Policy and Cookies Policy.");</script>'; //Prompts the user
+               
+                    if(strlen($username) < 4) 
+                { //username is set to minimum of 5 characters
+                    $bool = false; // sets bool to false
+                    Print '<script>alert("The username must be 5 characters and above");</script>'; //Prompts the user
                 Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-        
+                }// username is set to minimum of 7 characters
 
-
-               if(strlen($username) < 4) { //username is set to minimum of 5 characters
-                 $bool = false; // sets bool to false
-                 Print '<script>alert("The username must be 5 characters and above");</script>'; //Prompts the user
-             Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-            }// username is set to minimum of 7 characters
-
-                if ( preg_match('/\s/', $username) ){ // whitespace will not be accepted in username
+                    if ( preg_match('/\s/', $username) )
+                { // whitespace will not be accepted in username
                   $bool = false; // sets bool to false
                   Print '<script>alert("The username must not have whitespace");</script>'; //Prompts the user
                  Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
                 }
 
-                //password validation 
-                      if(strlen($password) < 7) {//password is set to mimimum of 5 characters
+                    //password validation 
+                      if(strlen($password) < 7) 
+                {//password is set to mimimum of 5 characters
                         $bool = false; // sets bool to false
                         Print '<script>alert("The password must be 8 characters and above");</script>'; //Prompts the user
                        Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                      }// password is set to minimum of 7 characters
+                }// password is set to minimum of 7 characters
                   
-                    if (!ctype_upper($password) && !ctype_lower($password)){//password must have lower and uppercase on it
+                    if (!ctype_upper($password) && !ctype_lower($password))
+                {//password must have lower and uppercase on it
                        $bool = true; // sets bool to true
-                     } else{
+                } else{
                       $bool = false; // sets bool to false
                       Print '<script>alert("The password must have a lower and uppercase");</script>'; //Prompts the user
                      Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
-                     }
+                }
 
 
-                     if (preg_match('~[0-9]+~', $password)) {// check if there is/are numbers in string
+                     if (preg_match('~[0-9]+~', $password)) 
+                     
+                {// check if there is/are numbers in string
                       $bool = true; // sets bool to true
-                  } else{
+                } else{
                       $bool = false; // sets bool to false
                     Print '<script>alert("The password must have 1 or more numbers");</script>'; //Prompts the user
                    Print '<script>window.location.assign("register.php");</script>'; // redirects to register.php
