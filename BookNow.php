@@ -268,7 +268,6 @@
                   <div class="title">
                     <h3>Payment Information</h3>
                   </div>
-<<<<<<< HEAD
                   <div>
                     <div class="container-3">
                       <div class="input-group">
@@ -285,16 +284,6 @@
                         <input type="text" class="input" id="cvv" name="cvv" placeholder="CVV" pattern="[0-9]{3}"
                           required>
                       </div>
-=======
-                  <div class="container-3">
-                    <div class="input-group half">
-                      <input type="text" class="input" id="cardnumber" name="cardnumber" placeholder="Card Number"
-                        pattern="[0-9]{11}" required>
-                      <input type="text" class="input" id="expiration" name="expiration"
-                        placeholder="Expiration Date (MM/YYYY)" pattern="[0-9]{2}/[0-9]{4}" required>
-                      <input type="text" class="input" id="cvv" name="cvv" placeholder="CVV" pattern="[0-9]{3}"
-                        required>
->>>>>>> 92fa208ae5450c20d39f7d0f510d3f7d4be3d9db
                     </div>
                   </div>
                   <!-- Prev Next Button -->
@@ -421,13 +410,12 @@
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
-<<<<<<< HEAD
+
       <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
-=======
 
 
-    <input type="submit" value="Submit"/>
->>>>>>> 92fa208ae5450c20d39f7d0f510d3f7d4be3d9db
+      <input type="submit" value="Submit" id="submit" style="visibility: hidden;"/>
+
     </form>
   </section>
   <!-- Footer -->
