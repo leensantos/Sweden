@@ -6,7 +6,7 @@
 <html>
 
 <head>
-  <link href="" rel="icon" sizes="16x16">
+<link rel="icon" href="assets/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -20,6 +20,7 @@
   <!-- Nagigation bar -->
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
@@ -41,7 +42,7 @@
   <div class="page-content">
     <section class="rooms sec-width" id="rooms">
       <div class="title">
-        <h2>Rooms</h2>
+        <h1>Rooms</h1>
       </div>
       <div class="rooms-container">
 
@@ -161,7 +162,7 @@
 
     <section class="services sec-width" id="services">
       <div class="title">
-        <h2>Services</h2>
+        <h1>Services</h1>
       </div>
       <div class="services-container">
 

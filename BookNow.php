@@ -6,9 +6,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Book Now | The Grand Sweden Hotel</title>
+  <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/book-now.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
@@ -16,6 +19,7 @@
   <!-- Nagigation bar -->
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
@@ -38,18 +42,27 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <form action="" class="">
+    <form action="book.php" method="GET" id="booking">
       <!-- Form Top -->
       <section class="booking">
         <!-- Check in Check Out Adult Children -->
         <div class="container-1">
           <div class="input-group">
             <label for="check-in" class="input-label">Check in</label>
+            <!-- <?php  //checks if check-in from index.php has value (DI KO PA NA-SOLVE)
+              if(($_GET['check-in'])){
+                $check_in_home = ($_GET['check-in']);
+                //$check_out_home = ($_GET['check-out']);
+                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder={$check_in_home} required>';
+              }
+              else
+                echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
+            ?> -->
             <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
           <div class="input-group">
             <label for="check-out" class="input-label">Check out</label>
-            <input type="date" " class=" input" id="check-out" name="check-out" required>
+            <input type="date" class=" input" id="check-out" name="check-out" required>
           </div>
           <div class="input-group">
             <label for="adults" class="input-label">Adults</label>
@@ -370,6 +383,17 @@
                       <h4>Add-ons</h4>
                     </div>
                   </div>
+                  <div class="container-4">
+                    <div class="output-group outline">
+                      <h4>Total price</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Discount/s applied</h4>
+                    </div>
+                    <div class="output-group outline">
+                      <h4>Total amount due</h4>
+                    </div>
+                  </div>
                 </div>
                 <!-- Policies-->
                 <div class="title">
@@ -412,13 +436,15 @@
                 <!-- Prev Next Button -->
                 <div class="field btns">
                   <button class="prev-3 prev">Previous</button>
-                  <button class="submit">Submit</button>
+                  <!-- <button type="submit">Submit</button> -->
                 </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
+      <input type="submit" value="Submit" />
+      <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
     </form>
   </section>
   <!-- Footer -->

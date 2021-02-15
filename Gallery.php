@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="assets/icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -10,8 +11,6 @@
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" href="css/gal.css">
-
-
   <title>Gallery | The Grand Sweden Hotel</title>
 </head>
 
@@ -19,6 +18,7 @@
   <!-- Nagigation bar -->
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
@@ -39,13 +39,11 @@
   <!-- Page Content -->
   <div class="page-content">
     <div class="container">
-      <h1>Gallery</h1>
-      <h2> Because every picture tells a story, let me help you tell yours </h2><BR>
-      <center>
-        <hr>
-      </center>
+      <div class="title">
+        <h1>Gallery</h1>
+        <h2> Because every picture tells a story, let me help you tell yours </h2>
+      </div>
     </div>
-
 
     <div class="main">
       <img src="assets/gallery/pool.jpg" alt="">

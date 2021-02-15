@@ -6,10 +6,12 @@
 <html>
 
 <head>
-  <link href="" rel="icon" sizes="16x16">
+  <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link href="css/destination.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <title>Destination | The Grand Sweden Hotel</title>
 </head>
 
@@ -17,6 +19,7 @@
   <!-- Nagigation bar -->
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
@@ -36,6 +39,12 @@
 
   <!-- Page Content -->
   <div class="page-content">
+    <div class="container-title">
+      <div class="title">
+        <h1>Venture beyond the ordinary</h1>
+        <h2>Discover multiple destinations in a single trip</h2>
+      </div>
+    </div>
     <div class="container">
       <div class="img-box">
         <div class="shape">

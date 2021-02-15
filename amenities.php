@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="assets/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -19,6 +20,7 @@
   <!-- Nagigation bar -->
   <nav>
     <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
       <li><a href="index.php">Home</a></li>
       <li><a href="Accommodations.php">Accommodations</a></li>
@@ -38,14 +40,12 @@
 
   <!-- Page Content -->
   <div class="page-content">
-    <br /><br />
     <section>
       <div class="container">
-        <h1>Express Your Individuality at GSW</h1>
-        <h2> Luxury is Built-In. Not Tacked On </h2><BR>
-        <center>
-          <hr>
-        </center>
+        <div class="title">
+          <h1>Express Your Individuality at GSW</h1>
+          <h2> Luxury is Built-In. Not Tacked On </h2>
+        </div>
       </div>
       <div class="wrapper">
         <div class="box">

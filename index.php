@@ -5,6 +5,7 @@
 <html lang="en">
 
 <head>
+<link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="css/index-styles.css">
   <title>Home | The Grand Sweden Hotel</title>
 </head>
@@ -19,6 +20,7 @@
     <!-- Nagigation bar -->
     <nav>
       <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+      <input id="nav-toggle" type="checkbox">
       <ul class="links">
         <li><a href="index.php">Home</a></li>
         <li><a href="Accommodations.php">Accommodations</a></li>
@@ -37,9 +39,9 @@
     </nav>
     <!-- Title -->
     <div class="title">
-      <h1>the lion sleeps tonight.. subject to change</h1>
+      <h1>Come, stay and enjoy your day..</h1>
       <div class="container">
-        <forms action="">
+        <form action="BookNow.php" method="get">
           <div class="container-1">
             <div class="input-group">
               <label for="check-in" class="input-label">Check in</label>
@@ -85,7 +87,7 @@
               <input type="submit" value="Book Now" class="register" />
             </div>
           </div>
-        </forms>
+        </form>
       </div>
     </div>
   </section>

@@ -17,6 +17,7 @@ body {
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Whitney-Light';
 }
 
 .login-page {

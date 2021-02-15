@@ -7,9 +7,9 @@
 
 <head>
   <!-- <link href="" rel="icon" sizes="16x16"> -->
+  <link rel="icon" href="assets/icon.png">
   <link href="css/admin1.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
-  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <title>Admin Bookings | The Grand Sweden Hotel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -20,12 +20,13 @@
 <body>
   <!-- Nagigation bar -->
   <nav>
-    <div class="logo"><a href="index.php">The Grand Sweden Hotel</a></div>
+    <div class="logo"><a href="userprofile.php">The Grand Sweden Hotel</a></div>
+    <input id="nav-toggle" type="checkbox">
     <ul class="links">
+      <li><a href="userprofile.php">Profile</a></li>
       <li><a href="adminpage.php">Messages</a></li>
       <li><a href="adminbookings.php">Bookings</a></li>
-      <li><a href="userprofile.php">Profile?</a></li>
-      <li><a href="logout.php">Logout</a></li>
+      <li><a href="scripts/logout.php">Logout</a></li>
     </ul>
     <label for="nav-toggle" class="icon-burger">
       <div class="line"></div>
