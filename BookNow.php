@@ -115,21 +115,21 @@
                   <div class="output-group room">
                     <img src="assets/accomodation/room1.jpg" alt="image" width="400" height="300">
                     <div class="details">
-                      <input type="radio" id="room1" name="room" value="room1">
+                      <input type="radio" id="room1" name="room" value="Standard Room">
                       <label for="room1">
                         <h3>Standard Room</h3>
                       </label>
                       <p><b>Size:</b> from 45m2 (484ft2)</p>
                       <p><b>Max guests:</b> 4</p>
                       <p><b>Bed:</b> Twin</p>
-                      <p><b>SEK 10,000 / NIGHT</b></p>
+                      <p><b>SEK 10,000 / NIGHT</b></p><input type="hidden" name="roomPrice" value="10000">
                     </div>
                   </div>
                   <!-- group -->
                   <div class="output-group">
                     <img src="assets/accomodation/room2.jpg" alt="image" width="400" height="300">
                     <div class="details">
-                      <input type="radio" id="room2" name="room" value="room2">
+                      <input type="radio" id="room2" name="room" value="Deluxe Room">
                       <label for="room2">
                         <h3>Deluxe Room</h3>
                       </label>
@@ -143,7 +143,7 @@
                   <div class="output-group">
                     <img src="assets/accomodation/room3.jpg" alt="image" width="400" height="300">
                     <div class="details">
-                      <input type="radio" id="room3" name="room" value="room3">
+                      <input type="radio" id="room3" name="room" value="Suite Room">
                       <label for="room3">
                         <h3>Suite Room</h3>
                       </label>
@@ -165,7 +165,7 @@
                     <div class="output-group room">
                       <img src="assets/images/1.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="addon1" name="addon" value="addon1">
+                        <input type="radio" id="addon1" name="addon" value="Private Dinner Setup">
                         <label for="addon1">
                           <h3>Private Dinner Setup</h3>
                         </label>
@@ -179,7 +179,7 @@
                     <div class="output-group room">
                       <img src="assets/images/2.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="addon2" name="addon" value="addon2">
+                        <input type="radio" id="addon2" name="addon" value="Holistic Massage">
                         <label for="addon2">
                           <h3>Holistic Massage</h3>
                         </label>
@@ -194,7 +194,7 @@
                     <div class="output-group room">
                       <img src="assets/images/3.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="addon3" name="addon" value="addon3">
+                        <input type="radio" id="addon3" name="addon" value="Private water-sports lessons">
                         <label for="addon3">
                           <h3>Private water-sports lessons</h3>
                         </label>
@@ -219,7 +219,7 @@
                         <option value="none">None</option>
                         <option value="newyearpromo">New Year Promo</option>
                         <option value="valentinespromo">Valentine's Promo</option>
-                        <option value="Summer Promo">Summer Promo</option>
+                        <option value="SummerPromo">Summer Promo</option>
                         <option value="winterpromo">Winter Promo</option>
                         <option value="christmaspromo">Christmas Promo</option>
                       </select>
@@ -304,7 +304,7 @@
                   </div>
                   <!-- Prev Next Button -->
                   <div class="field btns">
-                    <button class="firstNext next-2 next">Next</button>
+                    <button class="firstNext">Next</button>
                   </div>
                 </div>
               </div>
@@ -350,20 +350,22 @@
                   <div class="container-4">
                     <div class="output-group outline">
                       <h4>Room</h4>
+                      <span id="disp_room"></span>
                     </div>
                     <div class="output-group outline">
                       <h4>Add-ons</h4>
+                      <span id="disp_addon"></span>
                     </div>
                   </div>
                   <div class="container-4">
                     <div class="container-5 outline">
                       <div class="output-group ">
                         <h4>Total price</h4>
-                        <span> 3k coursera fee</span>
+                        <span id="disp_price"></span>
                       </div>
                       <div class="output-group ">
                         <h4>Discount/s applied</h4>
-                        <span> 3k coursera fee</span>
+                        <span id="disp_promo"></span>
                       </div>
                     </div>
                   </div>
@@ -372,7 +374,7 @@
                       <h4>Total amount due</h4>
                     </div>
                     <div class="output-group ">
-                      <span> 3k coursera fee</span>
+                      <span id="disp_totalAmtDue"></span>
                     </div>
                   </div>
                 </div>
@@ -418,7 +420,7 @@
                 </div>
                 <!-- Prev Next Button -->
                 <div class="field btns">
-                  <input type="submit" value="Submit" />
+                  <!-- <input type="submit" value="Submit" /> -->
                   <!-- <button type="submit">Submit</button> -->
                 </div>
               </div><!-- END OF PAGE -->
@@ -426,10 +428,6 @@
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
-      <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
-
-      <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
-
 
       <input type="submit" value="Submit" id="submit" style="visibility: hidden;" />
 

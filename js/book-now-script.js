@@ -14,25 +14,7 @@ let current = 1;
 nextBtnFirst.addEventListener("click", function(event) {
     event.preventDefault();
     slidePage.style.marginLeft = "-25%";
-    bullet[current - 1].classList.add("active");
-    progressCheck[current - 1].classList.add("active");
-    progressText[current - 1].classList.add("active");
-    current += 1;
-});
-nextBtnSec.addEventListener("click", function(event) {
-    event.preventDefault();
-    slidePage.style.marginLeft = "-50%";
-    bullet[current - 1].classList.add("active");
-    progressCheck[current - 1].classList.add("active");
-    progressText[current - 1].classList.add("active");
-    current += 1;
-});
-nextBtnThird.addEventListener("click", function(event) {
-    event.preventDefault();
-    slidePage.style.marginLeft = "-75%";
-    bullet[current - 1].classList.add("active");
-    progressCheck[current - 1].classList.add("active");
-    progressText[current - 1].classList.add("active");
+    
     current += 1;
 
     var name = document.getElementById("prefix").value + " " + document.getElementById("firstname").value + " " + 
@@ -52,45 +34,55 @@ nextBtnThird.addEventListener("click", function(event) {
     disp_check_out.innerHTML = check_out;
     var adults = document.getElementById("adults").value;
     disp_adults.innerHTML = adults;
-    var children = document.getElementById("children").value;
+    var children = document.getElementById("children").value;//children
     disp_children.innerHTML = children;
+    //ROOM
+    if(document.getElementById("room1").checked){
+        var room = document.getElementById("room1").value;
+        price = 10000.00;
+        disp_room.innerHTML = room;
+    }
+    if(document.getElementById("room2").checked){
+        var room = document.getElementById("room2").value;
+        price = 20000.00;
+        disp_room.innerHTML = room;
+    }
+    if(document.getElementById("room3").checked){
+        var room = document.getElementById("room3").value;
+        price = 30000.00;
+        disp_room.innerHTML = room;
+    }
+    //ADD ON
+    if(document.getElementById("addon1").checked){
+        var addon = document.getElementById("addon1").value;
+        priceAdd = 4480.00;
+        disp_addon.innerHTML = addon;
+    }
+    if(document.getElementById("addon2").checked){
+        var addon = document.getElementById("addon2").value;
+        priceAdd = 1800.00;
+        disp_addon.innerHTML = addon;
+    }
+    if(document.getElementById("addon3").checked){
+        var addon = document.getElementById("addon3").value;
+        priceAdd = 6800.00;
+        disp_addon.innerHTML = addon;
+    }
+    totalPrice = price + priceAdd;
+    disp_price.innerHTML = totalPrice;
+
+    var promo = document.getElementById("promo").value
+    if(promo=="none"){discVal=0.10}
+    if(promo=="newyearpromo"){discVal=0.05}
+    if(promo=="valentinespromo"){discVal=0.15}
+    if(promo=="SummerPromo"){discVal=0.20}
+    if(promo=="winterpromo"){discVal=0.30}
+    if(promo=="christmaspromo"){discVal=0.25}
+    disp_promo.innerHTML = discVal;
+    
+    totalAmtDue = totalPrice - (totalPrice*discVal);
+    disp_totalAmtDue.innerHTML = Number(totalAmtDue).toFixed(2);
+    
 
     document.getElementById("submit").style.visibility = "visible";
-});
-submitBtn.addEventListener("click", function() {
-    // bullet[current - 1].classList.add("active");
-    // progressCheck[current - 1].classList.add("active");
-    // progressText[current - 1].classList.add("active");
-    // current += 1;
-    document.getElementById("booking").submit();
-    window.location.assign("index.php");
-    setTimeout(function() {
-        alert("You've successfully booked???");
-        location.reload();
-    }, 800);
-});
-
-prevBtnSec.addEventListener("click", function(event) {
-    event.preventDefault();
-    slidePage.style.marginLeft = "0%";
-    bullet[current - 2].classList.remove("active");
-    progressCheck[current - 2].classList.remove("active");
-    progressText[current - 2].classList.remove("active");
-    current -= 1;
-});
-prevBtnThird.addEventListener("click", function(event) {
-    event.preventDefault();
-    slidePage.style.marginLeft = "-25%";
-    bullet[current - 2].classList.remove("active");
-    progressCheck[current - 2].classList.remove("active");
-    progressText[current - 2].classList.remove("active");
-    current -= 1;
-});
-prevBtnFourth.addEventListener("click", function(event) {
-    event.preventDefault();
-    slidePage.style.marginLeft = "-50%";
-    bullet[current - 2].classList.remove("active");
-    progressCheck[current - 2].classList.remove("active");
-    progressText[current - 2].classList.remove("active");
-    current -= 1;
 });

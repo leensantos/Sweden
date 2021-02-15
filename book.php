@@ -39,12 +39,13 @@
   $checkOut = ($_GET['check-out']);//check out date
   $adultNum = ($_GET['adults']);
   $childNum = ($_GET['children']);
-  $roomNum=1;
+  $roomNum= ($_GET['room']);
   $cardName = ($_GET['cardholder']);
   $cardNum = ($_GET['cardnumber']);
   $cardcvv = ($_GET['cvv']);
   $cardExp = ($_GET['expiration']);
   $email = ($_GET['email']);
+
   // $roomPrice = 10;
   // $discount;
   // $totalAmtDue;
