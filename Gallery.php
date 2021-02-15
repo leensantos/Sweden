@@ -41,7 +41,6 @@
     <div class="container">
       <div class="title">
         <h1>Gallery</h1>
-        <h2> Because every picture tells a story, let me help you tell yours </h2>
       </div>
     </div>
 
