@@ -149,48 +149,38 @@
                   <h3>Select a Room</h3>
                 </div>
                 <div class="container-2">
-                  <!-- group -->
+                  
+                <!-- group -->
                   <div class="output-group">
-                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <img src="assets/accomodation/room1.jpg" alt="image" width="250" height="200">
                     <div class="details">
-                      <h3>Room 1</h3>
-                      <p>1,356 sq. ft. / 126 sq. m.</p>
+                      <h3>Standard Room</h3>
+                      <p>Size: from 45m2 (484ft2)</p>
                       <p>Max guests 4</p>
-                      <p>Ocean view</p>
-                      <p>1 Bedroom</p>
+                      <p>King-size or twin beds</p>
+                      <p>10,000 / NIGHT</p>
                     </div>
                   </div>
                   <!-- group -->
                   <div class="output-group">
-                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <img src="assets/accomodation/room2.jpg" alt="image" width="250" height="200">
                     <div class="details">
-                      <h3>Room 1</h3>
-                      <p>1,356 sq. ft. / 126 sq. m.</p>
-                      <p>Max guests 4</p>
-                      <p>Ocean view</p>
-                      <p>1 Bedroom</p>
+                    <h3>Deluxe Room</h3>
+                      <p> Size: from 35m2 (376ft2)</p>
+                      <p>Max guests 3</p>
+                      <p>King-size or twin beds</p>
+                      <p>20,000 / NIGHT</p>
                     </div>
                   </div>
                   <!-- group -->
                   <div class="output-group">
-                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
+                    <img src="assets/accomodation/room3.jpg" alt="image" width="250" height="200">
                     <div class="details">
-                      <h3>Room 1</h3>
-                      <p>1,356 sq. ft. / 126 sq. m.</p>
-                      <p>Max guests 4</p>
-                      <p>Ocean view</p>
-                      <p>1 Bedroom</p>
-                    </div>
-                  </div>
-                  <!-- group -->
-                  <div class="output-group">
-                    <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
-                    <div class="details">
-                      <h3>Room 1</h3>
-                      <p>1,356 sq. ft. / 126 sq. m.</p>
-                      <p>Max guests 4</p>
-                      <p>Ocean view</p>
-                      <p>1 Bedroom</p>
+                    <h3>Suite Room</h3>
+                      <p>Size: from 55m2 (592ft2)</p>
+                      <p>Max guests 6</p>
+                      <p>King-size or twin beds</p>
+                      <p>30,000 / NIGHT</p>
                     </div>
                   </div>
                 </div>
