@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-<link rel="icon" href="assets/icon.png">
+  <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="css/index-styles.css">
   <title>Home | The Grand Sweden Hotel</title>
 </head>
@@ -39,7 +39,6 @@
     </nav>
     <!-- Title -->
     <div class="title">
-      <h1>Come, stay and enjoy your day..</h1>
       <div class="container">
         <form action="BookNow.php" method="get">
           <div class="container-1">

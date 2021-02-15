@@ -165,8 +165,9 @@
                     <div class="output-group room">
                       <img src="assets/images/1.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="addon1" name="addon" value="Private Dinner Setup">
-                        <label for="addon1">
+                        <input type="checkbox" id="addon1" name="addon1" value="Private Dinner Setup"
+                          class="visually-hidden ">
+                        <label for="addon1" class="addon">
                           <h3>Private Dinner Setup</h3>
                         </label>
                         <p>Choose to dine on the beach with a candlelit table set for two and a bonfire flickering in
@@ -179,8 +180,9 @@
                     <div class="output-group room">
                       <img src="assets/images/2.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="addon2" name="addon" value="Holistic Massage">
-                        <label for="addon2">
+                        <input type="checkbox" id="addon2" name="addon2" value="Holistic Massage"
+                          class="visually-hidden ">
+                        <label for="addon2" class="addon">
                           <h3>Holistic Massage</h3>
                         </label>
                         <p>This 60-minute aromatherapy-based oil massage is personalised to the individual. After a
@@ -194,8 +196,9 @@
                     <div class="output-group room">
                       <img src="assets/images/3.jpg" alt="image" width="400" height="300">
                       <div class="details">
-                        <input type="radio" id="addon3" name="addon" value="Private water-sports lessons">
-                        <label for="addon3">
+                        <input type="checkbox" id="addon3" name="addon3" value="Private water-sports lessons"
+                          class="visually-hidden ">
+                        <label for="addon3" class="addon">
                           <h3>Private water-sports lessons</h3>
                         </label>
                         <p>On land, the miles of running and hiking trails are complemented by a host of opportunities
