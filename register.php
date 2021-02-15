@@ -68,8 +68,7 @@ $user = $_SESSION['user']; //assigns user value
             //$db_pass = "";
             //$db_host = "localhost";
             require 'connection.php';
-                //$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or
-                  die(mysqli_error()); //Connect to server
+                //$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or die(mysqli_error()); //Connect to server
                      $query = "SELECT * from users";
                      $results = mysqli_query($con, $query); //Query the users table
                      while($row = mysqli_fetch_array($results)) //display all rows from query
