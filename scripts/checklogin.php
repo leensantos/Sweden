@@ -2,11 +2,12 @@
 session_start();
 $username = ($_POST['username']);
 $password = ($_POST['password']);
-$db_name = "swedendb";
-$db_username = "root";
-$db_pass = "";
-$db_host = "localhost";
-$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or die(mysqli_error()); //Connect to server
+require 'connection.php'
+//$db_name = "swedendb";
+//$db_username = "root";
+//$db_pass = "";
+//$db_host = "localhost";
+//$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or die(mysqli_error()); //Connect to server
 $query = "SELECT * from users WHERE username='$username'";
 $results = mysqli_query($con, $query); //Query the users table if there are matching rows equal to $username
 $exists = mysqli_num_rows($con, $query); //Checks if username exists

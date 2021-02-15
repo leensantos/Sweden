@@ -63,12 +63,12 @@ $user = $_SESSION['user']; //assigns user value
             $username = ($_POST['username']);
             $password = ($_POST['password']);
             $bool = true;
-            $db_name = "swedendb";
-            $db_username = "root";
-            $db_pass = "";
-            $db_host = "localhost";
+            //$db_name = "swedendb";
+            //$db_username = "root";
+            //$db_pass = "";
+            //$db_host = "localhost";
             require 'connection.php';
-                $con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or
+                //$con = mysqli_connect("$db_host","$db_username","$db_pass", "$db_name") or
                   die(mysqli_error()); //Connect to server
                      $query = "SELECT * from users";
                      $results = mysqli_query($con, $query); //Query the users table
