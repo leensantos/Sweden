@@ -125,7 +125,8 @@
                 Extended<i> Jan 3, 2021 </i>
               </span>
             </div>
-            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
+              want to be one of the luck few, get on it now!</p>
             <div class="bottom">
               <a href="BookNow.php">Get it now!</a>
             </div>
@@ -140,9 +141,10 @@
                 Extended<i> Feb 14, 2021 </i>
               </span>
             </div>
-            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
+              want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-            <a href="BookNow.php">Get it now!</a>
+              <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -155,9 +157,10 @@
                 Extended<i> March 30, 2021 </i>
               </span>
             </div>
-            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
+              want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-            <a href="BookNow.php">Get it now!</a>
+              <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -170,9 +173,10 @@
                 Extended<i>Oct 24, 2021 </i>
               </span>
             </div>
-            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
+              want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-            <a href="BookNow.php">Get it now!</a>
+              <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -185,9 +189,10 @@
                 Extended<i> Dec 24, 2021 </i>
               </span>
             </div>
-            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
+              want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-            <a href="BookNow.php">Get it now!</a>
+              <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -200,9 +205,10 @@
                 Extended<i> Dec 30, 2021 </i>
               </span>
             </div>
-            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
+              want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-            <a href="BookNow.php">Get it now!</a>
+              <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -228,15 +234,15 @@
         <div class="footer-col col-2">
           <h4>Get in touch</h4>
           <ul>
-            <li>PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</li>
-            <li>+632 8247-5000</li>
+            <li>Södra Blasieholmshamnen 8, 103 27 Stockholm, Sweden</li>
+            <li>+46 8 679 35 00</li>
             <li>Privacy Policy</li>
           </ul>
         </div>
         <div class="footer-col col-3">
           <h4>follow us</h4>
           <div class="social-links">
-          <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
             <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
             <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
             <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>

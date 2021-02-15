@@ -6,7 +6,7 @@
 <html>
 
 <head>
-<link rel="icon" href="assets/icon.png">
+  <link rel="icon" href="assets/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -174,7 +174,8 @@
           </div>
           <div class="service-content">
             <h2>Food Service</h2>
-            <p>Hey there! The Falafel King here. Come try our limited-time chickpea power bowl. Piping hot chickpeas mixed with onions and tangy spices. It’s only here until Friday!</p>
+            <p>Hey there! The Falafel King here. Come try our limited-time chickpea power bowl. Piping hot chickpeas
+              mixed with onions and tangy spices. It’s only here until Friday!</p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button>
             </a>
@@ -190,13 +191,14 @@
           </div>
           <div class="service-content">
             <h2>Refreshment</h2>
-            <p>VIP Salon Beauty Tip of The Week: Sunday scaries hitting you hard? Eliminate dark circles and puffiness by applying a chilled spoon under your eyes </p>
+            <p>VIP Salon Beauty Tip of The Week: Sunday scaries hitting you hard? Eliminate dark circles and puffiness
+              by applying a chilled spoon under your eyes </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
         </article>
 
-         <article class="service">
+        <article class="service">
           <div class="service-icon">
             <span>
               <i class="fas fa-broom"></i>
@@ -204,7 +206,8 @@
           </div>
           <div class="service-content">
             <h2>Housekeeping</h2>
-            <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee. </p>
+            <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we
+              provide incomparable choice with a Price Guarantee. </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
@@ -218,7 +221,8 @@
           </div>
           <div class="service-content">
             <h2>Room Security</h2>
-            <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee. </p>
+            <p>We’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we
+              provide incomparable choice with a Price Guarantee. </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
@@ -247,8 +251,8 @@
         <div class="footer-col col-2">
           <h4>Get in touch</h4>
           <ul>
-            <li>PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</li>
-            <li>+632 8247-5000</li>
+            <li>Södra Blasieholmshamnen 8, 103 27 Stockholm, Sweden</li>
+            <li>+46 8 679 35 00</li>
             <li>Privacy Policy</li>
           </ul>
         </div>

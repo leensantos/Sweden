@@ -92,8 +92,8 @@
         <div class="footer-col col-2">
           <h4>Get in touch</h4>
           <ul>
-            <li>PO Box 222 333 Sen. Gil J. Puyat Ave, Makati</li>
-            <li>+632 8247-5000</li>
+            <li>Södra Blasieholmshamnen 8, 103 27 Stockholm, Sweden</li>
+            <li>+46 8 679 35 00</li>
             <li>Privacy Policy</li>
           </ul>
         </div>
