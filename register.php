@@ -47,7 +47,7 @@ $user = $_SESSION['user']; //assigns user value
                     </div>
 
                     <input type="submit" value="Submit" class="submit-btn" />
-                    <p><a href="scripts/logout.php" class="lost-pass-btn">Logout <?php print "$user" ?> account</a></p>
+                    <p><a href="logout.php" class="lost-pass-btn">Logout to <?php print "$user" ?>'s account</a></p>
                 </form>
                 <!-- Register form End -->
             </div>
