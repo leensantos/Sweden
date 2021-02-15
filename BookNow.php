@@ -50,13 +50,13 @@
           <div class="input-group">
             <label for="check-in" class="input-label">Check in</label>
             <!-- <?php  //checks if check-in from index.php has value (DI KO PA NA-SOLVE)
-              if(($_GET['check-in'])){
-                $check_in_home = ($_GET['check-in']);
-                //$check_out_home = ($_GET['check-out']);
-                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder="'.$check_in_home.'" required>';
-              }
-              else
-                echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
+              // if(($_GET['check-in'])){
+              //   $check_in_home = ($_GET['check-in']);
+              //   //$check_out_home = ($_GET['check-out']);
+              //   echo '<input type="date" class="input" id="check-in" name="check-in" placeholder="'.$check_in_home.'" required>';
+              // }
+              // else
+              //   echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
             ?> -->
             <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
@@ -313,7 +313,7 @@
                   <div class="container-3">
                     <div class="input-group half">
                       <input type="text" class="input" id="cardnumber" name="cardnumber" placeholder="Card Number"
-                        pattern="[0-9]{16}" required>
+                        pattern="[0-9]{11}" required>
                       <input type="text" class="input" id="expiration" name="expiration"
                         placeholder="Expiration Date (MM/YYYY)" pattern="[0-9]{2}/[0-9]{4}" required>
                       <input type="text" class="input" id="cvv" name="cvv" placeholder="CVV" pattern="[0-9]{3}"
@@ -433,8 +433,9 @@
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
-      <input type="submit" value="Submit" />
-      <!--hanggang dito lang pweds zhena kasi ibang section na yung check in/out date-->
+
+
+    <input type="submit" value="Submit"/>
     </form>
   </section>
   <!-- Footer -->
