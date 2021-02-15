@@ -60,7 +60,8 @@
         <?php
             $id = $_GET['id'];
             $count="SELECT *  FROM messages where id=?";
-            $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
+            require 'connection.php';
+            //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
             if($stmt = $con->prepare($count))   {
               $stmt->bind_param('i',$id);
               $stmt->execute();
