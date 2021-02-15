@@ -53,7 +53,7 @@
               if(($_GET['check-in'])){
                 $check_in_home = ($_GET['check-in']);
                 //$check_out_home = ($_GET['check-out']);
-                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder={$check_in_home} required>';
+                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder="'.$check_in_home.'" required>';
               }
               else
                 echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
