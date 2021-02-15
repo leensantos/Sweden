@@ -126,11 +126,9 @@
                 Extended<i> Jan 3, 2021 </i>
               </span>
             </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-              sint
-              eos vero sapiente voluptas debitis dicta dolore.</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-              <a href="#">Read more</a>
+              <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -143,11 +141,9 @@
                 Extended<i> Feb 14, 2021 </i>
               </span>
             </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-              sint
-              eos vero sapiente voluptas debitis dicta dolore.</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-              <a href="#">Read more</a>
+            <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -160,11 +156,9 @@
                 Extended<i> March 30, 2021 </i>
               </span>
             </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-              sint
-              eos vero sapiente voluptas debitis dicta dolore.</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-              <a href="#">Read more</a>
+            <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -177,11 +171,9 @@
                 Extended<i>Oct 24, 2021 </i>
               </span>
             </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-              sint
-              eos vero sapiente voluptas debitis dicta dolore.</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-              <a href="#">Read more</a>
+            <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -194,11 +186,9 @@
                 Extended<i> Dec 24, 2021 </i>
               </span>
             </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-              sint
-              eos vero sapiente voluptas debitis dicta dolore.</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-              <a href="#">Read more</a>
+            <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>
@@ -211,11 +201,9 @@
                 Extended<i> Dec 30, 2021 </i>
               </span>
             </div>
-            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores,
-              sint
-              eos vero sapiente voluptas debitis dicta dolore.</p>
+            <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you want to be one of the luck few, get on it now!</p>
             <div class="bottom">
-              <a href="#">Read more</a>
+            <a href="BookNow.php">Get it now!</a>
             </div>
           </section>
         </div>

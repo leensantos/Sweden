@@ -56,7 +56,7 @@
           <BR><BR>
           <center>
             <div class="read">
-              <a href="#">DISCOVER</a>
+              <a href="Accommodations.php">DISCOVER</a>
             </div>
           </center>
         </div>
@@ -68,7 +68,7 @@
             around you. </p><BR><BR>
           <center>
             <div class="read">
-              <a href="#">DISCOVER</a>
+              <a href="Accommodations.php">DISCOVER</a>
             </div>
           </center>
         </div>
@@ -80,7 +80,7 @@
           </p><BR><BR>
           <center>
             <div class="read">
-              <a href="#">DISCOVER</a>
+              <a href="Accommodations.php">DISCOVER</a>
             </div>
           </center>
         </div>
@@ -96,7 +96,7 @@
           <p>Group and private wellness classes, functional fitness, running trails and jungle gyms. </p><BR><BR>
           <center>
             <div class="read">
-              <a href="#">DISCOVER</a>
+              <a href="BookNow.php">DISCOVER</a>
             </div>
           </center>
         </div>
@@ -108,7 +108,7 @@
             appreciation techniques. </p><BR><BR>
           <center>
             <div class="read">
-              <a href="#">DISCOVER</a>
+              <a href="BookNow.php">DISCOVER</a>
             </div>
           </center>
         </div>
@@ -120,7 +120,7 @@
             spiritual..</p><BR><BR>
           <center>
             <div class="read">
-              <a href="#">DISCOVER</a>
+              <a href="BookNow.php">DISCOVER</a>
             </div>
           </center>
         </div>

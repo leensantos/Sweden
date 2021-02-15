@@ -174,11 +174,7 @@
           </div>
           <div class="service-content">
             <h2>Food Service</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus
-              asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo
-              similique
-              voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis
-              suscipit!</p>
+            <p>Hey there! The Falafel King here. Come try our limited-time chickpea power bowl. Piping hot chickpeas mixed with onions and tangy spices. It’s only here until Friday!</p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button>
             </a>
@@ -194,11 +190,7 @@
           </div>
           <div class="service-content">
             <h2>Refreshment</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus
-              asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo
-              similique
-              voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis
-              suscipit!</p>
+            <p>VIP Salon Beauty Tip of The Week: Sunday scaries hitting you hard? Eliminate dark circles and puffiness by applying a chilled spoon under your eyes </p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
@@ -211,11 +203,7 @@
           </div>
           <div class="service-content">
             <h2>Housekeeping</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus
-              asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo
-              similique
-              voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis
-              suscipit!</p>
+            <p>e’re passionate about travel. Every day we inspire and reach millions of travellers across 90 local websites in 41 languages. So when it comes to booking the perfect hotel, holiday rental, resort, apartment, guest house or treehouse - we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee.</p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
@@ -229,11 +217,7 @@
           </div>
           <div class="service-content">
             <h2>Room Security</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia accusamus
-              asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur doloremque ut illo
-              similique
-              voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis rem autem ex, reiciendis corporis
-              suscipit!</p>
+            <p>e’re passionate about travel. Every day we inspire and reach millions of travellers across 90 local websites in 41 languages. So when it comes to booking the perfect hotel, holiday rental, resort, apartment, guest house or treehouse - we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee.</p>
             <a href="ContactUs.php" style="text-decoration: none;">
               <button type="button" class="btn">Know More</button> </a>
           </div>
