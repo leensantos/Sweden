@@ -54,6 +54,8 @@ nextBtnThird.addEventListener("click", function(event) {
     disp_adults.innerHTML = adults;
     var children = document.getElementById("children").value;
     disp_children.innerHTML = children;
+
+    document.getElementById("submit").style.visibility = "visible";
 });
 submitBtn.addEventListener("click", function() {
     // bullet[current - 1].classList.add("active");
