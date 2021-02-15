@@ -58,29 +58,25 @@
         </tr>
       </thead>
         <?php
-          if(!empty($_GET['id'])){
             $id = $_GET['id'];
-            $_SESSION['id'] = $id;
-            $id_exists = true;
+            $count="SELECT *  FROM messages where id=?";
             $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_error()); //Connect to server
-            $sql = "Select * from list Where id='$id'";
-            $query = mysqli_query($con, $sql); // SQL Query
-            $count = mysqli_num_rows($query);
-            
+            if($stmt = $con->prepare($count)){
+              $stmt->bind_param('i',$id);
+              $stmt->execute();
+              $result = $stmt->get_result();
+              echo "No of records : ".$result->num_rows."<br>";
+              $row=$result->fetch_object();
+                        
             //Print content
-            if($count > 1){
-              while($row = mysqli_fetch_array($query)){
+                
                 Print "<tr>";
-                Print '<td align="center">'. $row['fName'] . "</td>";
-                Print '<td align="center">'. $row['emailAdd'] . "</td>";
-                Print '<td align="center">'.$row['date'] ." - ".$row['time']."</td>";
-                Print '<td align="center">'.$row['subject'] .  "</td>";
-                Print '<td align="center">'.$row['content'] . "</td>";
+                Print '<td align="center">'. $row->fName . "</td>";
+                Print '<td align="center">'. $row->emailAdd. "</td>";
+                Print '<td align="center">'.$row->date." - ".$row->time."</td>";
+                Print '<td align="center">'.$row->subject .  "</td>";
+                Print '<td align="center">'.$row->content. "</td>";
                 Print "</tr></table><br/>";
-              }
-            }else{
-              $id_exists = false;
-            }
           }
           ?>
      

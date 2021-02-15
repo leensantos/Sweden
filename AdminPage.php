@@ -1,5 +1,13 @@
 <?php
-
+  session_start(); //starts the session
+    
+  if($_SESSION['user']){ //checks if user is logged in
+  }else{
+    header("location:index.php "); // redirects if user is not logged in
+  }
+  
+  $user = $_SESSION['user']; //assigns user value
+  $id_exists = false;
 ?>
 
 <!DOCTYPE html>
@@ -65,8 +73,8 @@
           Print '<td data-title="Date and Time">'.$row['date'] ." - ".$row['time']. "</th>";
           Print '<td data-title="Subject">'.$row['subject'] . "</th>";
           Print '<td data-title="Message">'.$row['content'] . "</th>";
-          Print '<td data-title="Action"><a style="color:green" href="viewmessage.php?id=' . $row['id'] . '">View</a></th>';
-          Print '<td data-title="Action"><a style="color:red" href="#" onclick="myFunction('.$row['id'].')">Resolve</a></th>';
+          Print '<td data-title="Action"><a style="color:green" href="viewmessage.php?id='.$row['id'].'">View</a></th>';
+          Print '<td data-title="Action"><a style="color:red" href="#" onclick="remove('.$row['id'].')">Resolve</a></th>';
           Print"</tr>";  
   }
         
@@ -86,7 +94,7 @@
   </footer> -->
 
   <script>
-  function myFunction(id) {
+  function remove(id) {
     var r = confirm("Are you sure you want to delete this message?");
     if (r == true) {
       window.location.assign("RemoveMessage.php?id=" + id);
