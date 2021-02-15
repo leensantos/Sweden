@@ -31,7 +31,7 @@
   // $time = strftime("%X");//time
   // $date = strftime("%B %d, %Y");//date
   // $decision ="no";
-  if($_SERVER['REQUEST_METHOD'] = "POST") //Added an if to keep the page secured
+  //if($_SERVER['REQUEST_METHOD'] = "POST") //Added an if to keep the page secured
   
   $name = ($_GET['firstname']) . " " . ($_GET['lastname']);//name
   $contactNum = ($_GET['phonenumber']);//contact number
@@ -62,7 +62,7 @@
   //}
   //mysqli_query($con, "DECLARE @newID INT");
   mysqli_query($con, "INSERT INTO guest (guest_name, guest_phone, guest_address, guest_card_name, guest_card_num, 
-      guest_card_exp, guest_card_cvv, adults, children, email) VALUES('$name','$contactNum','$address','$cardName','$cardNum', 
+      guest_card_exp, guest_card_cvv, adults, children) VALUES('$name','$contactNum','$address','$cardName','$cardNum', 
       '$cardExp','$cardcvv','$adultNum','$childNum')");//sql query to populate guest table
 
   $last_id = mysqli_insert_id($con);//get guest id
