@@ -66,7 +66,7 @@
       '$cardExp','$cardcvv','$adultNum','$childNum')");//sql query to populate guest table
 
   $last_id = mysqli_insert_id($con);//get guest id
-  mysqli_query($con, "INSERT INTO booking (guest_ID, room_ID, checkIn, checkout) VALUES('$last_id','$roomNum','$checkIn','$checkOut')"); //SQL query
+  mysqli_query($con, "INSERT INTO booking (guest_ID, room_ID, checkIn, checkOut) VALUES('$last_id','$roomNum','$checkIn','$checkOut')"); //SQL query
   //header("location: index.php");
   Print '<script>window.location.assign("BookNow.php");</script>';
 ?>
