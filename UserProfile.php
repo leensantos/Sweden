@@ -41,7 +41,7 @@ $user = $_SESSION['user']; //assigns user value
     <div class="box">
       <div class="form">
         <!-- Login form Start -->
-        <form form action="checklogin.php" method="POST" class="login-form">
+        <form form action="register.php" method="POST" class="login-form">
           <h3>Administrator</h3>
           <div class="pic">
             <img src="assets/admin.png" alt="">
