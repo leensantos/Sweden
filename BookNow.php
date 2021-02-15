@@ -109,39 +109,50 @@
                 <div class="title">
                   <h3>Select a Room</h3>
                 </div>
+                <span class="left">Click the button to select a room</span>
                 <div class="container-2">
-
                   <!-- group -->
-                  <div class="output-group">
+                  <div class="output-group room">
                     <img src="assets/accomodation/room1.jpg" alt="image" width="250" height="200">
                     <div class="details">
-                      <h3>Standard Room</h3>
-                      <p>Size: from 45m2 (484ft2)</p>
-                      <p>Max guests 4</p>
-                      <p>King-size or twin beds</p>
-                      <p>10,000 / NIGHT</p>
+                      <input type="radio" id="room1" name="room" value="room1">
+                      <label for="room1">
+                        <h3>Standard Room</h3>
+                      </label>
+                      <p><b>Size:</b> from 45m2 (484ft2)</p>
+                      <p><b>Max guests:</b> 4</p>
+                      <p><b>Bed:</b> Twin</p>
+                      <p><b>SEK 10,000 / NIGHT</b></p>
                     </div>
                   </div>
                   <!-- group -->
                   <div class="output-group">
                     <img src="assets/accomodation/room2.jpg" alt="image" width="250" height="200">
                     <div class="details">
-                      <h3>Deluxe Room</h3>
-                      <p> Size: from 35m2 (376ft2)</p>
-                      <p>Max guests 3</p>
-                      <p>King-size or twin beds</p>
-                      <p>20,000 / NIGHT</p>
+                      <input type="radio" id="room2" name="room" value="room2">
+                      <label for="room2">
+                        <h3>Deluxe Room</h3>
+                      </label>
+
+                      <p><b>Size:</b> from 35m2 (376ft2)</p>
+                      <p><b>Max guests:</b> 5</p>
+                      <p><b>Bed:</b> Queen</p>
+                      <p><b>SEK 20,000 / NIGHT</b></p>
                     </div>
                   </div>
                   <!-- group -->
                   <div class="output-group">
                     <img src="assets/accomodation/room3.jpg" alt="image" width="250" height="200">
                     <div class="details">
-                      <h3>Suite Room</h3>
-                      <p>Size: from 55m2 (592ft2)</p>
-                      <p>Max guests 6</p>
-                      <p>King-size or twin beds</p>
-                      <p>30,000 / NIGHT</p>
+                      <input type="radio" id="room3" name="room" value="room3">
+                      <label for="room3">
+                        <h3>Suite Room</h3>
+                      </label>
+
+                      <p><b>Size:</b> from 55m2 (592ft2)</p>
+                      <p><b>Max guests:</b> 6</p>
+                      <p><b>Bed:</b> King</p>
+                      <p><b>SEK 30,000 / NIGHT</b></p>
                     </div>
                   </div>
                 </div>
@@ -150,12 +161,13 @@
                   <div class="title">
                     <h3>Enhance Your Stay</h3>
                   </div>
+                  <span class="left">Click the button to select</span>
                   <div class="container-2">
                     <!-- group -->
                     <div class="output-group">
                       <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
                       <div class="details">
-                        <h3>Room 1</h3>
+                        <input type="radio" id="room1" name="room" value="room1">
                         <p>1,356 sq. ft. / 126 sq. m.</p>
                         <p>Max guests 4</p>
                         <p>Ocean view</p>
@@ -166,7 +178,7 @@
                     <div class="output-group">
                       <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
                       <div class="details">
-                        <h3>Room 1</h3>
+                        <h3><label for="room2">Room 2</label></h3>
                         <p>1,356 sq. ft. / 126 sq. m.</p>
                         <p>Max guests 4</p>
                         <p>Ocean view</p>
@@ -177,7 +189,8 @@
                     <div class="output-group">
                       <img src="assets/destination/drottningholm.jpg" alt="image" width="250" height="200">
                       <div class="details">
-                        <h3>Room 1</h3>
+                        <input type="radio" id="Room 3" name="room" value="room3">
+                        <h3>Room 3</h3>
                         <p>1,356 sq. ft. / 126 sq. m.</p>
                         <p>Max guests 4</p>
                         <p>Ocean view</p>
@@ -376,12 +389,14 @@
                   </label>
                   <label for="terms" class="checkbox-text">
                     I agree with the Privacy Terms.*
-                    <input type="checkbox" class="check" id="terms" name="terms" value="terms" required>
+                    <input type="checkbox" class="check" id="terms" name="terms" value="terms" checked="checked"
+                      required>
                     <span class="checkmark"></span>
                   </label>
                   <label for="conditions" class="checkbox-text">
                     I agree with the Booking Conditions.*
-                    <input type="checkbox" class="check" id="conditions" name="conditions" value="conditions" required>
+                    <input type="checkbox" class="check" id="conditions" name="conditions" value="conditions"
+                      checked="checked" required>
                     <span class="checkmark"></span>
                   </label>
                 </div>

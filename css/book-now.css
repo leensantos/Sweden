@@ -106,17 +106,7 @@ body {
     color: rgb(0, 0, 0);
     border-bottom: 5px solid #413b3b;
     width: 25%;
-}
-
-.title h1 {
-    font-family: 'Brotherhood' !important;
-    font-size: 280px;
-    font-weight: lighter;
-    line-height: 60%;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
-    margin-left: 50px;
-    margin-top: 325.5px;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
 }
 
 .title p {
@@ -338,14 +328,23 @@ body {
     font-size: 20px !important;
 }
 
+.output-group .details input[type="radio"] {
+    font-size: 25px;
+    display: inline;
+    text-align: left;
+}
+
 .output-group .details h3 {
     font-size: 25px;
+    display: inline;
+    text-align: left;
 }
 
 .output-group .details p {
     font-size: 18px;
     padding: 0;
     margin: 0;
+    text-align: left;
 }
 
 .input-label {
@@ -590,6 +589,40 @@ input[type="submit"] {
     font-size: 25px;
     color: #000;
     margin-bottom: 8px;
+}
+
+.left {
+    text-align: left;
+    display: block;
+    margin-left: 20px;
+}
+
+
+/* Radio buttons  */
+
+input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.details label {
+    display: inline-block;
+    background-color: #ddd;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+}
+
+input[type="radio"]:checked+label {
+    background-color: #221e1d;
+    border-color: #221e1d;
+    color: #fff;
+}
+
+input[type="radio"]:focus+label {
+    border: 2px solid #221e1d;
 }
 
 
