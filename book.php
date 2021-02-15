@@ -50,7 +50,7 @@
 
 
     require 'connection.php';
-    //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
+    $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
     // foreach($_POST['c'] as $each_check){ //gets the data from the checkbox
     //    if($each_check !=null ){ //checks if the checkbox is checked
     //    $decision = "yes"; //sets the value
