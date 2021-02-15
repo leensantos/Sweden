@@ -6,16 +6,6 @@
 }
 
 @font-face {
-    font-family: 'Aadam';
-    src: url('fonts/Aadam-regular.otf');
-}
-
-@font-face {
-    font-family: 'Garamond';
-    src: url('fonts/CormorantGaramond-Regular.ttf');
-}
-
-@font-face {
     font-family: 'whitneylight';
     src: url('fonts/whitneylight.ttf');
 }
