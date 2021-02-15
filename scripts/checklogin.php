@@ -2,7 +2,7 @@
 session_start();
 $username = ($_POST['username']);
 $password = ($_POST['password']);
-require 'connection.php'
+require 'connection.php';
 //$db_name = "swedendb";
 //$db_username = "root";
 //$db_pass = "";
