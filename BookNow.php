@@ -42,7 +42,7 @@
   </section>
   <!-- Forms -->
   <section class="book-now">
-    <form action="book.php" method="GET" id="booking">
+    <form action="book.php" method="POST" id="booking">
       <!-- Form Top -->
       <div class="booking">
         <!-- Check in Check Out Adult Children -->
