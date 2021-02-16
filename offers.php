@@ -122,7 +122,7 @@
             <div class="details">
               <span class="title">New Year Promo</span>
               <span>
-                Extended<i> Jan 3, 2021 </i>
+                Extended<i> December 30, 2021 </i>
               </span>
             </div>
             <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
@@ -138,7 +138,7 @@
             <div class="details">
               <span class="title">Valentine's Promo</span>
               <span>
-                Extended<i> Feb 14, 2021 </i>
+                Extended<i> December 30, 2021 </i>
               </span>
             </div>
             <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
@@ -154,7 +154,7 @@
             <div class="details">
               <span class="title">Summer Promo</span>
               <span>
-                Extended<i> March 30, 2021 </i>
+                Extended<i> December 30, 2021 </i>
               </span>
             </div>
             <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
@@ -170,7 +170,7 @@
             <div class="details">
               <span class="title">Winter Promo</span>
               <span>
-                Extended<i>Oct 24, 2021 </i>
+                Extended<i> December 30, 2021 </i>
               </span>
             </div>
             <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
@@ -186,7 +186,7 @@
             <div class="details">
               <span class="title">Christmas Promo</span>
               <span>
-                Extended<i> Dec 24, 2021 </i>
+                Extended<i> December 30, 2021 </i>
               </span>
             </div>
             <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you
@@ -202,7 +202,7 @@
             <div class="details">
               <span class="title">New Year Promo</span>
               <span>
-                Extended<i> Dec 30, 2021 </i>
+                Extended<i> December 30, 2021 </i>
               </span>
             </div>
             <p>We're trying out something. We're giving our guest a huge discounts. This is a limited time offer, If you

@@ -73,8 +73,8 @@
                 Print '<td>'. $row['adults'] . "</td>";
                 Print '<td>'. $row['children'] . "</td>";
                 Print '<td>'. $row['room_ID'] . "</td>";
-                Print '<td><a href="edit.php?id='. $row['id'] .'">edit</a> </td>';
-                Print '<td><a href="#" onclick="myFunction('.$row['guest_ID'].')">delete</a> </td>';
+                Print '<td><a href="edit.php?id='. $row['id'] .'" style="color:green;">Edit</a> </td>';
+                Print '<td><a href="#" onclick="myFunction('.$row['guest_ID'].')" style="color:red;">Delete</a> </td>';
                 Print "</tr>";
             }
             ?>
