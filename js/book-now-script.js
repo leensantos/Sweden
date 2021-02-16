@@ -85,5 +85,5 @@ nextBtnFirst.addEventListener("click", function(event) {
     
 
     document.getElementById("submit").style.visibility = "visible";
-    document.getElementById("submit").disabled = false;
+    //document.getElementById("submit").disabled = false;
 });

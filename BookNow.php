@@ -418,7 +418,7 @@
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
 
-      <input type="submit" value="Submit" id="submit" style="visibility: hidden;" disabled />
+      <input type="submit" value="Submit" id="submit" style="visibility: hidden;" />
 
     </form>
   </section>

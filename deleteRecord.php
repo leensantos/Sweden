@@ -9,7 +9,7 @@
   //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
   $id = $_GET['id'];
  // $id_guest = ;
-  mysqli_query($con, "DELETE FROM guest WHERE id='$id'");
+  mysqli_query($con, "DELETE FROM guests WHERE id='$id'");
   //mysqli_query($con, "DELETE FROM guest WHERE booking.guest_ID='$id_book'");
   header("location: AdminBookings.php");
 ?>

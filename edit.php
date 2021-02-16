@@ -1,13 +1,13 @@
-<!-- <?php
-// session_start(); //starts the session
-// if($_SESSION['user']){} //checks if user is logged in
-// else{
-//   header("location:index.php "); // redirects if user is not logged in
-// }
+<?php
+session_start(); //starts the session
+if($_SESSION['user']){} //checks if user is logged in
+else{
+  header("location:index.php "); // redirects if user is not logged in
+}
 
 $user = $_SESSION['user']; //assigns user value
 $id_exists = false;
-?> -->
+?>
 
 <!DOCTYPE html>
 <html>
@@ -66,8 +66,8 @@ $id_exists = false;
           $id_exists = true;
           require 'connection.php';
           //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
-          $query = mysqli_query($con, "SELECT booking.id,booking.guest_ID,booking.room_ID,booking.checkIn,booking.checkOut,
-                        guest.adults,guest.children FROM booking LEFT JOIN guest ON guest.id = booking.guest_ID"); // SQL Query
+          $query = mysqli_query($con, "SELECT bookings.id,bookings.guest_ID,bookings.room_ID,bookings.checkIn,bookings.checkOut,
+                        guests.adults,guests.children FROM bookings LEFT JOIN guests ON guests.id = bookings.guest_ID"); // SQL Query
           while($row = mysqli_fetch_array($query)){
             Print "<tr>";
             Print '<td>'. $row['id'] . "</td>";
