@@ -64,38 +64,40 @@ $id_exists = false;
           $id = $_GET['id'];
           $_SESSION['id'] = $id;
           $id_exists = true;
-          require 'connection.php';
+          //require 'connection.php';
+          $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
           $query = mysqli_query($con, "SELECT booking.id,booking.guest_ID,booking.room_ID,booking.checkIn,booking.checkOut,
                         guest.adults,guest.children FROM booking LEFT JOIN guest ON guest.id = booking.guest_ID"); // SQL Query
           while($row = mysqli_fetch_array($query)){
-              Print "<tr>";
-              Print '<td>'. $row['id'] . "</td>";
-              Print '<td>'. $row['checkIn'] . "</td>";
-              Print '<td>'. $row['checkOut'] . "</td>";
-              Print '<td>'. $row['adults'] . "</td>";
-              Print '<td>'. $row['children'] . "</td>";
-              Print '<td>'. $row['room_ID'] . "</td>";
-              Print "</tr></tbody>
-              </table>";
-              $checkIn=$row['checkIn'];
-              $checkOut=$row['checkOut'];
-              $adults=$row['adults'];
-              $children=$row['children'];
-              $roomID=$row['room_ID'];
-              Print 
-              '<form action="editRecord.php?id" method="POST">
-                Update List: <br/>
-                Check in: <input type="date" name="check-in" value="'.$checkIn.'"/><br/>
-                Check out: <input type="date" name="check-out" value="'.$checkOut.'"/><br/>
-                <input type="hidden" name="id" value="'.$id.'">
-                Adults: <input type="text" name="adults" value="'.$adults.'"/><br/>
-                Children: <input type="text" name="children" value="'.$children.'"/><br/>
-                
-                Room: <input type="text" name="room" value="'.$roomID.'"/><br/>';
-                
-                
-              Print'<input type="submit" value="Update List"/></form>';
+            Print "<tr>";
+            Print '<td>'. $row['id'] . "</td>";
+            Print '<td>'. $row['checkIn'] . "</td>";
+            Print '<td>'. $row['checkOut'] . "</td>";
+            Print '<td>'. $row['adults'] . "</td>";
+            Print '<td>'. $row['children'] . "</td>";
+            Print '<td>'. $row['room_ID'] . "</td>";
+            Print "</tr></tbody>
+            </table>";
+            $checkIn=$row['checkIn'];
+            $checkOut=$row['checkOut'];
+            $adults=$row['adults'];
+            $children=$row['children'];
+            $roomID=$row['room_ID'];
+            
           }
+          Print 
+            '<form action="editRecord.php?id" method="POST">
+            Update List: <br/>
+            Check in: <input type="date" name="check-in" value="'.$checkIn.'"/><br/>
+            Check out: <input type="date" name="check-out" value="'.$checkOut.'"/><br/>
+            <input type="hidden" name="id" value="'.$id.'">
+            Adults: <input type="text" name="adults" value="'.$adults.'"/><br/>
+            Children: <input type="text" name="children" value="'.$children.'"/><br/>
+            
+            Room: <input type="text" name="room" value="'.$roomID.'"/><br/>';
+            
+            
+          Print'<input type="submit" value="Update List"/></form>';
           ?>
       
 

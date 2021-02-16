@@ -62,7 +62,8 @@
         </thead>
         <tbody>
           <?php
-            require 'connection.php';
+            //require 'connection.php';
+            $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
             $query = mysqli_query($con, "SELECT booking.id,booking.guest_ID,booking.room_ID,booking.checkIn,booking.checkOut,
                           guest.adults,guest.children FROM booking LEFT JOIN guest ON guest.id = booking.guest_ID"); // SQL Query
             while($row = mysqli_fetch_array($query)){

@@ -26,8 +26,8 @@ session_start();
 
       //Print $roomNum;
 
-    require 'connection.php';
-    //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
+    //require 'connection.php';
+    $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
     
     mysqli_query($con, "INSERT INTO guest (guest_name, guest_phone, guest_address, guest_card_name, guest_card_num, 
         guest_card_exp, guest_card_cvv, adults, children) VALUES('$name','$contactNum','$address','$cardName','$cardNum', 

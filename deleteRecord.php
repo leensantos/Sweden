@@ -5,7 +5,8 @@
   else{
   header("location:index.php"); // redirects if user is not logged in
   }
-  require 'connection.php';
+  //require 'connection.php';
+  $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
   $id = $_GET['id'];
  // $id_guest = ;
   mysqli_query($con, "DELETE FROM guest WHERE id='$id'");
