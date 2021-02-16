@@ -1,12 +1,13 @@
 <?php
-  // session_start(); //starts the session
-  // if($_SESSION['user']){} //checks if user is logged in
-  // else{
-  // header("location:index.php "); // redirects if user is not logged in
-  // }
+  session_start(); //starts the session
+  if($_SESSION['user']){} //checks if user is logged in
+  else
+  header("location:index.php "); // redirects if user is not logged in
+  
 
-  // $user = $_SESSION['user']; //assigns user value
-
+  $user = $_SESSION['user']; //assigns user value
+  
+  if($_SERVER['REQUEST_METHOD'] = "POST"){ //Added an if to keep the page secured
   $id = ($_POST['id']);
   require 'connection.php'; //Connect to server
   //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
@@ -41,5 +42,5 @@
     mysqli_query($con, "UPDATE booking SET room_ID='$roomID' WHERE id='$id'");
   }
   header("location: AdminBookings.php");
-  
+  }
 ?>

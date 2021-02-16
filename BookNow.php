@@ -49,15 +49,6 @@
         <div class="container-1">
           <div class="input-group">
             <label for="check-in" class="input-label">Check in</label>
-            <!-- <?php  //checks if check-in from index.php has value (DI KO PA NA-SOLVE)
-              if(($_GET['check-in'])){
-                $check_in_home = ($_GET['check-in']);
-                //$check_out_home = ($_GET['check-out']);
-                echo '<input type="date" class="input" id="check-in" name="check-in" placeholder="'.$check_in_home.'" required>';
-              }
-              else
-                echo '<input type="date" class="input" id="check-in" name="check-in" required>'              
-            ?> -->
             <input type="date" class="input" id="check-in" name="check-in" required>
           </div>
           <div class="input-group">
@@ -421,18 +412,13 @@
                     <span class="checkmark"></span>
                   </label>
                 </div>
-                <!-- Prev Next Button -->
-                <div class="field btns">
-                  <!-- <input type="submit" value="Submit" /> -->
-                  <!-- <button type="submit">Submit</button> -->
-                </div>
               </div><!-- END OF PAGE -->
             </div><!-- END OF FORMFORM -->
           </div><!-- END OF OUTER FORM -->
         </div><!-- END OF CONTAINER -->
       </div><!-- END OF BOOKING -->
 
-      <input type="submit" value="Submit" id="submit" style="visibility: hidden;" />
+      <input type="submit" value="Submit" id="submit" style="visibility: hidden;" disabled />
 
     </form>
   </section>

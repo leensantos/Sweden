@@ -104,14 +104,14 @@ $id_exists = false;
     
 
   </div>
-  <!-- <script>
+  <script>
     function myFunction(guest_ID){
       var r=confirm("Are you sure you want to delete this record?");
       if (r==true){
           window.location.assign("deleteRecord.php?id=" + guest_ID);
       }
     }
-  </script> -->
+  </script>
 </div>
 <!-- Footer -->
 <!-- <footer>
