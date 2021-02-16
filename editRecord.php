@@ -8,8 +8,8 @@
   // $user = $_SESSION['user']; //assigns user value
 
   $id = ($_POST['id']);
-  //require 'connection.php'; //Connect to server
-  $con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
+  require 'connection.php'; //Connect to server
+  //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
   $checkIn = ($_POST['check-in']);//check in
   $checkOut = ($_POST['check-out']);//out
   $adults = ($_POST['adults']);//adult

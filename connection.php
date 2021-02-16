@@ -7,7 +7,7 @@
 // define('DB_NAME', 'SWEDEN_DATABASE');
 // define('DB_PORT', 3306);
 
-$db_name = "SWEDEN_DATABASE";
+$db_name = "DATABASE_SWEDEN";
 $db_username = "swedenuser";
 $db_pass = "9HcXkTzJe!";
 $db_host = "sweden-dataserver.mysql.database.azure.com";
