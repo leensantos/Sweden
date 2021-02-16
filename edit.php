@@ -52,6 +52,7 @@ $id_exists = false;
       <thead class="thead-light">
         <tr>
           <th scope="col">ID</th>
+          <th scope="col">Name</th>
           <th scope="col">Check in</th>
           <th scope="col">Check out</th>
           <th scope="col">Adult</th>
@@ -67,11 +68,12 @@ $id_exists = false;
           require 'connection.php';
           //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
           $query = mysqli_query($con, "SELECT bookings.id,bookings.guest_ID,bookings.room_ID,bookings.checkIn,bookings.checkOut,
-                        guests.adults,guests.children FROM bookings LEFT JOIN guests ON guests.id = bookings.guest_ID WHERE 
+                        guests.guest_name,guests.adults,guests.children FROM bookings LEFT JOIN guests ON guests.id = bookings.guest_ID WHERE 
                         bookings.id='$id'"); // SQL Query
           while($row = mysqli_fetch_array($query)){
             Print "<tr>";
             Print '<td>'. $row['id'] . "</td>";
+            Print '<td>'. $row['guest_name'] ."</td>";
             Print '<td>'. $row['checkIn'] . "</td>";
             Print '<td>'. $row['checkOut'] . "</td>";
             Print '<td>'. $row['adults'] . "</td>";
