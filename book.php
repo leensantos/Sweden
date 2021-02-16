@@ -1,37 +1,7 @@
 <?php
-// class CustomerInfo {
-//   protected $name;
-//   protected $contactNum;
-//   protected $address;
-//   protected $checkIn;
-//   protected $checkOut;
-//   protected $adultNum;
-//   protected $childNum;
+session_start();
 
-//   function __construct($name, $contactNum, $address, $checkIn, $checkOut, $adultNum, $childNum){
-//     $this->name = $name;
-//     $this->contactNum = $contactNum;
-//     $this->address = $address;
-//     $this->checkIn = $checkIn;
-//     $this->checkOut = $checkOut;
-//     $this->adultNum = $adultNum;
-//     $this->childNum = $childNum;
-    
-    
-//   }
-
-// }
-
-// class booking extends CustomerInfo{
-  
-// }
-
-
-// $details = ($_POST['details']);
-  // $time = strftime("%X");//time
-  // $date = strftime("%B %d, %Y");//date
-  // $decision ="no";
-  //if($_SERVER['REQUEST_METHOD'] = "POST") //Added an if to keep the page secured
+  if($_SERVER['REQUEST_METHOD'] = "POST"){ //Added an if to keep the page secured
   
   $name = ($_GET['firstname']) . " " . ($_GET['lastname']);//name
   $contactNum = ($_GET['phonenumber']);//contact number
@@ -40,7 +10,7 @@
   $checkOut = ($_GET['check-out']);//check out date
   $adultNum = ($_GET['adults']);
   $childNum = ($_GET['children']);
-  $roomNum= ($_GET['room']);
+  $room= ($_GET['room']);
   $cardName = ($_GET['cardholder']);
   $cardNum = ($_GET['cardnumber']);
   $cardcvv = ($_GET['cvv']);
@@ -48,25 +18,25 @@
   
   //$email = ($_GET['email']);
 
-  // $roomPrice = 10;
-  // $discount;
-  // $totalAmtDue;
+  if($room=="Standard Room"){
+    $roomNum=1;}
+  else if($room=="Deluxe Room"){
+    $roomNum=2;}
+  else
+    $roomNum=3;
 
+    Print $roomNum;
 
   require 'connection.php';
   //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error()); //Connect to server
-  // foreach($_POST['c'] as $each_check){ //gets the data from the checkbox
-  //    if($each_check !=null ){ //checks if the checkbox is checked
-  //    $decision = "yes"; //sets the value
-  //    }
-  //}
-  //mysqli_query($con, "DECLARE @newID INT");
+  
   mysqli_query($con, "INSERT INTO guest (guest_name, guest_phone, guest_address, guest_card_name, guest_card_num, 
       guest_card_exp, guest_card_cvv, adults, children) VALUES('$name','$contactNum','$address','$cardName','$cardNum', 
       '$cardExp','$cardcvv','$adultNum','$childNum')");//sql query to populate guest table
 
   $last_id = mysqli_insert_id($con);//get guest id
   mysqli_query($con, "INSERT INTO booking (guest_ID, room_ID, checkIn, checkOut) VALUES('$last_id','$roomNum','$checkIn','$checkOut')"); //SQL query
-  //header("location: index.php");
-  Print '<script>window.location.assign("BookNow.php");</script>';
+  header("location: BookNow.php");//sql query
+  //Print '<script>window.location.assign("BookNow.php");</script>';
+  }
 ?>
