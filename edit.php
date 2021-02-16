@@ -1,13 +1,13 @@
-<?php
-session_start(); //starts the session
-if($_SESSION['user']){} //checks if user is logged in
-else{
-  header("location:index.php "); // redirects if user is not logged in
-}
+<!-- <?php
+// session_start(); //starts the session
+// if($_SESSION['user']){} //checks if user is logged in
+// else{
+//   header("location:index.php "); // redirects if user is not logged in
+// }
 
 $user = $_SESSION['user']; //assigns user value
 $id_exists = false;
-?>
+?> -->
 
 <!DOCTYPE html>
 <html>
@@ -99,9 +99,7 @@ $id_exists = false;
             
           Print'<input type="submit" value="Update List"/></form>';
           ?>
-      
-
-    
+          
 
   </div>
   <script>
