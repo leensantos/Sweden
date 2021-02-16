@@ -62,12 +62,13 @@ $id_exists = false;
       <tbody>
         <?php
           $id = $_GET['id'];
-          $_SESSION['id'] = $id;
-          $id_exists = true;
+          //$_SESSION['id'] = $id;
+          //$id_exists = true;
           require 'connection.php';
           //$con = mysqli_connect("localhost", "root", "", "swedendb") or die(mysqli_connect_error());
           $query = mysqli_query($con, "SELECT bookings.id,bookings.guest_ID,bookings.room_ID,bookings.checkIn,bookings.checkOut,
-                        guests.adults,guests.children FROM bookings LEFT JOIN guests ON guests.id = bookings.guest_ID"); // SQL Query
+                        guests.adults,guests.children FROM bookings LEFT JOIN guests ON guests.id = bookings.guest_ID WHERE 
+                        bookings.id='$id'"); // SQL Query
           while($row = mysqli_fetch_array($query)){
             Print "<tr>";
             Print '<td>'. $row['id'] . "</td>";
