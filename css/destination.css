@@ -121,6 +121,17 @@ img {
     opacity: 0.8;
 }
 
+.shape h2 {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.awit {
+    text-align: center;
+}
+
 .img-box:hover .shape {
     height: 40px;
 }
